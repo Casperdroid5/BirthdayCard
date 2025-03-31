@@ -3673,7 +3673,7 @@
 	)
 	(text "RGBs"
 		(exclude_from_sim no)
-		(at 233.68 105.664 0)
+		(at 236.728 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3743,7 +3743,7 @@
 	)
 	(text "ESP32 "
 		(exclude_from_sim no)
-		(at 186.182 27.686 0)
+		(at 177.038 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3763,7 +3763,7 @@
 	)
 	(text "Buzzer"
 		(exclude_from_sim no)
-		(at 273.304 67.818 0)
+		(at 273.05 69.342 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3780,6 +3780,16 @@
 			)
 		)
 		(uuid "f343f0fe-fdb4-4511-a10f-2a84611a27f5")
+	)
+	(text "POWER IN + USBDATA"
+		(exclude_from_sim no)
+		(at 56.642 35.052 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f665755a-d76d-4b0d-9bfd-26b0e7bb40b0")
 	)
 	(junction
 		(at 218.44 167.64)
@@ -3884,7 +3894,7 @@
 		(uuid "aef4369b-c436-4142-8097-a732cd124859")
 	)
 	(junction
-		(at 266.7 81.28)
+		(at 266.7 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9bb0843-1fc6-4ce1-a967-c691f8322d6e")
@@ -3938,7 +3948,7 @@
 		(uuid "d9b37518-219b-4320-aa50-926dfce57128")
 	)
 	(junction
-		(at 280.67 87.63)
+		(at 280.67 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dce65039-e108-4c96-af5d-9d4143a65272")
@@ -4013,7 +4023,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 82.55) (xy 266.7 81.28)
+			(xy 266.7 88.9) (xy 266.7 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4243,7 +4253,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 73.66) (xy 266.7 81.28)
+			(xy 266.7 80.01) (xy 266.7 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4363,7 +4373,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 87.63) (xy 280.67 86.36)
+			(xy 280.67 93.98) (xy 280.67 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4403,7 +4413,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 81.28) (xy 275.59 81.28)
+			(xy 273.05 87.63) (xy 275.59 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4413,7 +4423,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 81.28) (xy 267.97 81.28)
+			(xy 266.7 87.63) (xy 267.97 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4423,7 +4433,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 87.63) (xy 280.67 87.63)
+			(xy 266.7 93.98) (xy 280.67 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4523,7 +4533,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 76.2) (xy 283.21 76.2)
+			(xy 280.67 82.55) (xy 283.21 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4613,7 +4623,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 68.58) (xy 283.21 68.58)
+			(xy 280.67 74.93) (xy 283.21 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4653,7 +4663,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 67.31) (xy 280.67 68.58)
+			(xy 280.67 73.66) (xy 280.67 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7307,7 +7317,43 @@
 			"ACsAAABpAAAATAAAAG8AAABxAAAAcQAAAFAAAABaAAAAZQAAAEgAAAA3AAAAegAAACsAAAAwAAAA"
 			"cQAAAEMAAABPAAAAUgAAADIAAABPAAAASwAAADYAAABaAAAARAAAAEYAAABFAAAAYwAAAGwAAAA3"
 			"AAAAawAAAGEAAABjAAAAMwAAAHcAAABEAAAAegAAAHcAAAA2AAAAMwAAAHkAAAA3AAAAMQAAADQA"
-			"AABPAAAAcg=="
+			"AABPAAAAcug/pEFlAAAw5z+kQWUAACDmP6RBZQAAEOU/pEFlAACQC1iaQWUAAAATWJpBZQAA8BFY"
+			"mkFlAADgEFiaQWUAANAPWJpBZQAAwA5YmkFlAACwDViaQWUAAKAMWJpBZQAAkAxrmkFlAAAAFGua"
+			"QWUAAPASa5pBZQAA4BFrmkFlAADQEGuaQWUAAMAPa5pBZQAAsA5rmkFlAACgDWuaQWUAAFD65JlB"
+			"ZQAAwAHlmUFlAACwAOWZQWUAAKD/5JlBZQAAkP7kmUFlAACA/eSZQWUAAHD85JlBZQAAYPvkmUFl"
+			"AADw/HWaQWUAAGAEdppBZQAAUAN2mkFlAABAAnaaQWUAADABdppBZQAAIAB2mkFlAAAQ/3WaQWUA"
+			"AAD+dZpBZQAAcN1UmkFlAADg5FSaQWUAANDjVJpBZQAAwOJUmkFlAACw4VSaQWUAAKDgVJpBZQAA"
+			"kN9UmkFlAACA3lSaQWUAAICijJpBZQAA8KmMmkFlAADgqIyaQWUAANCnjJpBZQAAwKaMmkFlAACw"
+			"pYyaQWUAAKCkjJpBZQAAkKOMmkFlAACA6HmYQWUAAPDveZhBZQAA4O55mEFlAADQ7XmYQWUAAMDs"
+			"eZhBZQAAsOt5mEFlAACg6nmYQWUAAJDpeZhBZQAAwMkwmkFlAAAw0TCaQWUAACDQMJpBZQAAEM8w"
+			"mkFlAAAAzjCaQWUAAPDMMJpBZQAA4MswmkFlAADQyjCaQWUAACDBfZhBZQAAkMh9mEFlAACAx32Y"
+			"QWUAAHDGfZhBZQAAYMV9mEFlAABQxH2YQWUAAEDDfZhBZQAAMMJ9mEFlAADQxniYQWUAAEDOeJhB"
+			"ZQAAMM14mEFlAAAgzHiYQWUAABDLeJhBZQAAAMp4mEFlAADwyHiYQWUAAODHeJhBZQAAIK59mEFl"
+			"AACQtX2YQWUAAIC0fZhBZQAAcLN9mEFlAABgsn2YQWUAAFCxfZhBZQAAQLB9mEFlAAAwr32YQWUA"
+			"ALBP75hBZQAAIFfvmEFlAAAQVu+YQWUAAABV75hBZQAA8FPvmEFlAADgUu+YQWUAANBR75hBZQAA"
+			"wFDvmEFlAABAm3iYQWUAALCieJhBZQAAoKF4mEFlAACQoHiYQWUAAICfeJhBZQAAcJ54mEFlAABg"
+			"nXiYQWUAAFCceJhBZQAAsIc7mkFlAAAgjzuaQWUAABCOO5pBZQAAAI07mkFlAADwizuaQWUAAOCK"
+			"O5pBZQAA0Ik7mkFlAADAiDuaQWUAAICgcZpBZQAA8KdxmkFlAADgpnGaQWUAANClcZpBZQAAwKRx"
+			"mkFlAACwo3GaQWUAAKCicZpBZQAAkKFxmkFlAAAQMY+aQWUAAIA4j5pBZQAAcDePmkFlAABgNo+a"
+			"QWUAAFA1jwBZAAAATAAAADUAAAA1AAAAbgAAAE4AAABHAAAAMwAAAHkAAABYAAAAKwAAADUAAABF"
+			"AAAATAAAAFcAAAA5AAAAYQAAAC8AAABjAAAAZgAAADEAAAArAAAAdAAAAHkAAABpAAAAbwAAAFoA"
+			"AABOAAAARwAAAEQAAABaAAAAawAAADAAAABhAAAAcwAAAGoAAABrAAAANgAAAGYAAAB0AAAAZgAA"
+			"ADgAAABOAAAANAAAAGsAAAAzAAAAUwAAAHEAAAAwAAAARwAAAGoAAABMAAAAQwAAAFQAAABJAAAA"
+			"NgAAAEsAAAAwAAAAWgAAAFQAAAB0AAAAUgAAAGcAAAB6AAAAVQAAAFMAAABiAAAAdgAAADIAAABx"
+			"AAAASgAAAFIAAABvAAAAVgAAAEsAAABYAAAAbQAAAHEAAABrAAAAMAAAACsAAABmAAAAMQAAAHoA"
+			"AABHAAAAegAAAEwAAAA0AAAAZAAAAEUAAAA4AAAAZAAAAGwAAABUAAAAWQAAADAAAABVAAAAQgAA"
+			"AFIAAABwAAAAMgAAAEQAAAB2AAAASQAAADQAAAB4AAAAagAAAEMAAAB3AAAAMAAAAHMAAABQAAAA"
+			"eQAAADgAAAA0AAAAdQAAAEoAAABtAAAAcwAAAGQAAABYAAAAawAAADIAAABYAAAAYwAAAGgAAAAz"
+			"AAAAVAAAAFgAAABaAAAAdQAAAEMAAAA0AAAAVgAAAEwAAAB1AAAAQgAAAEEAAAA1AAAAMAAAAEYA"
+			"AABTAAAAVAAAAGQAAABmAAAAQwAAAEoAAAByAAAAVQAAAEsAAABpAAAAdgAAAGoAAAB4AAAAaQAA"
+			"ADIAAAArAAAAOAAAADQAAABqAAAAZQAAAGUAAABwAAAASQAAAFkAAAB6AAAAagAAAEwAAABzAAAA"
+			"MgAAADEAAABzAAAANQAAAE8AAABUAAAARwAAAEwAAABMAAAANwAAAHEAAABrAAAAWAAAADIAAAA1"
+			"AAAAagAAAFkAAAAvAAAAOQAAAGgAAABYAAAAUQAAAG8AAABVAAAAaAAAAEIAAABDAAAAdQAAAFoA"
+			"AAA5AAAAVgAAAGUAAABoAAAAWQAAAHAAAABKAAAANgAAAEoAAABpAAAAMgAAAHcAAAA2AAAAVgAA"
+			"AE4AAAA3AAAATgAAAHAAAABKAAAAWQAAAHIAAABpAAAAaQAAAGkAAABiAAAAbAAAAGEAAABhAAAA"
+			"VgAAADYAAAArAAAAQQAAAE4AAABGAAAAMAAAADMAAABTAAAAYwAAAFAAAABkAAAAdAAAAGEAAABS"
+			"AAAAbwAAAGoAAABCAAAAVQAAAEgAAABSAAAAMAAAADAAAABpAAAAdAAAADYAAAA4AAAASQAAAHcA"
+			"AAB4AAAANw=="
 		)
 	)
 	(global_label "SDA"
@@ -7511,7 +7557,7 @@
 	)
 	(global_label "BUZZ"
 		(shape input)
-		(at 266.7 73.66 180)
+		(at 266.7 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7521,7 +7567,7 @@
 		)
 		(uuid "59df16f6-8e6b-499d-807c-58429f3c77b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.6953 73.66 0)
+			(at 258.6953 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9097,7 +9143,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 270.51 81.28 270)
+		(at 270.51 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9106,7 +9152,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f36b310-0373-4ef8-9582-878640f5a0f1")
 		(property "Reference" "R26"
-			(at 270.51 76.2 90)
+			(at 270.51 82.55 90)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -9114,7 +9160,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 270.51 77.47 90)
+			(at 270.51 83.82 90)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -9122,7 +9168,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 270.51 77.47 90)
+			(at 270.51 83.82 90)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -9131,7 +9177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 81.28 0)
+			(at 270.51 87.63 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -9140,7 +9186,7 @@
 			)
 		)
 		(property "Description" "C17557"
-			(at 270.51 78.74 90)
+			(at 270.51 85.09 90)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -9149,7 +9195,7 @@
 			)
 		)
 		(property "Checked Footprint and availability" ""
-			(at 270.51 81.28 0)
+			(at 270.51 87.63 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -9158,7 +9204,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 270.51 81.28 0)
+			(at 270.51 87.63 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -9167,7 +9213,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 270.51 81.28 0)
+			(at 270.51 87.63 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -9176,7 +9222,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 270.51 81.28 0)
+			(at 270.51 87.63 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -9185,7 +9231,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 270.51 81.28 0)
+			(at 270.51 87.63 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -9194,7 +9240,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 270.51 81.28 0)
+			(at 270.51 87.63 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -9203,7 +9249,7 @@
 			)
 		)
 		(property "LCSC Part" "C17557"
-			(at 270.51 81.28 0)
+			(at 270.51 87.63 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -9212,7 +9258,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 270.51 81.28 0)
+			(at 270.51 87.63 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -10380,7 +10426,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 280.67 87.63 0)
+		(at 280.67 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10389,7 +10435,7 @@
 		(fields_autoplaced yes)
 		(uuid "42fdf625-21d7-4f64-9b4c-8b1a77b55c1a")
 		(property "Reference" "#PWR066"
-			(at 283.21 88.265 0)
+			(at 283.21 94.615 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -10399,7 +10445,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 283.21 88.8999 0)
+			(at 283.21 95.2499 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -10408,7 +10454,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 283.21 90.17 0)
+			(at 283.21 96.52 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -10418,7 +10464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 87.63 0)
+			(at 280.67 93.98 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -10427,7 +10473,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 280.67 87.63 0)
+			(at 280.67 93.98 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -11470,7 +11516,7 @@
 	)
 	(symbol
 		(lib_id "Titan_frontplate_front_BMS_V1.3-rescue:+3.3V-power")
-		(at 280.67 67.31 0)
+		(at 280.67 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11479,7 +11525,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d7c9e99-74e2-4b5b-a68e-075b556dc82b")
 		(property "Reference" "#PWR059"
-			(at 283.21 65.405 0)
+			(at 283.21 71.755 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -11489,7 +11535,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 283.21 66.0399 0)
+			(at 283.21 72.3899 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -11498,7 +11544,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 283.21 67.31 0)
+			(at 283.21 73.66 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -11508,7 +11554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 67.31 0)
+			(at 280.67 73.66 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -11517,7 +11563,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 280.67 67.31 0)
+			(at 280.67 73.66 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -11897,7 +11943,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USB-C-Power-tester:TYPE-C-31-M-17_handsolder"
+		(property "Footprint" "easyeda2kicad:TYPE-C-SMD_TYPE-C-6P_5"
 			(at 59.69 69.85 0)
 			(effects
 				(font
@@ -13153,7 +13199,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:2N7002_C306856")
-		(at 280.67 81.28 0)
+		(at 280.67 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13162,7 +13208,7 @@
 		(fields_autoplaced yes)
 		(uuid "af1853d8-890b-4281-a24b-41c2191919c8")
 		(property "Reference" "Q1"
-			(at 285.75 80.6449 0)
+			(at 285.75 86.9949 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -13171,7 +13217,7 @@
 			)
 		)
 		(property "Value" "2N7002_C306856"
-			(at 285.75 81.9149 0)
+			(at 285.75 88.2649 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -13180,7 +13226,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 280.67 93.98 0)
+			(at 280.67 100.33 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -13189,7 +13235,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Bourne-Semicon-Shenzhen-2N7002_C306856.html"
-			(at 280.67 96.52 0)
+			(at 280.67 102.87 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -13198,7 +13244,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 280.67 81.28 0)
+			(at 280.67 87.63 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -13207,7 +13253,7 @@
 			)
 		)
 		(property "LCSC Part" "C306856"
-			(at 280.67 99.06 0)
+			(at 280.67 105.41 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15567,7 +15613,7 @@
 	)
 	(symbol
 		(lib_id "KSSGK4B16-20:KSSGK4B16-20")
-		(at 285.75 73.66 0)
+		(at 285.75 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15576,7 +15622,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6505e47-bcf4-4c11-974c-950bd16fce03")
 		(property "Reference" "LS1"
-			(at 292.1 71.7549 0)
+			(at 292.1 78.1049 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15585,7 +15631,7 @@
 			)
 		)
 		(property "Value" "KSSGK4B16-20"
-			(at 292.1 73.0249 0)
+			(at 292.1 79.3749 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15594,7 +15640,7 @@
 			)
 		)
 		(property "Footprint" "Snapeda:XDCR_KSSGK4B16-20"
-			(at 285.75 73.66 0)
+			(at 285.75 80.01 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15604,7 +15650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 285.75 73.66 0)
+			(at 285.75 80.01 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15614,7 +15660,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 285.75 73.66 0)
+			(at 285.75 80.01 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15623,7 +15669,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 285.75 73.66 0)
+			(at 285.75 80.01 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15633,7 +15679,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "2.2 mm"
-			(at 285.75 73.66 0)
+			(at 285.75 80.01 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15643,7 +15689,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Kingstate"
-			(at 285.75 73.66 0)
+			(at 285.75 80.01 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15653,7 +15699,7 @@
 			)
 		)
 		(property "PARTREV" "1.1"
-			(at 285.75 73.66 0)
+			(at 285.75 80.01 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15952,7 +15998,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 266.7 85.09 0)
+		(at 266.7 91.44 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15962,7 +16008,7 @@
 		(fields_autoplaced yes)
 		(uuid "ecf3b133-46e1-4031-86bc-1895fad0987a")
 		(property "Reference" "R9"
-			(at 264.16 84.4549 0)
+			(at 264.16 90.8049 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15971,7 +16017,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 264.16 85.7249 0)
+			(at 264.16 92.0749 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15980,7 +16026,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 270.51 85.09 90)
+			(at 270.51 91.44 90)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15989,7 +16035,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 85.09 0)
+			(at 266.7 91.44 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15998,7 +16044,7 @@
 			)
 		)
 		(property "Description" "C17414"
-			(at 265.684 86.36 0)
+			(at 265.684 92.71 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -16008,7 +16054,7 @@
 			)
 		)
 		(property "Checked Footprint and availability" ""
-			(at 266.7 85.09 0)
+			(at 266.7 91.44 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -16017,7 +16063,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 266.7 85.09 0)
+			(at 266.7 91.44 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -16026,7 +16072,7 @@
 			)
 		)
 		(property "LCSC Part" "C17414"
-			(at 266.7 85.09 0)
+			(at 266.7 91.44 0)
 			(effects
 				(font
 					(size 0.75 0.75)
