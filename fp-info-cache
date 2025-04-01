@@ -1,4 +1,4 @@
-25234992659145303
+25240223157791453
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -66681,6 +66681,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+Buzzer KSSGK4B16-20
+
+
+0
+4
+4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -101289,6 +101296,20 @@ LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB
 0
 4
 4
+easyeda2kicad
+LED0603-R-RD_WHITE
+
+
+0
+2
+2
+easyeda2kicad
+LED1206-R-RD_RED
+
+
+0
+2
+2
 easyeda2kicad
 LQFN-56_L7.0-W7.0-P0.4-EP
 

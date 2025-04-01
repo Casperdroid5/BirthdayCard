@@ -3532,6 +3532,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:FC-3215HRK-620D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FC-3215HRK-620D"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:LED1206-R-RD_RED"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-SMDLED-65-150mcd_C84270.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C84270"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FC-3215HRK-620D_0_1"
+				(polyline
+					(pts
+						(xy -3.81 3.3) (xy -2.79 2.79) (xy -3.3 2.29) (xy -3.81 3.3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.79 4.32) (xy -1.78 3.81) (xy -2.29 3.3) (xy -2.79 4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.03 1.52) (xy -3.81 3.3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.03) (xy -1.27 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.02 2.54) (xy -2.79 4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.52) (xy -1.27 0) (xy 1.27 1.78) (xy 1.27 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -3671,6 +3839,16 @@
 		)
 		(uuid "5a0a9b9f-891d-45a3-bdac-85557f6090a5")
 	)
+	(text "Power indicator"
+		(exclude_from_sim no)
+		(at 77.216 22.606 0)
+		(effects
+			(font
+				(size 0.75 0.75)
+			)
+		)
+		(uuid "5d7316d4-390a-4d3c-b231-67ef4509c9a0")
+	)
 	(text "RGBs"
 		(exclude_from_sim no)
 		(at 236.728 102.87 0)
@@ -3783,7 +3961,7 @@
 	)
 	(text "POWER IN + USBDATA"
 		(exclude_from_sim no)
-		(at 56.642 35.052 0)
+		(at 45.72 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3858,6 +4036,12 @@
 		(uuid "4fe6c711-c029-431f-b969-bda4d5173b30")
 	)
 	(junction
+		(at 88.9 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "540290cc-4aa0-4e87-b9da-2911f268cb6e")
+	)
+	(junction
 		(at 85.09 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3868,6 +4052,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "594fdd19-4a98-4b4d-937b-7e3840a390f1")
+	)
+	(junction
+		(at 96.52 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65e72605-02da-4ae3-872d-457565de2898")
 	)
 	(junction
 		(at 214.63 55.88)
@@ -3952,6 +4142,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dce65039-e108-4c96-af5d-9d4143a65272")
+	)
+	(junction
+		(at 71.12 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e303507b-e261-47f9-bf93-c612be2476bc")
 	)
 	(junction
 		(at 248.92 107.95)
@@ -4050,6 +4246,16 @@
 			(type default)
 		)
 		(uuid "0f401187-02d2-4499-a2ed-f88675368247")
+	)
+	(wire
+		(pts
+			(xy 85.09 31.75) (xy 88.9 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b671c6-4fa1-4aea-b00f-6171284507be")
 	)
 	(wire
 		(pts
@@ -4273,6 +4479,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 26.67) (xy 88.9 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dcbf7a3-c901-4d98-9014-d44cebad486b")
+	)
+	(wire
+		(pts
 			(xy 29.21 58.42) (xy 29.21 69.85)
 		)
 		(stroke
@@ -4290,6 +4506,16 @@
 			(type default)
 		)
 		(uuid "40af162a-54c3-447f-8036-d2fcbb56b66c")
+	)
+	(wire
+		(pts
+			(xy 274.32 87.63) (xy 275.59 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42679f41-1ab6-4874-8b20-f5034e5595d2")
 	)
 	(wire
 		(pts
@@ -4413,17 +4639,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 87.63) (xy 275.59 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fa15980-4dd9-4ee5-a2a2-23b318f693b7")
-	)
-	(wire
-		(pts
-			(xy 266.7 87.63) (xy 267.97 87.63)
+			(xy 266.7 87.63) (xy 269.24 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4693,6 +4909,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 26.67) (xy 96.52 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "945537fd-a633-445c-ade9-4dcc56ffb6ca")
+	)
+	(wire
+		(pts
 			(xy 81.28 46.99) (xy 85.09 46.99)
 		)
 		(stroke
@@ -4753,6 +4979,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 31.75) (xy 71.12 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5a9a9fd-6afe-4938-b971-a2ef763b0c74")
+	)
+	(wire
+		(pts
 			(xy 279.4 107.95) (xy 293.37 107.95)
 		)
 		(stroke
@@ -4770,6 +5006,16 @@
 			(type default)
 		)
 		(uuid "aaf10ad5-7826-4a18-9e8f-fff7ddfd1de2")
+	)
+	(wire
+		(pts
+			(xy 88.9 31.75) (xy 90.17 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab19dff4-8fec-44e2-9be2-39b68cec4668")
 	)
 	(wire
 		(pts
@@ -4820,6 +5066,16 @@
 			(type default)
 		)
 		(uuid "b5a56bdb-71a2-4c6e-b28b-fb8c3ca73c4e")
+	)
+	(wire
+		(pts
+			(xy 71.12 31.75) (xy 71.12 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb12658c-d6c9-40c6-a3a2-82af7edcaff0")
 	)
 	(wire
 		(pts
@@ -4890,6 +5146,26 @@
 			(type default)
 		)
 		(uuid "c26fcb71-7a7b-476d-872b-881069b8839a")
+	)
+	(wire
+		(pts
+			(xy 88.9 26.67) (xy 88.9 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c293f196-bc84-414d-9de9-3189e39014fd")
+	)
+	(wire
+		(pts
+			(xy 95.25 26.67) (xy 96.52 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2f45c81-7853-4eb4-aedc-9a88d9df3156")
 	)
 	(wire
 		(pts
@@ -5010,6 +5286,16 @@
 			(type default)
 		)
 		(uuid "d92b5910-8ccd-486d-8a91-e2a3a0bde249")
+	)
+	(wire
+		(pts
+			(xy 95.25 31.75) (xy 96.52 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da2dbfa7-f42e-4afa-ba11-ace0931a6ee3")
 	)
 	(wire
 		(pts
@@ -5223,7 +5509,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 40.64) (xy 71.12 41.91)
+			(xy 71.12 30.48) (xy 71.12 31.75)
 		)
 		(stroke
 			(width 0)
@@ -7353,7 +7639,79 @@
 			"AE4AAAA3AAAATgAAAHAAAABKAAAAWQAAAHIAAABpAAAAaQAAAGkAAABiAAAAbAAAAGEAAABhAAAA"
 			"VgAAADYAAAArAAAAQQAAAE4AAABGAAAAMAAAADMAAABTAAAAYwAAAFAAAABkAAAAdAAAAGEAAABS"
 			"AAAAbwAAAGoAAABCAAAAVQAAAEgAAABSAAAAMAAAADAAAABpAAAAdAAAADYAAAA4AAAASQAAAHcA"
-			"AAB4AAAANw=="
+			"AAB4AAAANwAAADEAAAAxAAAASwAAAFgAAABMAAAATQAAAHIAAABOAAAAcgAAAFUAAABHAAAANgAA"
+			"AGoAAABVAAAALwAAADEAAAArAAAATwAAAC8AAABlAAAANQAAAGwAAABMAAAAVQAAADMAAABaAAAA"
+			"UQAAACsAAABGAAAARgAAAGQAAABZAAAAZgAAAEcAAAB0AAAASAAAAFEAAABMAAAAUwAAAHMAAAB4"
+			"AAAANwAAAHAAAAB4AAAAeAAAAHAAAAArAAAAZAAAAE0AAABIAAAAeAAAAGMAAABqAAAAcQAAAEsA"
+			"AABPAAAARwAAAHEAAABNAAAAbwAAAE4AAAA2AAAAZAAAAGgAAABPAAAAVAAAAFQAAAA3AAAASwAA"
+			"AGEAAABHAAAAeAAAAEUAAAA1AAAANwAAAHQAAABtAAAAUgAAAHYAAABZAAAAVQAAAEMAAABYAAAA"
+			"eQAAAFAAAABhAAAAWgAAAHUAAABHAAAAbQAAADkAAABFAAAAcAAAAHoAAABGAAAAbAAAAFoAAABD"
+			"AAAAUQAAACsAAABQAAAAMgAAAFcAAABoAAAAcQAAAEcAAABsAAAAcgAAAEUAAABOAAAAZgAAAGYA"
+			"AABGAAAAQQAAAGkAAAA3AAAANgAAAEQAAABSAAAANgAAAGkAAABlAAAAQwAAADgAAAB5AAAAUwAA"
+			"AGwAAABYAAAATQAAAGQAAABHAAAAZwAAADgAAAA1AAAALwAAAEgAAAAzAAAANgAAAFAAAAAyAAAA"
+			"VwAAAHQAAAByAAAAWAAAAFYAAABKAAAAYQAAAEMAAABrAAAARgAAADYAAABQAAAASQAAAFYAAAAy"
+			"AAAAaQAAAGwAAAAwAAAAWAAAAGUAAABkAAAAVgAAADMAAABXAAAANgAAADkAAABPAAAATgAAAE0A"
+			"AABmAAAAeQAAAFMAAAB0AAAAUAAAAGoAAAB6AAAAMQAAACsAAAArAAAAbAAAAEYAAABmAAAATgAA"
+			"AHEAAABTAAAAbwAAAHUAAABFAAAARgAAAGwAAAA5AAAAVQAAAEYAAABFAAAAYgAAAEIAAABDAAAA"
+			"RQAAAEoAAABJAAAAbAAAAEoAAABXAAAAVQAAAFkAAABZAAAAcAAAAEsAAAB6AAAAUQAAADcAAABz"
+			"AAAALwAAAGUAAABDAAAAYQAAAGwAAABOAAAARAAAAHYAAABPAAAAWAAAAHQAAABIAAAAVAAAADAA"
+			"AABSAAAAdwAAAEUAAABqAAAAYQAAAHYAAABPAAAAbQAAADAAAAA1AAAAYQAAADYAAABCAAAAZQAA"
+			"ADAAAAAyAAAAbwAAAGcAAABxAAAANwAAAE0AAABUAAAANAAAAG0AAABLAAAAdQAAAHYAAAA4AAAA"
+			"ZwAAAHUAAABVAAAAeQAAAE4AAAByAAAAMwAAAHQAAABEAAAAeAAAAHgAAABSAAAAUQAAAFUAAAA1"
+			"AAAASQAAAFIAAABQAAAATwAAAFIAAABWAAAATgAAADMAAAAvAAAANgAAAFYAAABnAAAAMAAAACsA"
+			"AABUAAAAagAAAGYAAABtAAAAOAAAAGgAAABSAAAARAAAAGwAAAA1AAAAUgAAAFgAAAA4AAAAagAA"
+			"AEQAAABNAAAAcgAAAC8AAABhAAAAUAAAAHIAAABhAAAANgAAAGkAAABTAAAAcQAAAFkAAABtAAAA"
+			"RQAAAEoAAABGAAAAbQAAAGQAAAA4AAAAMQAAAGsAAAA3AAAAcAAAAHgAAABxAAAATwAAADgAAABC"
+			"AAAAdAAAADkAAAA3AAAAUAAAAEQAAAB4AAAAeAAAAFoAAAA1AAAASAAAAE4AAABMAAAAcwAAAFAA"
+			"AABtAAAAegAAAEcAAABqAAAAbQAAADcAAABDAAAAcwAAAGkAAABzAAAAeQAAADUAAAB1AAAAcwAA"
+			"ADAAAAAzAAAARQAAAFUAAABNAAAASQAAAEkAAABTAAAARwAAAFgAAAB6AAAAdAAAAEoAAABxAAAA"
+			"SgAAAHYAAABOAAAALwAAAGcAAABEAAAAWQAAAEoAAABLAAAAbwAAAHAAAAAyAAAAOQAAADQAAABH"
+			"AAAAVwAAAGwAAAAvAAAAYwAAADkAAABLAAAAeQAAAGUAAABRAAAAaAAAAEUAAAA0AAAAUAAAAGQA"
+			"AAB6AAAAdAAAAFIAAAB2AAAAWAAAAHUAAABTAAAASQAAAEIAAABDAAAATwAAAFkAAAB3AAAAZwAA"
+			"AGgAAABoAAAATQAAAHMAAABxAAAASwAAAFUAAABsAAAAUQAAAFAAAABsAAAANAAAAFkAAABFAAAA"
+			"UAAAAFYAAABtAAAAegAAAHMAAAAwAAAAdAAAADYAAAAvAAAANQAAAFYAAAA4AAAAbAAAAHEAAAB3"
+			"AAAAegAAAEYAAABPAAAATAAAADgAAABlAAAAcgAAAGcAAABoAAAASwAAAE4AAABmAAAAdgAAAEkA"
+			"AABNAAAAbwAAAEsAAAArAAAAWgAAAFEAAABGAAAAZQAAAFIAAABaAAAAZQAAAEkAAABzAAAAVAAA"
+			"AFIAAABTAAAAeQAAADkAAAA4AAAAbAAAADcAAAA4AAAANAAAADMAAABhAAAAZQAAADIAAAA1AAAA"
+			"ZAAAADIAAABsAAAAbQAAAHQAAAB4AAAATwAAAEkAAABuAAAASAAAAEwAAABxAAAAMgAAAFcAAAAx"
+			"AAAAVgAAAFAAAABFAAAAVQAAAEgAAABsAAAATAAAADcAAAAvAAAAdwAAAE0AAAByAAAAdAAAAEwA"
+			"AABGAAAAegAAADYAAABVAAAATwAAAHoAAABiAAAAYgAAAE4AAABGAAAAcQAAAHUAAABMAAAASwAA"
+			"AEMAAAB0AAAAbAAAAGsAAAAvAAAATAAAAFcAAABUAAAAZQAAADgAAAArAAAALwAAAHoAAABTAAAA"
+			"UgAAADAAAAA5AAAAeQAAAEMAAABFAAAAVQAAAEkAAABJAAAAQwAAAFYAAABKAAAAaQAAAEUAAABs"
+			"AAAAaQAAAGoAAABWAAAAcQAAADQAAABZAAAAcgAAAE4AAABMAAAAaQAAAFgAAABaAAAAbQAAAEMA"
+			"AAAwAAAAdAAAAEkAAAB5AAAAYQAAAFgAAABsAAAANQAAAEcAAABoAAAASQAAADEAAABNAAAAUAAA"
+			"AEwAAABKAAAAbAAAADUAAABzAAAAbQAAADgAAABxAAAAUQAAAGUAAABvAAAAMAAAAG4AAABMAAAA"
+			"cQAAAHkAAABwAAAALwAAAHYAAABDAAAARgAAAFYAAABxAAAAQwAAAEEAAABuAAAAVwAAADEAAABY"
+			"AAAATQAAADQAAABkAAAAYwAAAGYAAABlAAAAYwAAAGoAAABLAAAAMAAAAGoAAABLAAAAKwAAAG4A"
+			"AABMAAAANAAAAHMAAABoAAAAZwAAAHAAAABiAAAASwAAAHAAAABVAAAASQAAAE8AAABFAAAAdAAA"
+			"AGUAAABIAAAAdQAAAGUAAABVAAAAbAAAAG4AAAAxAAAAbwAAAGMAAABzAAAASwAAAHkAAABrAAAA"
+			"agAAAEoAAABKAAAAZQAAAGYAAABtAAAAbQAAAFYAAAAyAAAAUAAAAHAAAABDAAAAawAAAG8AAAB5"
+			"AAAAeQAAAGcAAABZAAAAKwAAAHkAAAAwAAAAZQAAADMAAAA4AAAAagAAAGEAAAA2AAAALwAAADcA"
+			"AABLAAAAdQAAAGwAAAB2AAAAQgAAAGYAAABSAAAAYQAAADUAAABjAAAAbgAAADkAAAB0AAAAcgAA"
+			"AHkAAABjAAAAUQAAAFYAAABaAAAAdgAAAEoAAABWAAAAMAAAAFIAAAB1AAAAOAAAADcAAAB6AAAA"
+			"ZgAAAC8AAABWAAAAcgAAAHEAAABzAAAAdgAAAEcAAABSAAAARgAAAEMAAABaAAAAdAAAAEEAAABt"
+			"AAAAagAAAGgAAABDAAAAaQAAAE8AAABSAAAAdwAAAE8AAABCAAAAVAAAAFoAAABGAAAAbwAAADkA"
+			"AAByAAAAbwAAAG4AAAAxAAAAcQAAAEkAAABSAAAAOQAAAGEAAABGAAAASwAAADYAAABrAAAAcQAA"
+			"AEMAAABqAAAAVAAAAGYAAABzAAAASwAAAG0AAABpAAAAZAAAAGEAAABOAAAAYwAAAGoAAABqAAAA"
+			"LwAAAG4AAABFAAAAUwAAAFUAAABKAAAAVgAAADgAAAA2AAAASAAAAHYAAAB1AAAAMgAAAHkAAABa"
+			"AAAAQQAAAEYAAAB3AAAAOQAAAHgAAABqAAAAYgAAAGcAAAAvAAAAZQAAAHkAAABVAAAAMQAAAHIA"
+			"AABqAAAAOQAAADUAAAArAAAAawAAAGMAAABzAAAAcAAAAEwAAAB5AAAAdAAAADkAAAArAAAAeQAA"
+			"AEEAAAArAAAAUAAAAHEAAABXAAAAYQAAAFIAAABQAAAAKwAAAGwAAABFAAAATAAAAGgAAABhAAAA"
+			"LwAAAC8AAABHAAAAagAAAFYAAABCAAAAOQAAAHMAAABYAAAAeAAAAFQAAAA0AAAAegAAACsAAAAy"
+			"AAAAMAAAAHIAAABEAAAAZgAAAFoAAABhAAAAVQAAAG0AAAB4AAAAQgAAADUAAABaAAAAcwAAAGoA"
+			"AAA2AAAAWAAAADMAAABtAAAALwAAAGEAAAAzAAAARAAAAGgAAABYAAAAUgAAAHoAAABaAAAAdwAA"
+			"AHMAAABLAAAAcQAAADcAAAArAAAAZQAAAHkAAABXAAAATAAAAEsAAAB4AAAAUgAAAFcAAAB2AAAA"
+			"NwAAAHYAAAA5AAAAVAAAADAAAAB5AAAAVwAAAFoAAAB2AAAAdgAAADIAAABuAAAAOAAAADYAAABM"
+			"AAAAaQAAAEkAAAByAAAAYwAAAHQAAAAxAAAAVgAAAGEAAAA5AAAAcwAAADUAAAA2AAAAcwAAAHIA"
+			"AABUAAAAYQAAAHYAAABKAAAAVAAAAE0AAAAwAAAAbQAAAGIAAAA3AAAAZgAAAHIAAABoAAAASwAA"
+			"AGUAAAB3AAAAdgAAAFYAAABsAAAANwAAAGYAAABpAAAAWAAAAHQAAABjAAAAaQAAAGsAAAB2AAAA"
+			"YwAAADIAAAA5AAAAdgAAAHEAAAB6AAAAegAAADAAAAA4AAAAUAAAAGYAAABtAAAAUgAAAE4AAABJ"
+			"AAAAbwAAAFEAAABRAAAARQAAAHUAAABiAAAARgAAADcAAAB6AAAAbQAAAFUAAAA0AAAAegAAAEIA"
+			"AABqAAAAbQAAAE4AAABYAAAAbgAAAHUAAAB5AAAAQgAAAFIAAAA4AAAAQwAAAFoAAABQAAAAMgAA"
+			"AHMAAAByAAAAUgAAAFMAAABvAAAAMgAAAEIAAAB5AAAAbAAAADYAAAA5AAAAeQAAAFAAAABuAAAA"
+			"eQAAADAAAABNAAAAMgAAAHcAAABkAAAAYgAAAFUAAAB2AAAAdgAAAEIAAABCAAAANQAAAE4AAAA3"
+			"AAAAKwAAAFcAAABSAAAATQAAAEwAAABLAAAAdAAAADQAAAArAAAAdQAAADMAAAB5AAAAOQAAAHEA"
+			"AAAxAAAASg=="
 		)
 	)
 	(global_label "SDA"
@@ -9136,146 +9494,6 @@
 			(project "BirtdayCard.kicad_pcb"
 				(path "/17f7643f-a16b-4802-8051-c0810a7f40c9"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 270.51 87.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f36b310-0373-4ef8-9582-878640f5a0f1")
-		(property "Reference" "R26"
-			(at 270.51 82.55 90)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 270.51 83.82 90)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 270.51 83.82 90)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 87.63 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "C17557"
-			(at 270.51 85.09 90)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(hide yes)
-			)
-		)
-		(property "Checked Footprint and availability" ""
-			(at 270.51 87.63 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 270.51 87.63 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 270.51 87.63 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 270.51 87.63 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 270.51 87.63 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 270.51 87.63 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C17557"
-			(at 270.51 87.63 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 270.51 87.63 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "817bda39-de9a-429a-a6ad-dd2ae4e5bb58")
-		)
-		(pin "2"
-			(uuid "115676a9-9401-4652-ab67-7f5177a8c794")
-		)
-		(instances
-			(project "HW_Container_AC_Controller"
-				(path "/17f7643f-a16b-4802-8051-c0810a7f40c9"
-					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -11448,6 +11666,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 271.78 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "676d6a12-bd5a-4c6b-84ef-81e597319acf")
+		(property "Reference" "R19"
+			(at 271.78 83.82 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 271.78 85.09 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 271.78 83.82 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 87.63 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "C17414"
+			(at 273.0499 85.09 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Checked Footprint and availability" ""
+			(at 271.78 87.63 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 271.78 87.63 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17414"
+			(at 271.78 87.63 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcf87606-3247-4b20-9d5c-9e08c6a657fe")
+		)
+		(pin "2"
+			(uuid "7abd7e5a-f71d-4df9-9602-d5801cce5821")
+		)
+		(instances
+			(project "BirtdayCard.kicad_pcb"
+				(path "/17f7643f-a16b-4802-8051-c0810a7f40c9"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Probe")
 		(at 135.89 54.61 0)
 		(mirror y)
@@ -12168,6 +12482,74 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 96.52 31.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f4de89a-0368-4d3f-9df5-dd26993e14d5")
+		(property "Reference" "#PWR088"
+			(at 96.52 38.1 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 33.0199 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 31.75 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 31.75 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 31.75 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8ccebe4-25f8-4f5d-8c68-724308777cea")
+		)
+		(instances
+			(project "BirtdayCard.kicad_pcb"
+				(path "/17f7643f-a16b-4802-8051-c0810a7f40c9"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 35.56 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12716,18 +13098,113 @@
 		)
 	)
 	(symbol
-		(lib_id "Titan_frontplate_front_BMS_V1.3-rescue:+3.3V-power")
-		(at 71.12 40.64 0)
-		(mirror y)
+		(lib_id "Device:R_Small")
+		(at 92.71 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "8c52c09e-375e-490c-9e03-a9625fb98220")
+		(property "Reference" "R17"
+			(at 92.71 22.86 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 92.71 24.13 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 92.71 22.86 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 26.67 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "C17414"
+			(at 93.9799 24.13 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Checked Footprint and availability" ""
+			(at 92.71 26.67 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 92.71 26.67 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17414"
+			(at 92.71 26.67 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2113a9a3-4d5f-48ef-abd3-38959ae3329d")
+		)
+		(pin "2"
+			(uuid "1d9e2bea-384f-4799-99c5-1f963ba0803c")
+		)
+		(instances
+			(project "BirtdayCard.kicad_pcb"
+				(path "/17f7643f-a16b-4802-8051-c0810a7f40c9"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Titan_frontplate_front_BMS_V1.3-rescue:+3.3V-power")
+		(at 71.12 30.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "8f59b0c6-2c3d-4df5-a7dc-1234accbcd86")
 		(property "Reference" "#PWR065"
-			(at 68.58 38.735 0)
+			(at 68.58 28.575 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -12737,16 +13214,16 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 73.66 39.3699 0)
+			(at 71.12 26.924 0)
 			(effects
 				(font
 					(size 0.75 0.75)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 68.58 40.64 0)
+			(at 68.58 30.48 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -12756,7 +13233,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 40.64 0)
+			(at 71.12 30.48 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -12765,7 +13242,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 40.64 0)
+			(at 71.12 30.48 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -12780,6 +13257,83 @@
 			(project "BirtdayCard.kicad_pcb"
 				(path "/17f7643f-a16b-4802-8051-c0810a7f40c9"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:FC-3215HRK-620D")
+		(at 80.01 31.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99ea9690-10a9-41cc-b7fd-fa7e54faea65")
+		(property "Reference" "LED2"
+			(at 80.01 25.4 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "FC-3215HRK-620D"
+			(at 80.01 26.67 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED1206-R-RD_RED"
+			(at 80.01 39.37 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-SMDLED-65-150mcd_C84270.html"
+			(at 80.01 41.91 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 31.75 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C84270"
+			(at 80.01 44.45 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3134c7ba-09d6-4185-98c7-9da279c45291")
+		)
+		(pin "2"
+			(uuid "a7fc9ff9-06b9-45ad-affe-c9e3ef3da30d")
+		)
+		(instances
+			(project ""
+				(path "/17f7643f-a16b-4802-8051-c0810a7f40c9"
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -15337,7 +15891,7 @@
 			(at 214.63 80.01 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.75 0.75)
 				)
 				(hide yes)
 			)
@@ -15346,7 +15900,7 @@
 			(at 214.63 80.01 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.75 0.75)
 				)
 				(hide yes)
 			)
@@ -15355,7 +15909,7 @@
 			(at 214.63 80.01 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.75 0.75)
 				)
 				(hide yes)
 			)
@@ -15639,7 +16193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Snapeda:XDCR_KSSGK4B16-20"
+		(property "Footprint" "Library:Buzzer KSSGK4B16-20"
 			(at 285.75 80.01 0)
 			(effects
 				(font
@@ -16090,6 +16644,101 @@
 			(project "HW_Container_AC_Controller"
 				(path "/17f7643f-a16b-4802-8051-c0810a7f40c9"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 92.71 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed10e13d-63ca-4774-93ea-d5c62a682a48")
+		(property "Reference" "R18"
+			(at 92.71 27.94 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 92.71 29.21 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 92.71 27.94 90)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 31.75 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "C17414"
+			(at 93.9799 29.21 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Checked Footprint and availability" ""
+			(at 92.71 31.75 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 92.71 31.75 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17414"
+			(at 92.71 31.75 0)
+			(effects
+				(font
+					(size 0.75 0.75)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af156b20-0bce-4038-a646-81eec8baee18")
+		)
+		(pin "2"
+			(uuid "6db562f6-9fca-4449-94f0-bdcd4a498f7f")
+		)
+		(instances
+			(project "BirtdayCard.kicad_pcb"
+				(path "/17f7643f-a16b-4802-8051-c0810a7f40c9"
+					(reference "R18")
 					(unit 1)
 				)
 			)
