@@ -1,4 +1,4 @@
-25240223157791453
+25241966660791379
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101289,6 +101289,13 @@ BULETM-SMD_ESPRESSIF_ESP32-C3-WROOM-02-N4-4MB
 0
 27
 19
+easyeda2kicad
+KEY-SMD_4P-L6.2-W6.2-P4.50-LS9.0
+
+
+0
+4
+4
 easyeda2kicad
 LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB
 

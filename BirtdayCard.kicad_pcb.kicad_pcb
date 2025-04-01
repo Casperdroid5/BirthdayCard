@@ -131,7 +131,7 @@
 	(footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "014304ff-e65a-4465-9031-2e9151d1dbb9")
-		(at 134.4 109.7)
+		(at 240.56 104.7)
 		(descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP2"
@@ -178,6 +178,123 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1174d705-b210-468c-b5f7-d95b91996ef2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7a7d89a-b82e-4d61-9c26-43a71343f53c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b27c0184-0875-4e85-bad6-4b2c2f937ca5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ff6416b-6b87-43b1-aaab-25001b1ce80f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a046a235-3858-44f3-965f-275fd4f626a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eca6b314-b59c-4b9e-83e0-25ec250b0414")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e420e23f-ecbe-4626-845f-acedb95920f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd9fe168-09f7-492f-9af0-4f073b772d61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "341afcf5-1387-4dce-b670-0f214095692a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -439,7 +556,7 @@
 	(footprint "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB"
 		(layer "F.Cu")
 		(uuid "02fcd9bb-877c-4570-a2d0-6403ebc62453")
-		(at 155 62.45)
+		(at 261.16 57.45)
 		(property "Reference" "D12"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -474,7 +591,7 @@
 				)
 			)
 		)
-		(property "Description" "C114586"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -551,12 +668,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114586"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "67d2da77-639e-41ee-8f11-d4da8007912e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edfcd2a1-c69c-41ec-8d2f-90f7856daa59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d476d9c7-ca34-464a-b1d4-d900904aa8b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0eb16892-1441-40be-9662-1023cd9914c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7542ce5d-ced0-4248-8492-06bc8f394d15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e621a9a1-ea1e-4919-86fa-e4f1c92202c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44387c27-5e76-49f9-bb18-593b77dfe4f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "740095a4-eab0-44c4-945f-2dc563689d1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3c8206f-6b65-40f0-8f91-bcfd4b23c87e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "730bfa8e-51c4-418b-925d-b16f72936b48")
 			(effects
 				(font
 					(size 1 1)
@@ -827,7 +1061,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "069acca6-e88f-4401-9424-d712cf2c99cb")
-		(at 160.775 48.25)
+		(at 266.935 43.25)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1"
@@ -865,7 +1099,7 @@
 				)
 			)
 		)
-		(property "Description" "test point (alternative probe-style design)"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -874,6 +1108,123 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5dce23e-8b6f-4006-a18a-981ad11d0ef6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4458654f-a17e-4e78-94de-d6574609e72e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1515c720-1369-484b-b928-9e508ee6319b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b56a07a4-3025-465f-87f4-dffc84781c64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9044849-690a-4ecb-967a-119670fd3a25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f486672-3847-494c-87ef-a3232d8acf39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bab5806-0042-4a1e-bf3d-c04fcb7485b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f2f2dcb-48d2-4268-b01e-a50b1567bf99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f7320b1-e3a2-4fd4-94f6-9cbeca4ee1af")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -930,7 +1281,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "09a3dfc3-06fc-4ff3-b4d3-37dda06ed606")
-		(at 140.45 73.21)
+		(at 246.61 68.21)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R15"
@@ -968,7 +1319,7 @@
 				)
 			)
 		)
-		(property "Description" "C17414"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1007,12 +1358,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17414"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "406405b5-887b-462d-a694-22190561d590")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d35cef7a-2487-4133-9bea-4c42efe4acd9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c571da2-9d53-4e7c-a3ab-02613025fc32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcee53b3-d362-4421-81ef-402d7e108e09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92109e53-8d77-429b-ad5e-5a1f8386685e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12b01695-cc5f-495e-b8a9-f16f952804d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dccdefde-0887-42f3-975b-57e2f89546c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d33926c-7126-4cbe-8d08-182a6cf1605b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b97bc4cb-1636-426a-8805-b089dc26f483")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c08fdf3a-fe77-42ff-adfb-271af6282c06")
 			(effects
 				(font
 					(size 1 1)
@@ -1170,7 +1638,7 @@
 	(footprint "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB"
 		(layer "F.Cu")
 		(uuid "15926295-e021-43bd-b706-a0dbf86049eb")
-		(at 127.55 97.65)
+		(at 233.71 92.65)
 		(property "Reference" "D25"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -1205,7 +1673,7 @@
 				)
 			)
 		)
-		(property "Description" "C114586"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1282,12 +1750,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114586"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b3429370-0ed9-4dbb-944a-bcfd8648efad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11d27292-b125-492c-9cbc-e13a9c490f76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1b6a9e5-6a02-487c-a0c8-86caf32a2071")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6acdf8e8-efd6-4c3f-82fc-0ca6ddde5028")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc24ac0e-e8aa-4ac2-bd5e-c953b660bf22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b23211dc-734e-4707-97de-cb8c72325d3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30379283-590a-4efa-9e78-4d3a0aa9de64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5c1c090-a6c0-45e1-a521-fe219ef607fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fdd34538-c1d7-4d44-b847-7eaa3d275d3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e2edab3-d8db-4773-ab41-61320a382c51")
 			(effects
 				(font
 					(size 1 1)
@@ -1558,7 +2143,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "1a04bd86-18db-4d7e-a5c3-426a4c32b834")
-		(at 70 51.88)
+		(at 176.16 46.88)
 		(descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x04 2.54mm single row")
 		(property "Reference" "J1"
@@ -1595,7 +2180,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1603,6 +2188,123 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78a57212-2e67-4bf8-ba80-c0ec8b789bf1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39c9429e-993f-4025-850c-54fb9b002b69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54355d42-6daa-4d66-afdc-5ab09c1666d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afe49759-d64c-4dc2-b1e3-3b9d74417342")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fd5645f-137e-4403-9837-e8d7b482a8e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ab16e0c-956c-47d6-883e-76b70d390a5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58f961ab-1a35-47ce-a79e-81c97465a296")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2404145c-0928-4eb1-996a-98ff5e72151c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d60bd48-b8ae-4c60-8335-4fddb60c003d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1833,7 +2535,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 		(layer "F.Cu")
 		(uuid "1c531de1-ecc8-42c9-afbf-416765616fcc")
-		(at 134.8 101.4)
+		(at 240.96 96.4)
 		(descr "SOT-23, Handsoldering")
 		(tags "SOT-23")
 		(property "Reference" "D6"
@@ -1871,7 +2573,7 @@
 				)
 			)
 		)
-		(property "Description" "C521963"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1910,12 +2612,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C521963"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b99c1a0a-7362-485a-aeb5-b1f7c83629a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eaf18363-ae31-4a00-bd84-7a61541f6704")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "078aa4ff-bf84-4b4f-b839-0fcd58b4ba32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d677074-8061-4bfc-8bae-623fe4d37c86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86e95e81-887c-42c7-8b80-8ea39a3aa15c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0055480c-55a2-408d-a586-0d36032cd95d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "100022f0-94fd-4892-92be-ef1bf59da01e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecb32c0d-2944-4158-8b1e-35df2ea22476")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47dda704-1e5b-4103-b8f4-f682315e0ef7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd283049-b20c-47fd-99ee-c0bfc9b10a0b")
 			(effects
 				(font
 					(size 1 1)
@@ -2137,7 +2956,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "1ed198c0-7fdd-4e3c-b15f-88ad79a36e12")
-		(at 140.45 60.05)
+		(at 246.61 55.05)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R10"
@@ -2175,7 +2994,7 @@
 				)
 			)
 		)
-		(property "Description" "C17414"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2214,12 +3033,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17414"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "50befba1-4fb7-4cb6-a8fa-a598cdf0878d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "715a109e-28ea-4ef8-9761-4104b9d30535")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8cf8930a-1a64-4c4d-a930-d2821f1d8f2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a555d734-2b3f-4687-8662-6e26058079f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "287da3d1-a851-46fa-a4fb-50f031f16fcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06ad89b7-e3b9-4a3d-9a55-231212b31a1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e368f5c6-4740-4ac5-9d77-188171c8bcfb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff83a629-6791-4a2e-b6de-b4fe9562e03b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "601604ca-b9ae-40a9-ad48-ae93e313b149")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9658e686-3819-49ea-a611-4da5d1aee516")
 			(effects
 				(font
 					(size 1 1)
@@ -2377,7 +3313,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "27f12181-4ebb-4c2d-8bf6-a0ff0a5d6e4b")
-		(at 140.45 63.34)
+		(at 246.61 58.34)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R11"
@@ -2415,7 +3351,7 @@
 				)
 			)
 		)
-		(property "Description" "C17414"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2454,12 +3390,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17414"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e18cc0ad-2d2c-41dc-8271-8694087a1ba0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41802c35-c413-4b33-b8f0-7e17948f1b72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c31d55d2-8546-4fd7-9d54-4982b20f16d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2759096-4d4f-4e8f-b957-30164580ffd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6689db1-caaa-4ceb-bc5e-5cef22d058bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0f332d6-4670-4296-890c-11c0e589c007")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7eeddac-1b82-48c3-ab4c-c184df4ffd14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c7ba90d-d367-48e8-92b9-484c968d6497")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "187aff5f-db4b-455e-ae5e-8cf045cec4b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85a8792f-a82e-4bf0-97b1-6b3e18567fe4")
 			(effects
 				(font
 					(size 1 1)
@@ -2617,7 +3670,7 @@
 	(footprint "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB"
 		(layer "F.Cu")
 		(uuid "2ee3c6b1-8499-40aa-9a7e-71eccc8ff500")
-		(at 127.55 111.75)
+		(at 233.71 106.75)
 		(property "Reference" "D27"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -2652,7 +3705,7 @@
 				)
 			)
 		)
-		(property "Description" "C114586"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2729,12 +3782,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114586"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fcb609fa-f2ec-4769-80ad-c325a0b1ebcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d295a6b-131b-4184-a4f1-550d2ad7ced4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "311c5639-5b14-43f9-86b2-c31c50636ae5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48edf2ac-a73c-4a76-bc5a-c0d8774f4a40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "836b482c-c239-4ca0-80f7-8b05bc3a3f1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5094639-1ac6-48da-8706-978a3ebf915a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "255bccd7-027d-4572-b700-50c0b25f2895")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b906d4b-a2de-46eb-b73f-f5368cc7c25d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "762d7c39-39de-4ad6-92fd-60b2fdc0d486")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72d3c2da-11fe-402c-8de8-1a42835be157")
 			(effects
 				(font
 					(size 1 1)
@@ -3005,7 +4175,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "33d73e2d-f171-4625-8390-3511422c762b")
-		(at 160.925 64.2)
+		(at 267.085 59.2)
 		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
@@ -3052,6 +4222,123 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4223e7f3-1228-4b91-bc30-dc203b7f9d2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1d898b4-c09b-4b88-b0f0-2ae61398e254")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71317913-26b2-46ab-a205-ab7b00376346")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a882e56-e923-493f-b1b3-2f35c7b28a77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abda1dc3-c642-4eea-bcb5-a0d1cc02cae7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7564d07-b8fe-4b69-bd5e-31e1c4ef4614")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d3fadca-8f76-42a1-80f5-b8a3b1c6f0f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7482ac50-272d-4f99-8306-835046855b49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ede5bba-f266-470f-b232-bafbc3072361")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3176,7 +4463,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "37395da5-3ab0-41d4-906b-6d08556993c1")
-		(at 110 63.65)
+		(at 216.16 58.65)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R13"
@@ -3233,6 +4520,123 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "db049b12-dee5-43d9-a470-3b497f12e628")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48da72b2-70eb-405d-928f-4349772d44b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea467b9e-201c-4b83-8757-8ec525673e2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb943765-160c-4b25-9d05-bb4e83a28290")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edf5ead0-6bfc-4fab-8cdf-d89e467c342a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23ae66fa-06f8-466f-8afa-09668f240ad8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c84f246b-9437-4207-b028-877f2d8864bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f74529a-1d3c-4c16-b502-8f16699f65ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9104449-d07c-4417-bce0-86c1fd4d17b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "395c6612-6681-4f04-a61c-77be54ff759f")
 			(effects
 				(font
 					(size 1 1)
@@ -3390,7 +4794,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "382997bb-362b-49ba-922a-cd93d6c87c46")
-		(at 160.775 56.35)
+		(at 266.935 51.35)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP3"
@@ -3428,7 +4832,7 @@
 				)
 			)
 		)
-		(property "Description" "test point (alternative probe-style design)"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3437,6 +4841,123 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2280c515-90c3-4f5e-9955-b74eaf22d766")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea377c7f-0179-4981-8862-78c5dd43a8af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e1c43a0-7644-4a03-883f-82736aa38651")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a33e87a-712a-497c-ae0e-c9e67d33567b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3523ea0b-4c76-4b1c-ba69-ad0c06f188f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "108828cf-10fb-4097-88ef-e11f351e3aa3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81dd5eab-8f26-4971-8ed7-0fd994233626")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e410653f-e06e-4a4b-af47-139009e7d54a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad8c18a4-8b76-44e4-9907-fc0d561b3249")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3493,7 +5014,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3d4cef1d-6df0-4d0b-af95-a415c0dd154c")
-		(at 117.95 38.38)
+		(at 224.11 33.38)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R17"
@@ -3530,7 +5051,7 @@
 				)
 			)
 		)
-		(property "Description" "C17414"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3568,12 +5089,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17414"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "576cab0a-0048-4741-8818-9643e8c534db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54fe50e1-e60f-4b4a-aa49-7a49887e41a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac1cbe34-aaab-4a10-bcec-a84f9c53a113")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ec9893b-577d-4ab6-89c2-f08a55369be1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb241042-5f8f-466f-a8e4-b72d35a67b8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a49568f-f53e-4ec8-8fe2-fa85cd4a7495")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cc0eb75-40b2-40db-a0bf-c9ff78a2154e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "785e8730-1f4d-4c5b-af90-4a234bcc8f4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91d1284a-175d-46ad-85bb-05ee11e51943")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "991e2df1-d741-4592-8639-983dd9eeb2d5")
 			(effects
 				(font
 					(size 1 1)
@@ -3716,7 +5354,7 @@
 			(uuid "243a6681-cb37-49d9-9f0e-41a1be047465")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3728,10 +5366,230 @@
 			)
 		)
 	)
+	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+		(layer "F.Cu")
+		(uuid "486302c8-7535-4d16-aef7-05f57c7e3cb9")
+		(at 205.985 41.3)
+		(descr "SMD pad as test Point, diameter 2.0mm")
+		(tags "test point SMD pad")
+		(property "Reference" "TP5"
+			(at 0 -1.998 0)
+			(layer "F.SilkS")
+			(uuid "c9e46b34-0861-429f-aafa-8e4290e9ba13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "da904ed2-7df4-46cc-b807-533c494169f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0eaf9d06-3d84-4d99-a34a-5f5c4bba9b6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94152446-c34e-4ac3-9f25-95ca823fd45b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aff399b2-6dab-4217-853d-b3029abe625f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1fe1d83-e1c2-4a37-a8ba-f28dd66371da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c08c7f2-b283-4112-a225-28dd9e9846ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a190fedd-5dd4-4c8b-a324-6566ad4fd02a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c8409e3-a70f-4615-88eb-62d9734b2846")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36e37d8a-c7b4-461d-b80f-f260d6a48fc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79ee87a3-ccf6-4cd0-8fb7-8cd4f955bbec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b820faf8-0a5e-4e5c-a289-64ff4a9095e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c40c55e-bffd-4bce-9cba-185d2307ba31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/055bd494-6cf8-479e-a6bb-810a9b6db34d")
+		(sheetname "/")
+		(sheetfile "BirtdayCard.kicad_pcb.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "fd7097be-1091-434d-8522-c03233e8f4ac")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "0a8b27cf-45a2-44b3-a2e5-9d63055388be")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2 0)
+			(layer "F.Fab")
+			(uuid "caa11470-f2d2-4793-a8c5-b78d7cf7e1bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 2 2)
+			(layers "F.Cu" "F.Mask")
+			(net 4 "GPIO0")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "c13f4b18-83b3-4d63-b043-ee321798bb4b")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "easyeda2kicad:BULETM-SMD_ESPRESSIF_ESP32-C3-WROOM-02-N4-4MB"
 		(layer "F.Cu")
 		(uuid "4ab6c4aa-303f-4697-a17e-48ce8b83f67d")
-		(at 125.265 70.1)
+		(at 231.425 65.1)
 		(property "Reference" "U1"
 			(at 8.735 8.4 0)
 			(layer "F.SilkS")
@@ -3778,12 +5636,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2934560"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "31f1813b-2597-490d-8a1f-6495ab9b8a19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f19bbf12-4b27-4bb5-9a14-127f5a58744a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c444bea-c24d-4c37-a7d0-3e2e61cd4017")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8945b75-46ef-4820-a695-b58943490634")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d7a2f91-0dfb-427b-9bba-aa6c4a76553a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65fa8df6-eebe-4d4d-aba3-c99e04839bc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cbb5cea-fe0b-4c0d-97fa-5bec61b2773a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b28018e1-1a9e-4dcc-a9f6-4c6a0811244f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99e28e49-13c7-42f7-bc1c-53dedff127b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0938f8f5-8eec-4c32-91b8-0b30c65ec15d")
 			(effects
 				(font
 					(size 1 1)
@@ -4363,7 +6338,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "4acca895-1d18-4317-b5fa-126fb214f82d")
-		(at 110 60.7)
+		(at 216.16 55.7)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R12"
@@ -4401,7 +6376,7 @@
 				)
 			)
 		)
-		(property "Description" "C17557"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4440,12 +6415,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17557"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "49a01347-7538-48e2-b471-394d8ca578bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a73c3d2b-fbac-4458-9b50-f473740720c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "701c3189-bdca-4cc7-844d-66a3300f8198")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7444c418-d662-41b7-8cf4-8f44432d6459")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2912fb69-4fa9-4486-a5d5-9cec8c1b5399")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc87a8d1-df2b-4468-832d-99194558babc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2d5fb44-2ab3-4c42-834b-1aebcf54ec69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0af9b6b5-7ac4-4a59-b769-eb70da5a667d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01f7d8fc-8e7d-465f-960d-a0437a379648")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8f3153f-20c1-4613-aa8f-ab9b29630f00")
 			(effects
 				(font
 					(size 1 1)
@@ -4603,7 +6695,7 @@
 	(footprint "easyeda2kicad:LED1206-R-RD_RED"
 		(layer "F.Cu")
 		(uuid "4af36c04-37dd-4fc4-8537-4efb7b350da1")
-		(at 107.96 48.39)
+		(at 214.12 43.39)
 		(property "Reference" "LED2"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -4626,7 +6718,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-SMDLED-65-150mcd_C84270.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4646,6 +6738,136 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "490e1939-1a6e-4124-a953-ee7d5bb5ef1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6287d11-8f15-401c-a52f-f2af7468666d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73cf1829-aaf6-42c6-8e9b-35d1df6cfcb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d2fb9be-6dc9-401a-a5a0-8dc3d86ec1b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fcb799e-b0c4-4037-9060-794d4c9764c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5110f896-c123-46e8-9dac-da57f42f02cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eac91c94-b749-475d-a045-02662d4c54d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77aaab5f-d64a-4a33-a48a-11deff74d616")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "543e7f69-4653-4e75-82b0-ee5e7a737136")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34f411d5-3320-4661-8a0d-e959d670b078")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4826,7 +7048,7 @@
 			(uuid "bcb54fc8-26f9-4b7a-9fe8-4ba688e5f8a3")
 		)
 		(embedded_fonts no)
-		(model "/home/casper/Documents/Kicad/easyeda2kicad/easyeda2kicad.3dshapes/LED1206_RED.wrl"
+		(model "${KIPRJMOD}/packages3D/LED1206_RED.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -4841,7 +7063,7 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "5685f6be-7164-45fd-80d4-641cd4c6f6a4")
-		(at 134.58 105.8)
+		(at 240.74 100.8)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C33"
@@ -4878,7 +7100,7 @@
 				)
 			)
 		)
-		(property "Description" "C49678"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4968,7 +7190,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C49678"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4987,6 +7209,123 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4128702a-cd40-4bec-9360-76bdb5ad3fcb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27b323ca-1a03-4303-8bb8-27d1158d71f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6b61e36-43a3-4072-ad00-f5483388d0c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df6f05c2-d1be-4eac-8ba5-0423351bec33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c98284a3-a2d6-440d-8b31-636faac46b99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2207314-632b-423b-afb1-2fbb3d9413f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4667f7da-245b-43e4-b4d8-667c168ae8ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed5d3f80-e8d0-4f13-a0ee-131d9213cbef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1c3da5c-f743-455e-9d39-feeb63d30bbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1775d479-abe4-4ad0-90ae-6fdb14fd8ef3")
 			(effects
 				(font
 					(size 1 1)
@@ -5144,7 +7483,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 		(layer "F.Cu")
 		(uuid "590d1074-b8ef-45f9-bfe7-ed0357e065ce")
-		(at 134.8 96.625)
+		(at 240.96 91.625)
 		(descr "SOT-23, Handsoldering")
 		(tags "SOT-23")
 		(property "Reference" "D5"
@@ -5182,7 +7521,7 @@
 				)
 			)
 		)
-		(property "Description" "C521963"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5221,12 +7560,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C521963"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c2ec8ee7-741d-4142-b2a5-f0fb5c63c552")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7756901-3f20-4e0b-9bc7-e18442621bda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ee421ff-a117-4a89-b16e-dfc4773303ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f012ea9-cf7c-4d15-8138-895cf0274132")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45851856-6bd6-44df-aa45-e3f85feaa6c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6e3532f-b9b5-4310-8d04-78f5c8a8532c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2f32a27-4aae-4212-af45-347eb0c2da85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a575821-4ea2-42b4-894b-55adb88147b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fac1b25-7956-4889-a43d-d8dbd7cc067f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6559753-b28c-43e1-9018-cd7ff460ba74")
 			(effects
 				(font
 					(size 1 1)
@@ -5448,7 +7904,7 @@
 	(footprint "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB"
 		(layer "F.Cu")
 		(uuid "5d26b56f-3b32-4e4d-9411-75277d56b8e5")
-		(at 119.5 97.65)
+		(at 225.66 92.65)
 		(property "Reference" "D20"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -5483,7 +7939,7 @@
 				)
 			)
 		)
-		(property "Description" "C114586"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5560,12 +8016,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114586"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1fc5f998-e57e-4654-a183-7c093f350694")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "664d3093-59aa-4bf1-8e70-5f8970b3f2ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1af9c31e-b23e-4913-a863-ba7bb6cca6c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3be97bb-b6c2-4220-bcd2-f6e504f5a12d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e146865-e725-423b-989a-85277b753534")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f6dc014-f635-4690-aa98-eb9d2c2f22d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abd6687a-c638-481d-83db-bfbb3b7ebe3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73712674-a41a-4769-8e51-3dbcf495c089")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f720ef54-cf09-45f3-bf06-6503d782fa1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a25de440-923e-4dbe-af9a-b0a2fa5a6dba")
 			(effects
 				(font
 					(size 1 1)
@@ -5836,7 +8409,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "65cf614c-8fd1-4913-a845-2d25e1a46f80")
-		(at 117.95 45)
+		(at 224.11 40)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R19"
@@ -5873,7 +8446,7 @@
 				)
 			)
 		)
-		(property "Description" "C17414"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5911,12 +8484,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17414"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a2c6af90-9d93-4ff3-840b-1f673dcfa5f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03ceebe0-eead-4a8b-84e8-e9ce646c6fec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c71b9291-c30e-4dfa-8517-218fc057d0db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "100855e0-caf2-47d8-a84e-6b9182fb485c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1975515b-f512-410b-be48-d4f580c87c20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9156b70-4d53-4123-a23e-239ff1898061")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57ca6874-331a-44f3-befe-a79fafb63645")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba2d15ae-b01f-4807-a957-80c3fc91033d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ba733c5-d452-4be6-82ac-4a18851f207c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea6b2c01-84bc-40e8-83fe-965fb9d28854")
 			(effects
 				(font
 					(size 1 1)
@@ -6059,7 +8749,7 @@
 			(uuid "c7ea5df8-19d9-4f8b-82e6-e962858237bb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6074,7 +8764,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "65e8518c-4755-40ba-bf00-4993c01cff21")
-		(at 140.45 76.5)
+		(at 246.61 71.5)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R16"
@@ -6131,6 +8821,123 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "23fef493-fa61-4ee3-b0e9-0c4ff23ee384")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "359d9c99-aacd-4c2a-b350-c3a357cab804")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4e3aed0-910f-483f-853b-34548f6cddc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0973e021-9a39-4801-8b80-4a47e74c89ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1edfd070-0cce-4ba2-bd62-de8b205ca292")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b5bcd11-df97-4bfa-a9a8-1daa4d8a3a24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac6e3dde-6ec3-4468-a544-3e55dabe2006")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0be67222-dfb8-44b4-ae46-d4c29383ec77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8bdc0a5-3c1a-411a-ad93-517c7dfcd4ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00f63a36-e37c-489d-b71d-785136c1a896")
 			(effects
 				(font
 					(size 1 1)
@@ -6288,7 +9095,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "68724f67-24af-48b3-8379-b0bfae1f7d62")
-		(at 110 69.55)
+		(at 216.16 64.55)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R15"
@@ -6326,7 +9133,7 @@
 				)
 			)
 		)
-		(property "Description" "C17414"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6365,12 +9172,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17414"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "67a0a27e-3702-4ca0-8a30-87e623962ee9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e72fd0a1-ba9f-40e6-a09d-a9df8c053c3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b675a77c-e304-4f5b-a09a-ac0cb8cc6e51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbbb8afd-f713-4541-b6e8-25bebf0b8162")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88afa6e4-46d3-4419-9a02-c8188b395a86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c21083c9-d867-41e4-a0bd-9b39752df38b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99b66baf-de5a-47be-bc7d-cebdb6cc0aa4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a43c00f-4d73-49c8-b837-7a03fcbc6ee9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19ee70d8-8e13-4370-82a4-d471c7242ce6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8971e233-dbc5-49ce-93db-95137ab5cc42")
 			(effects
 				(font
 					(size 1 1)
@@ -6528,7 +9452,7 @@
 	(footprint "easyeda2kicad:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
 		(layer "F.Cu")
 		(uuid "68e29347-cfae-4c9f-9922-53c53de07a33")
-		(at 160.875 68.08)
+		(at 267.035 63.08)
 		(property "Reference" "Q1"
 			(at 0 -2.5 0)
 			(layer "F.SilkS")
@@ -6575,12 +9499,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C306856"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "444a1d81-874a-4fa8-b71a-b7e84c0dd475")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6a2a246-9eed-4f22-a50f-c84bf0738642")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "835bfe87-917b-48ae-bed9-c3992f7d8969")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "768a18e7-6e0b-4449-95a6-6d4d6d31363f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e3f40b7-6442-4666-8194-bba91d931f16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d151f624-cfff-4ad2-8c5c-61b16803e1fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a546d372-042d-42b7-9663-180c83ddf333")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afb3d227-07b1-4398-a733-958c1166f1c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "468752cf-169a-4c75-9750-c11754bb9164")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fe7f579-03df-4fdd-bd4e-c5c3b5755157")
 			(effects
 				(font
 					(size 1 1)
@@ -6729,7 +9770,7 @@
 	(footprint "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB"
 		(layer "F.Cu")
 		(uuid "6fe0e052-53cf-4db5-afe3-27657cb2c639")
-		(at 111.45 125.85)
+		(at 217.61 120.85)
 		(property "Reference" "D19"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -6764,7 +9805,7 @@
 				)
 			)
 		)
-		(property "Description" "C114586"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6841,12 +9882,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114586"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3cfca9ca-8cb0-4aa8-9cd2-1ac87974db9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e32225f7-0bfa-40c2-86e8-30f63f7111de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5f590fd-562f-4304-a415-537be24df13e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebd83e30-2c4a-4b71-839c-780d0c50e560")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db2d6ee9-c61a-424e-a27c-48e201040fe3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ebe2104-2149-4528-b190-939727fdfdb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5caea0b-5fd8-47b1-9d43-f19741805530")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a39fd3ba-836a-4c0f-8c16-f910b94f4568")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fcf46f4-ed92-4919-b2a2-877841a09ce6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42c3363f-b6e3-40fc-97e3-ab8a46700180")
 			(effects
 				(font
 					(size 1 1)
@@ -7117,7 +10275,7 @@
 	(footprint "easyeda2kicad:TYPE-C-SMD_TYPE-C-6P_5"
 		(layer "F.Cu")
 		(uuid "72dff6a8-fe88-4566-bcf4-cc7ac7c1f14b")
-		(at 150.525 89.5 90)
+		(at 256.685 84.5 90)
 		(property "Reference" "J3"
 			(at 0 -3.5 90)
 			(layer "F.SilkS")
@@ -7160,6 +10318,123 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bae72142-995f-4786-ba0b-5541fd45bce4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2148bdf4-9ea3-4c4f-afa3-83921ff84da0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0d559ae-7798-47dc-b6c0-effcb13e3194")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88e268a1-b05f-463d-802d-c4721d771094")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "387ab6a6-059a-4564-bf93-8ab150922683")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96ba3195-b20d-4013-8cb0-2aa52e87c545")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13a4c370-0f85-4ebb-af41-079d37464e12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c571f4a8-202e-4ebf-86a8-05fd9ce4f8f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "860f760d-1666-45ec-b104-bf1579d293f9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7675,7 +10950,7 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "75a3353c-a5ca-4c5d-8af9-26c51983e1f4")
-		(at 94.5 87.51)
+		(at 200.66 82.51)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C17"
@@ -7712,7 +10987,7 @@
 				)
 			)
 		)
-		(property "Description" "C3039694"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7750,12 +11025,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C3039694"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b2d237cd-47a6-4931-a525-20e5c26f95ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "897c78e5-47eb-4c32-b824-8f93f40a5327")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5d2467e-2797-493a-8814-e35f35976983")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56e5e00c-bbff-4793-ac55-f9b68f363913")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5aef0d8-9897-440c-b8a0-b62bf0373e8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45e5783b-44cb-47c6-b4ee-8d57da39fb8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03804f4e-af46-482b-9169-04b3528cac83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7765a2ea-270b-4c28-b5d4-7936f5cafc1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8508f409-330c-4933-8320-158c2a609fcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa6532d2-6c4d-4691-b8ba-48953417bf64")
 			(effects
 				(font
 					(size 1 1)
@@ -7913,7 +11305,7 @@
 	(footprint "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB"
 		(layer "F.Cu")
 		(uuid "7a2a7460-d6fc-4578-9865-69faaf8c1def")
-		(at 111.45 111.75)
+		(at 217.61 106.75)
 		(property "Reference" "D17"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -7948,7 +11340,7 @@
 				)
 			)
 		)
-		(property "Description" "C114586"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8025,12 +11417,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114586"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "30cd7a7a-4597-452d-b5b4-082dc88524ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "607501fa-b17b-41db-96c2-bd55d2f5ba4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d54fe050-7177-423c-a025-73334925c6f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1eb3959f-065a-482a-9f02-b25b3fa97cac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77aa136f-bf84-4665-b74d-73775a7ba447")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fd5760d-7093-46b8-8e2c-311624e2a53f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc4d7374-e965-400f-858a-feec5e5a127a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d66db8e7-c294-44c4-a0ff-ea7a46e5c623")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5c85505-16cd-4794-8ffa-1cc254cfafb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efb6e0e2-0c23-4882-aca3-b559ef4de8bc")
 			(effects
 				(font
 					(size 1 1)
@@ -8301,7 +11810,7 @@
 	(footprint "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB"
 		(layer "F.Cu")
 		(uuid "7e5aac52-c195-4ca9-ad1c-16c99a3d3ac5")
-		(at 111.45 118.8)
+		(at 217.61 113.8)
 		(property "Reference" "D18"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -8336,7 +11845,7 @@
 				)
 			)
 		)
-		(property "Description" "C114586"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8413,12 +11922,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114586"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5ba90211-919d-454a-858a-75a36d7f3da5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9c432fa-1d6f-4f0f-8658-af7ad88cea66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a5f6b9a-d5b6-4cc2-b264-f7865286e52b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c613098b-d39f-467e-a106-a0279790e42b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8936bd1-adf7-4f28-a24c-d08a43de0421")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "baf19d5c-2d21-4816-bdee-381f7cae65ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1aee9c31-1708-4ea4-b87b-30e0486beb17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ba5a3f6-7581-4f0f-adad-7fc559a11438")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e4656d2-057b-488c-b101-3486bb1d23d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23c8056e-2445-42b5-abd1-173fda286025")
 			(effects
 				(font
 					(size 1 1)
@@ -8689,7 +12315,7 @@
 	(footprint "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB"
 		(layer "F.Cu")
 		(uuid "80315c7f-fc81-4aca-a610-96bb098cdf49")
-		(at 155 75.35)
+		(at 261.16 70.35)
 		(property "Reference" "D14"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -8724,7 +12350,7 @@
 				)
 			)
 		)
-		(property "Description" "C114586"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8801,12 +12427,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114586"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f17f9238-251f-4353-9ade-f274970f30db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "723f87e3-9215-448b-a518-fb05b68913c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f352369-fbff-42ae-8ef8-852dfc064f01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f309e870-b016-43e7-a699-fdf5cb86c959")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e063d4f3-a6f0-4fd8-9ccb-99665bbb173f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c387d8dc-aaeb-4a2b-8ead-988551993c8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c5c2175-6799-44cf-8460-68c56bebf834")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b216b18-db47-443f-b9f6-7fbc45fb0558")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5d0e778-6882-450b-b5e8-4e9a1a4e20e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea23708c-bca8-4ea2-a133-9fbc75d5f752")
 			(effects
 				(font
 					(size 1 1)
@@ -9077,7 +12820,7 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "81d6a61a-d567-46c7-922b-bccf2e952bca")
-		(at 94.5 84.5)
+		(at 200.66 79.5)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C15"
@@ -9114,7 +12857,7 @@
 				)
 			)
 		)
-		(property "Description" "C49678"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9204,12 +12947,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C49678"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6cff192e-0fc5-412f-9fa5-f13d95f0c750")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4636e4cf-a70c-47eb-baec-ecd4938b200d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f97925bb-2a8d-410a-a0b3-d64056af231a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0c4d8f1-c970-42b2-8da3-f08fbf5aba9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be53fb27-84d3-4ed0-80cb-95889cedbeca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a861a8e-17db-474f-a93c-6b8316c52af4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "505e407b-5064-4d36-bb65-8d3353164481")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e113a7e-b563-470b-9547-16dc28f94435")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a240b6b9-017e-4fbd-ad26-88c198fa5b28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9231f92c-5344-4e4a-8e4c-568346ea66e5")
 			(effects
 				(font
 					(size 1 1)
@@ -9364,10 +13224,252 @@
 			)
 		)
 	)
+	(footprint "easyeda2kicad:KEY-SMD_4P-L6.2-W6.2-P4.50-LS9.0"
+		(layer "F.Cu")
+		(uuid "8b78aaad-c9dc-41d7-9b72-367a524c0e47")
+		(at 197.66 54.5)
+		(property "Reference" "KEY2"
+			(at 0 -4 0)
+			(layer "F.SilkS")
+			(uuid "0db1ba99-9333-4a75-9ede-e631e3fd2179")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "DTSM-61R-V-T/R"
+			(at 0 6.25 0)
+			(layer "F.Fab")
+			(uuid "e3117487-eb23-4e65-b947-8ecc8ca2dc41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c37ef3a-cbfa-4678-a7fe-78191fc5d780")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b36c8765-3de8-45c5-ac2f-800b2f5c7f8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/329d086f-c76a-45a9-af55-4a444c91644f")
+		(sheetname "/")
+		(sheetfile "BirtdayCard.kicad_pcb.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3 -3.1)
+			(end 3 -3.1)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ad925102-072a-44a0-a4e6-d02b36b74ad2")
+		)
+		(fp_line
+			(start -3 3.1)
+			(end -3 -3.1)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "deedd274-cca0-43e7-940e-652c8d17090d")
+		)
+		(fp_line
+			(start 3 -3.1)
+			(end 3 3.1)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b9f5555f-4502-4ce5-8bb3-fb5aaa92dcc7")
+		)
+		(fp_line
+			(start 3 3.1)
+			(end -3 3.1)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "89b2a16e-9b7d-4cc7-84f1-913b2e16d0ae")
+		)
+		(fp_circle
+			(center -2.03 -2.03)
+			(end -1.52 -2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "4847fc5e-3272-4f86-8ad3-9bf46edfcd38")
+		)
+		(fp_circle
+			(center -2.03 2.03)
+			(end -1.52 2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "b14aecdc-b3bb-4b7b-a3c3-119752ea4565")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "0e11ba65-acc1-4ae8-b1b2-206118eb92ca")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.75 0)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "3164cfa0-bbb6-4ac1-a62f-ada9b7894fdb")
+		)
+		(fp_circle
+			(center 2.03 -2.03)
+			(end 2.54 -2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "f007a7a4-6090-48d3-a5f4-afb63256ad93")
+		)
+		(fp_circle
+			(center 2.03 2.03)
+			(end 2.54 2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "81fcc77e-9729-4235-a58b-325c1da02d4b")
+		)
+		(fp_rect
+			(start -5 -3.5)
+			(end 5 3.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "c477261c-499d-4abb-9467-846ef6a6a842")
+		)
+		(fp_circle
+			(center -4.5 -3.1)
+			(end -4.47 -3.1)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "e4d9e4bc-e5e1-401f-878b-fdb712276281")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "468c6e52-8eb7-4229-9c32-5d4a26624558")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -4 -2.25 180)
+			(size 1.6 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "unspecified")
+			(uuid "ebd53a15-1209-46d3-a8b4-93cd5f17395b")
+		)
+		(pad "2" smd rect
+			(at 4 -2.25 180)
+			(size 1.6 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "2")
+			(pintype "unspecified")
+			(uuid "65a2f3fd-1241-4296-8935-5051c0d9cc93")
+		)
+		(pad "3" smd rect
+			(at -4 2.25 180)
+			(size 1.6 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 9 "GPIO4")
+			(pinfunction "3")
+			(pintype "unspecified")
+			(uuid "8922b9ae-c3c9-42cc-becf-a965a4cdb9e3")
+		)
+		(pad "4" smd rect
+			(at 4 2.25 180)
+			(size 1.6 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 9 "GPIO4")
+			(pinfunction "4")
+			(pintype "unspecified")
+			(uuid "aee26b51-614f-4d4a-ba5d-8af578842014")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/packages3D/KEY-SMD_4P-L6.2-W6.2-H5.0-LS9.0-P4.5.wrl"
+			(offset
+				(xyz 0 -0 -0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB"
 		(layer "F.Cu")
 		(uuid "91446fab-d309-4844-8e23-edcd13acd262")
-		(at 155 49.55)
+		(at 261.16 44.55)
 		(property "Reference" "D10"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -9402,7 +13504,7 @@
 				)
 			)
 		)
-		(property "Description" "C114586"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9479,12 +13581,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114586"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d7f4fe9e-9f88-4bb5-ac36-9b844c87f980")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35cd3589-a0ae-452d-857e-46b79b9c02cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "147a0549-4710-4dfb-b589-429b07ed476c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71a4d873-e9be-4605-9a5e-77b3c5d69e6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7273ce31-9fb3-474a-87ab-784a63ddb50a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b87f48b0-6d98-4472-8f83-048a6d602b35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62806db4-3e5d-4bcd-b184-302e9910eff9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13510d51-b671-41d9-9eb4-f919f9cab615")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c3e7093-9604-48d1-8f83-e69530172c7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "965bf332-8659-422e-9369-b01674ccc889")
 			(effects
 				(font
 					(size 1 1)
@@ -9752,10 +13971,252 @@
 			)
 		)
 	)
+	(footprint "easyeda2kicad:KEY-SMD_4P-L6.2-W6.2-P4.50-LS9.0"
+		(layer "F.Cu")
+		(uuid "9857ba2e-6b0e-406c-a407-9092d90e7d62")
+		(at 198.66 43)
+		(property "Reference" "KEY1"
+			(at 0 -4 0)
+			(layer "F.SilkS")
+			(uuid "e8879a93-087c-4440-973e-df8418c7d32e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "DTSM-61R-V-T/R"
+			(at 0 6.25 0)
+			(layer "F.Fab")
+			(uuid "075eb676-5a8a-4493-b90e-db6855609c2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6fe3d91-6be9-4aff-abfe-21e82adf3434")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "babd9ff6-b025-4c35-b286-902e5c51aafa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/00b3db09-e678-4cd3-ab65-911bbff7a3d0")
+		(sheetname "/")
+		(sheetfile "BirtdayCard.kicad_pcb.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3 -3.1)
+			(end 3 -3.1)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8d5fee9d-1993-4630-a491-5dd0815e057f")
+		)
+		(fp_line
+			(start -3 3.1)
+			(end -3 -3.1)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e1703349-446a-419c-bd00-1a3879a54b2c")
+		)
+		(fp_line
+			(start 3 -3.1)
+			(end 3 3.1)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "508f3aeb-845d-4322-bcae-7531ad4b0847")
+		)
+		(fp_line
+			(start 3 3.1)
+			(end -3 3.1)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3cc81ef7-5ba9-4851-8630-1cea9c7df577")
+		)
+		(fp_circle
+			(center -2.03 -2.03)
+			(end -1.52 -2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "05576fca-b21c-4418-9506-778eef0d730e")
+		)
+		(fp_circle
+			(center -2.03 2.03)
+			(end -1.52 2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "80ba725d-6b46-4d81-9741-0d5bcc31f934")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "24373a6c-7ae3-4634-94e2-6ead25a9a98a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.75 0)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "33d60ef8-6456-42a3-8896-bd05438d530f")
+		)
+		(fp_circle
+			(center 2.03 -2.03)
+			(end 2.54 -2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "ad2f21bc-1790-4991-92ad-8d1a56780bdc")
+		)
+		(fp_circle
+			(center 2.03 2.03)
+			(end 2.54 2.03)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "76c5842f-65f2-4c67-ac5a-859df5d8c058")
+		)
+		(fp_rect
+			(start -5 -3.5)
+			(end 5 3.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "0c5488bb-9263-46ca-9e92-4ace0d93ba8f")
+		)
+		(fp_circle
+			(center -4.5 -3.1)
+			(end -4.47 -3.1)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "b4314e77-c4de-4519-b924-f233bb6011da")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f5e9f012-3b5f-45ae-9a95-911004145fc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -4 -2.25 180)
+			(size 1.6 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "unspecified")
+			(uuid "c9ac0251-f217-44ff-80cb-e94ec028f8be")
+		)
+		(pad "2" smd rect
+			(at 4 -2.25 180)
+			(size 1.6 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "2")
+			(pintype "unspecified")
+			(uuid "841506e7-b66d-44d4-9a4c-3ae1f9ba9c63")
+		)
+		(pad "3" smd rect
+			(at -4 2.25 180)
+			(size 1.6 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 21 "GPIO5")
+			(pinfunction "3")
+			(pintype "unspecified")
+			(uuid "366df8a8-0222-4e9d-8d5f-3fe720a5d47e")
+		)
+		(pad "4" smd rect
+			(at 4 2.25 180)
+			(size 1.6 1.3)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 21 "GPIO5")
+			(pinfunction "4")
+			(pintype "unspecified")
+			(uuid "848f4bd1-34b1-45b4-8fc7-1f57db4590fa")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/packages3D/KEY-SMD_4P-L6.2-W6.2-H5.0-LS9.0-P4.5.wrl"
+			(offset
+				(xyz 0 -0 -0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "991f45ea-0039-4432-9f74-6f0749e863d4")
-		(at 75.28 59.49)
+		(at 181.44 54.49)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C16"
@@ -9792,7 +14253,7 @@
 				)
 			)
 		)
-		(property "Description" "C5189825"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9830,12 +14291,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5189825"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d45fe28d-34c8-4592-b034-ccce64b419f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afd647a4-175e-40e0-92e3-4cf04a28ba09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0cf94d33-f670-4622-9476-20e95f82139c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2400b4be-9d61-4523-99e3-114c3d744269")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07070a02-09c2-4a28-8890-490ec8161d3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26b980b3-d766-4768-813f-70aed4e7bb7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9bbd6269-e8c4-41ca-a093-9bf4e6253be9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2dcf9eaa-2c84-4569-a179-cab875e753ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3de20f74-fef1-47be-afc6-40db2d41eef1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "461d45a4-abe8-46e7-b581-cdd5dcc1d4be")
 			(effects
 				(font
 					(size 1 1)
@@ -9993,7 +14571,7 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "9e526d52-286d-4e41-813f-aeaecbf132fc")
-		(at 99.31 90.52)
+		(at 205.47 85.52)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C32"
@@ -10030,7 +14608,7 @@
 				)
 			)
 		)
-		(property "Description" "C49678"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10120,7 +14698,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C49678"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10139,6 +14717,123 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dc2100ea-457d-409c-97ef-5821d9cdec5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b9e7040-84e6-432a-b326-25991a17df5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40898ef0-68d0-4d0c-ad07-db073b17774a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f03af0a-7f03-411a-9db1-63eb41b9e392")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf8f2536-d590-45f7-8b80-c58be194f4ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df6f079f-5f4e-4659-b18d-04642f7ccaf4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d145d92e-edff-4293-9b3d-199b0be1e40f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da257dc1-9a6c-4496-87a5-77e5989969af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d30e390-33f2-43d9-afee-57033c393980")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b94542bc-4f76-4a4a-8ebf-d138f2b9f9ab")
 			(effects
 				(font
 					(size 1 1)
@@ -10296,7 +14991,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "a02b4133-0281-45e3-b2d9-4f07d6e2dc09")
-		(at 160.775 52.3)
+		(at 266.935 47.3)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP2"
@@ -10334,7 +15029,7 @@
 				)
 			)
 		)
-		(property "Description" "test point (alternative probe-style design)"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10343,6 +15038,123 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2440a093-b57c-48d1-97c4-48faecf0489d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4295c186-4b3a-436c-86f4-ceaf8a0db377")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d27980a-b979-40ab-93d7-4b89b99ca80a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2958fd65-3700-4866-a391-6ec9e2542881")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f344b8e-7463-4358-8f39-03c15f6580f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a2f9c39-000b-4a9d-8fbc-f7400fcd64df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9a2bec1-8f34-425e-ac62-9c602b5654dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad3549a8-5d1f-4147-bda3-633e646bac79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c0786db-2748-43a2-8741-57515dc505fb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10399,7 +15211,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "af24cd13-9536-4095-8c4e-e4e0916807f7")
-		(at 160.775 60.4)
+		(at 266.935 55.4)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP4"
@@ -10437,7 +15249,7 @@
 				)
 			)
 		)
-		(property "Description" "test point (alternative probe-style design)"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10446,6 +15258,123 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a22e061a-4163-46b2-ad02-7c3a3ebaef0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8d19b1f-f965-4fbf-9241-13c7ae38b3df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b76b3527-87e6-48b2-b45b-03c85df03722")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85716b4f-2eab-4ef1-aeb4-1ffd9a6ad1eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f08bb27-c66f-430f-b2bf-b901b2acfd89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a739478a-0369-4422-9337-35669612e692")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17074172-8619-4f23-955c-e1966e26c9dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "751cdeb3-3e53-4a39-af06-a7fcb342bd41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e70c455-3025-4443-be9c-9a3ad0e6692b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10499,10 +15428,230 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+		(layer "F.Cu")
+		(uuid "bc046db3-2ea2-42ce-a435-ea60defe95db")
+		(at 205.985 45.35)
+		(descr "SMD pad as test Point, diameter 2.0mm")
+		(tags "test point SMD pad")
+		(property "Reference" "TP6"
+			(at 0 -1.998 0)
+			(layer "F.SilkS")
+			(uuid "197070d6-ad4d-4ab4-8a99-75f3e0bcf3b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "ad30f139-559a-46f1-bef0-28ce1f3bbc62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "786ed984-1b94-4e53-b960-69a07622f991")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48dbde77-a478-41b6-b6b5-87c18d9275dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0da84dd3-698e-42fc-8393-30b9f5c68715")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b5ee905-eef2-4d30-9426-ec394acf470c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "094a8bbc-b790-4710-919e-46b0af689e02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acbea7f5-f3d6-42fe-bbed-87f25bfffcdd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb2885c2-37eb-48ab-a700-79c85e954b4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3352ea5-956c-4638-bfe9-98637d5812be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e42cd7eb-d289-49fc-b1c1-a813c4eb92ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c731c137-8685-4f20-baaa-684a95d89e3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f88ce55d-c6f0-4b49-af72-ed4d029c9d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/1abaffa4-8591-4705-83b0-a16b0b9345bc")
+		(sheetname "/")
+		(sheetfile "BirtdayCard.kicad_pcb.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "88e06809-fd87-4fa2-b33e-0266ccbc8a15")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "608c079e-5d18-43f0-93e1-a4b2628696d7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2 0)
+			(layer "F.Fab")
+			(uuid "2badd30d-2af3-454e-861c-8b4e1ebbb7aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 2 2)
+			(layers "F.Cu" "F.Mask")
+			(net 8 "GPIO1")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "07a0ee7c-a30d-4a1a-8347-c09bdba58914")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB"
 		(layer "F.Cu")
 		(uuid "bc64b71c-7922-43f4-b9e8-c73a5916f1de")
-		(at 111.45 104.7)
+		(at 217.61 99.7)
 		(property "Reference" "D16"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -10537,7 +15686,7 @@
 				)
 			)
 		)
-		(property "Description" "C114586"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10614,12 +15763,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114586"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a34431d1-a539-4e9f-89d6-a46de90b105c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffcd181f-5e05-4365-9063-e02e3e003c0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11900a36-6bf1-4656-9a8a-855b9eb0c1c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f1fb55c-b04a-4f90-ae78-b47c01c90fef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "108b9cfd-ba2f-4d41-aec5-341743fcb91a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88301368-c8bf-4e31-879a-9af391059128")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "428a5905-d744-4601-80be-3a0a667c51dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3369c847-8ecd-4a14-a4cf-68f90a6e0a40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33f52586-9a21-43c0-a9de-9ce986477edb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b71529f-c8ce-4006-bd19-76e52c346e9d")
 			(effects
 				(font
 					(size 1 1)
@@ -10890,7 +16156,7 @@
 	(footprint "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB"
 		(layer "F.Cu")
 		(uuid "c11711d4-8783-4df7-92e7-b0b496975359")
-		(at 111.45 97.65)
+		(at 217.61 92.65)
 		(property "Reference" "D15"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -10925,7 +16191,7 @@
 				)
 			)
 		)
-		(property "Description" "C114586"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11002,12 +16268,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114586"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "559c61c8-eef0-4c11-a595-bba21b350948")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fd5f206-eed1-4c73-9ab6-ff573ef630bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9ad6f2e-7558-42f5-ba99-e677bf6adcbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b745f7ed-a834-482d-b3e1-928ec5057b3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "749ed4bb-5b2a-4e1e-8f96-31ee9f9362cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e47763f-25dc-4443-8bda-56d0e7b5db79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33f41983-4787-4cac-a36b-ac78d26d6dbf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97b21a3e-0277-4346-b000-bce6711b330d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f03d2c11-3c72-470c-9916-3fe97dff8ffa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf10bef8-d3e0-492d-bed9-bd5a1a01d264")
 			(effects
 				(font
 					(size 1 1)
@@ -11278,7 +16661,7 @@
 	(footprint "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB"
 		(layer "F.Cu")
 		(uuid "c5ef9fcf-5f9d-44e5-872c-756c4ca63dac")
-		(at 127.55 104.7)
+		(at 233.71 99.7)
 		(property "Reference" "D26"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -11313,7 +16696,7 @@
 				)
 			)
 		)
-		(property "Description" "C114586"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11390,12 +16773,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114586"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "56e170a9-4b30-42d3-a3b5-435abee9843a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6dfd31f8-0f74-48f0-85b4-db7b13c32d88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8573bbe-0ca7-434d-8884-f26060c499ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01323765-8514-4d73-8cf5-f26919892bda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff21022c-2089-4a94-9038-48b9957f366e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba119a38-2e4d-4dc2-9a9d-a3ab0c775f43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "893da52b-a7d8-4332-9ffe-dd32905ff6b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47bfe675-77b4-433d-87b8-113e58702277")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9361e92-4271-4e8b-bff7-8eea2a46aa15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03848f6b-6e61-43b2-9cd4-59bf09682cec")
 			(effects
 				(font
 					(size 1 1)
@@ -11666,7 +17166,7 @@
 	(footprint "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB"
 		(layer "F.Cu")
 		(uuid "cd107f9d-ae8d-4f30-9352-ba19d8873d54")
-		(at 119.5 125.85)
+		(at 225.66 120.85)
 		(property "Reference" "D24"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -11701,7 +17201,7 @@
 				)
 			)
 		)
-		(property "Description" "C114586"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11778,12 +17278,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114586"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c6e69bcc-fa1c-4636-aa3e-157917e23055")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54a124bf-35eb-437f-8804-67fa5e88486a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3f909fb-0fc2-4ad0-a12d-4fa4a9e6bae2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38562d08-f6c7-40d5-a7af-736b76815616")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa93fd53-85c0-451e-a755-51f42394612a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe05e5a8-3f7b-48a8-bce0-a6a4d4d745a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10aadead-8fed-4557-a3ff-d5745ffcdf89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30d43332-7efa-4bbd-9cf4-6ac561baeab3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f24cd57e-f1ad-4c32-bb65-02ca571573b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b6233f1-c5d6-4b54-b4c9-41e1730d5ce7")
 			(effects
 				(font
 					(size 1 1)
@@ -12054,7 +17671,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ce70d4b3-6ece-4526-bb33-b7142422375d")
-		(at 117.95 41.69)
+		(at 224.11 36.69)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R18"
@@ -12091,7 +17708,7 @@
 				)
 			)
 		)
-		(property "Description" "C17414"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12129,12 +17746,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17414"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "abe88917-dcfb-4cfe-8134-73e48a4be7a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b90a3492-36de-408c-b6f2-6ed22f8ed5ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd00ed5e-efb2-40f8-89ab-3fc6bfc38621")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5816870a-b555-41d0-838e-1d8aea19af77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f376da6-549d-4be9-9529-4fbab56fcd32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e80c2da-c9aa-485c-a46f-4291390c48b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4785ae50-7fce-400d-917c-417e240060c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81edfe72-ce38-4f5d-8510-50b6d238c5ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9539523e-f4bf-4cab-99a5-10c7119b3e07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a4664d7-c943-4495-82f2-83341796dca5")
 			(effects
 				(font
 					(size 1 1)
@@ -12277,7 +18011,7 @@
 			(uuid "d9e87243-0033-4eb1-80d2-90bd21b11dc1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12292,7 +18026,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ce8b33e6-a7ee-4700-8d7e-666e53dc4b78")
-		(at 140.45 69.92)
+		(at 246.61 64.92)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R14"
@@ -12330,7 +18064,7 @@
 				)
 			)
 		)
-		(property "Description" "C17414"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12369,12 +18103,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17414"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2fbd3b3b-907f-4b16-b51b-7e354bee8a76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "904e284e-6d1d-47cf-8db2-60c0585a4424")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bf3721e-6ce8-46b1-85f4-4609b8d3a375")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a863f92e-564d-4871-932b-b4dcc395e6e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a636325-7f16-4ad9-a171-b2892a378e39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f6f94e8-1051-4fd0-9289-46c48e155e5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a788370-e177-4f94-8baf-2a777f6ec030")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "958e61b6-60ac-464f-9b3b-3eda5c0ec840")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6777545-d01e-4ec5-a68b-bcfc78cee584")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f686aa0-2feb-4170-988d-a1767e3b5621")
 			(effects
 				(font
 					(size 1 1)
@@ -12532,7 +18383,7 @@
 	(footprint "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB"
 		(layer "F.Cu")
 		(uuid "d0101cfc-2ea1-4f5e-9eb6-1bac81058cb1")
-		(at 119.5 104.7)
+		(at 225.66 99.7)
 		(property "Reference" "D21"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -12567,7 +18418,7 @@
 				)
 			)
 		)
-		(property "Description" "C114586"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12644,12 +18495,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114586"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ac0c6cea-cd9e-4d7c-9a2e-d6a3dc0fb8af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2527dc1f-5b93-4f07-a170-e04d3d04b6ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73cd07f3-1a78-40f1-8635-4fd3ee23db1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc0f1ab5-cb41-45d1-b936-b130d50e106d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9e57409-2507-4075-ad93-3de9ddfbb45f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2fb42758-6a2c-4e07-aac4-8614287c8c83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "442c2830-acc8-4c33-8746-b4d55a163f1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7fc2dd6-5890-45c1-9abc-4c9d841627f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54c8f84f-3734-4a6b-9abf-54a12b1bcf90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "552b4f40-84d4-476a-8bf6-fb5eda4df19e")
 			(effects
 				(font
 					(size 1 1)
@@ -12920,7 +18888,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d5993b62-5554-47a2-9228-30038e8a4d32")
-		(at 110 57.75)
+		(at 216.16 52.75)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
@@ -12958,7 +18926,7 @@
 				)
 			)
 		)
-		(property "Description" "C17414"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12997,12 +18965,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17414"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7dd0c1a5-7e96-405a-9372-8a2c855ee586")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04809b79-fc6a-4c7d-8b40-9c513a46d0c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90f348f1-d1fe-450e-8bb7-2265e4f4117b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9dd9edf0-576d-430c-bbc1-ee96a95436c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27489a29-5424-43a2-9ae0-37106c9400a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad374452-a696-4676-a62b-1609615d9329")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2fbfce2-1d86-4460-bacf-994f9e882909")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb590bf3-be0c-475e-bb2d-129cbd5cec01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed547e27-eb0d-469a-b8de-1ff13f9f38c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcf28168-bb09-4da7-8de2-8a1680243e44")
 			(effects
 				(font
 					(size 1 1)
@@ -13160,7 +19245,7 @@
 	(footprint "easyeda2kicad:SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR"
 		(layer "F.Cu")
 		(uuid "d5f778bf-d45a-42fa-aee3-9705181990cd")
-		(at 76.84 52)
+		(at 183 47)
 		(property "Reference" "U2"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -13207,12 +19292,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C347222"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d3aff862-efa7-4cb5-a286-0a9f01192718")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80e20c26-a701-4ee8-b022-93ef62c78aa5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce97e2a1-1a4e-41cf-8e06-7e96e73ae0eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b8aadd8-c48f-4868-a625-86013ba63033")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "140d6c8b-c795-4f19-8b52-c7b3df47e8f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63276cb2-9be0-4826-bd09-475456e9a6de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3be8c0df-e72b-4fde-b973-665deb0494df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6875613-31f9-4b1a-8111-5eaf44fd53b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54b442cd-b73d-4e35-9b55-78c09eece84b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54cb824d-1500-4d19-bfda-12451d6e2d8a")
 			(effects
 				(font
 					(size 1 1)
@@ -13360,7 +19562,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d7a648c4-860f-470a-82a0-3ec8194a5c1c")
-		(at 140.45 66.63)
+		(at 246.61 61.63)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R13"
@@ -13417,6 +19619,123 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "93208966-062d-455b-82a4-2fbcea3dfb28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a01d54c9-33b1-4a61-9a90-553a5e9496e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a21fff6-c66f-443e-8b88-54f94a394212")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13b319ee-aef5-488c-a9ed-77483a71d499")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a05b46d8-4e6e-45c3-9aef-d657389d63db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b593212-08b5-4f58-add4-d8d472daa58a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90ea5f33-443b-4f2e-8210-4bff7a0fd96d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1394c25-d0f2-407f-b8a2-0e1e5aebf258")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ce5c5bc-0a66-41fd-919e-706360f6d19e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a338632-68b8-4fd2-a8db-89dbd57108ad")
 			(effects
 				(font
 					(size 1 1)
@@ -13574,7 +19893,7 @@
 	(footprint "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB"
 		(layer "F.Cu")
 		(uuid "d82f3486-7878-4c4f-b1a6-d30cf83d1599")
-		(at 119.5 111.75)
+		(at 225.66 106.75)
 		(property "Reference" "D22"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -13609,7 +19928,7 @@
 				)
 			)
 		)
-		(property "Description" "C114586"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13686,12 +20005,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114586"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9b9068be-8c22-4328-b24e-8cf7556b88c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ae42f1a-5a40-445d-84df-d6112544ebfd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c7eabcc-91e5-4941-a456-a44fa03683f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d18b6bea-654e-42fd-a11d-1ed8a5bea97e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d813b0b5-dfa5-4f31-8208-1147412bf875")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58e02a2b-66b2-46fe-be79-416ceefa95a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5371bfbe-15c2-47dd-adfc-6796171c72eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04b4bbba-6c9e-4479-b538-000716413837")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc5011a5-3b14-4350-81d0-d544816557ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84de4b23-2c75-49b2-99d5-ce5240b80f2c")
 			(effects
 				(font
 					(size 1 1)
@@ -13962,7 +20398,7 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "da3c04fb-d372-4283-b7d7-9a0134b377cb")
-		(at 133.5625 87)
+		(at 239.7225 82)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C14"
@@ -14000,7 +20436,7 @@
 				)
 			)
 		)
-		(property "Description" "C5189825"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14039,12 +20475,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5189825"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "07cbdfaa-ea70-4efe-a27b-979ba0c1c24d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5df16dd3-2de6-4014-81e3-952bdae52853")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa15f14f-1ffd-4f6b-a75a-6817fb0e4a1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b32fe57-96ae-4646-976d-d85b8a161d68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a745c7a-96a0-4e6e-a221-7bcd4f47b101")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5be3da31-262d-4bb8-8705-bf3d715cbfea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ef7995c-8ad3-440b-b9e5-cbe6935cc9fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c19466aa-7e72-4046-9ebc-880e77e3b2bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "244f313c-7058-4343-be01-bf1b491fb2be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b05bd681-a24a-4e80-a597-73a76be5095c")
 			(effects
 				(font
 					(size 1 1)
@@ -14202,7 +20755,7 @@
 	(footprint "Library:Buzzer KSSGK4B16-20"
 		(layer "F.Cu")
 		(uuid "dc1c34fc-e2ff-4eed-8c86-f09abf30da9c")
-		(at 109.95 42)
+		(at 216.11 37)
 		(property "Reference" "LS1"
 			(at 0 -5.5 0)
 			(unlocked yes)
@@ -14304,6 +20857,123 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "806e0728-c21a-45e3-9b7b-ff1b254cc28d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0562aad-c332-4a13-be2d-f6c3bea7146f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a41a4f35-366f-4a38-8543-0ebc9a6c1774")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36032a7f-2d58-47e2-885e-2ac03eda2f95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e42b28a0-e4a3-43fb-9b77-bf7f7d92e6e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eef23d18-59a6-4f1d-9b0f-57741cf2bde3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d3698e2-a0dd-43ee-9db0-fd08d73693a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d3d2601-66be-45df-9046-ab8f48591900")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25db51b4-71df-4d2d-90c9-0d2f0e16e70f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
 			)
 		)
 		(path "/e6505e47-bcf4-4c11-974c-950bd16fce03")
@@ -14617,7 +21287,7 @@
 	(footprint "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB"
 		(layer "F.Cu")
 		(uuid "e6482694-9cc2-456b-aec2-789f773bb0ab")
-		(at 155 68.9)
+		(at 261.16 63.9)
 		(property "Reference" "D13"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -14652,7 +21322,7 @@
 				)
 			)
 		)
-		(property "Description" "C114586"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14729,12 +21399,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114586"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b47b1a99-ca58-491f-9e75-dd235c5497d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3335e9f9-6a28-42ff-8251-c671d9ee0dfc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a620668-8adb-446e-a2be-a93030ad3b68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac2fcd0c-63e9-4a40-8baa-2b3b19053299")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce69a6fb-cd83-4108-b3bb-51b1286c7a31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1fa01b2-34fb-4355-8cf2-5f413df82882")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23daceb5-d46b-4d56-8ad4-15224b4b9c4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "342aeec2-4847-476e-9582-59a02c00de84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f32e7912-e48e-4f3f-a04d-e5fcaf094aba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0999bae-3b4a-401f-8865-fcb8513bc39e")
 			(effects
 				(font
 					(size 1 1)
@@ -15005,7 +21792,7 @@
 	(footprint "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB"
 		(layer "F.Cu")
 		(uuid "e7402bcd-f66d-4d18-ac10-6c4a4ea7e645")
-		(at 119.5 118.8)
+		(at 225.66 113.8)
 		(property "Reference" "D23"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -15040,7 +21827,7 @@
 				)
 			)
 		)
-		(property "Description" "C114586"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15117,12 +21904,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114586"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a60e8885-0a8a-40da-8ede-5c9e5eb0258b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5952914e-3f5f-437d-b33c-e6e0e5453b4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "660cc07c-7899-4223-ab37-b8ab6a617a42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0841612-e8f0-443f-b0d0-408ef9c81589")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe49b4c1-c39b-42ab-b392-ca05d9284f42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c52cb5df-f094-41d2-a337-97fabc0c8035")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dae192bd-3d80-4b6b-83be-f346d80605ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e66a41ea-2702-46ab-8db7-f48f34069ef9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68c10230-1785-4c96-9204-7647c0221ac0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e76620ec-eb2c-4e4b-b816-7165ce0c5541")
 			(effects
 				(font
 					(size 1 1)
@@ -15393,7 +22297,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ec197825-1795-4d2c-80f6-59b92175307d")
-		(at 110 72.5)
+		(at 216.16 67.5)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R26"
@@ -15697,7 +22601,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ed044030-703f-46df-b7a9-cb5c7fcf156b")
-		(at 110 66.6)
+		(at 216.16 61.6)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R14"
@@ -15735,7 +22639,7 @@
 				)
 			)
 		)
-		(property "Description" "C17414"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15774,12 +22678,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17414"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "362275bf-40d9-46ce-92bc-1c5722620cf9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac4c8e14-c7c9-4fe3-8153-b7419587d7ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "689c3030-97f0-4c8b-9412-e5a360ba476f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df685dbc-5b32-4111-a8ea-3a25b38bf8b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5df01706-5ebe-4b2a-bd7a-74e48159363e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b8ebd6d-c53d-4989-acf8-35bcf092657f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d3e8954-14a8-4d23-8bfc-269a5b893c49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b26762b-ada6-4341-8a5d-ad33c01b0b99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db828a87-01b9-444f-84c9-027211cdb472")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6613076-454f-40ec-b1ec-4857a9d45d88")
 			(effects
 				(font
 					(size 1 1)
@@ -15937,7 +22958,7 @@
 	(footprint "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB"
 		(layer "F.Cu")
 		(uuid "fe330f2a-fe36-4029-ad54-71dc58dbf614")
-		(at 155 56)
+		(at 261.16 51)
 		(property "Reference" "D11"
 			(at 0 -4 0)
 			(layer "F.SilkS")
@@ -15972,7 +22993,7 @@
 				)
 			)
 		)
-		(property "Description" "C114586"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16049,12 +23070,129 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C114586"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "96b9796a-11e9-4113-817f-45b4adc9309d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "874c57a3-4dbf-41ad-9de8-0b030dae5fa6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternative part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20a5df3a-4fbe-4b45-8595-3be1f97ba754")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e53efbd0-8079-4990-8dd4-16e61a40448f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf91c12f-ee7c-4b22-88cd-33f416bad048")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e44e6c5a-a8ce-45cc-8993-8995dfa04031")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7915bdd9-16be-4445-9aaf-217aea18eab4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2fe50b36-5baa-4833-992e-bf33113bc044")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44c8532c-b114-47e4-81d5-f69a33ec51b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f9d0066-4066-44e3-b607-bf208f14858b")
 			(effects
 				(font
 					(size 1 1)
@@ -16332,6 +23470,369 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "a0889ceb-2bdf-4528-afa0-24444f6dd271")
+	)
+	(gr_text "18"
+		(at 92 101 0)
+		(layer "F.Cu")
+		(uuid "1a6ff438-3bfc-4919-86c4-6b5751eaa872")
+		(effects
+			(font
+				(face "Ubuntu Mono")
+				(size 30 30)
+				(thickness 5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(render_cache "18" 0
+			(polygon
+				(pts
+					(xy 95.905443 95.9) (xy 95.905443 91.111618) (xy 102.038381 91.111618) (xy 102.038381 74.815736)
+					(xy 100.664606 75.677405) (xy 99.034193 76.475366) (xy 96.158234 77.629413) (xy 94.267794 72.842864)
+					(xy 95.834757 72.181) (xy 97.605373 71.28948) (xy 101.051029 69.16823) (xy 102.614617 67.966622)
+					(xy 103.844556 66.79419) (xy 107.792131 66.79419) (xy 107.792131 91.111618) (xy 113.588014 91.111618)
+					(xy 113.588014 95.9)
+				)
+			)
+			(polygon
+				(pts
+					(xy 129.385994 66.222261) (xy 131.129535 66.625662) (xy 132.709828 67.299027) (xy 134.005495 68.180879)
+					(xy 135.069028 69.286353) (xy 135.853803 70.575069) (xy 136.338126 72.021634) (xy 136.505931 73.681838)
+					(xy 136.396925 75.018076) (xy 136.064462 76.370952) (xy 135.51288 77.664645) (xy 134.721737 78.889706)
+					(xy 133.705128 79.976602) (xy 132.389829 80.948674) (xy 134.102655 82.088657) (xy 135.340798 83.214122)
+					(xy 136.190858 84.330216) (xy 136.807716 85.587155) (xy 137.178557 86.929909) (xy 137.304605 88.382205)
+					(xy 137.17181 89.765245) (xy 136.758722 91.217864) (xy 136.063722 92.590675) (xy 135.03681 93.863014)
+					(xy 133.7095 94.917305) (xy 131.906228 95.795586) (xy 129.830847 96.331909) (xy 127.139829 96.530146)
+					(xy 125.014226 96.388644) (xy 123.150122 95.984263) (xy 121.445331 95.304991) (xy 120.041521 94.408897)
+					(xy 118.884118 93.267048) (xy 118.024685 91.910293) (xy 117.495666 90.370455) (xy 117.312107 88.592864)
+					(xy 117.366261 87.920586) (xy 122.688503 87.920586) (xy 122.851356 89.066818) (xy 123.318649 89.999703)
+					(xy 124.044118 90.747156) (xy 124.976448 91.280146) (xy 126.040523 91.5924) (xy 127.224092 91.699633)
+					(xy 128.555594 91.578644) (xy 129.660415 91.238014) (xy 130.607015 90.683849) (xy 131.276081 89.999703)
+					(xy 131.703499 89.180435) (xy 131.843946 88.297941) (xy 131.675111 87.113586) (xy 131.191817 86.156542)
+					(xy 130.401775 85.349969) (xy 129.134682 84.539043) (xy 125.417916 82.921545) (xy 124.250888 84.058722)
+					(xy 123.401081 85.315736) (xy 122.858302 86.670086) (xy 122.688503 87.920586) (xy 117.366261 87.920586)
+					(xy 117.428498 87.147968) (xy 117.773726 85.779187) (xy 118.349296 84.478911) (xy 119.180565 83.216468)
+					(xy 120.228225 82.068319) (xy 121.554605 80.990806) (xy 120.284416 79.960498) (xy 119.373603 78.95531)
+					(xy 118.761078 77.966468) (xy 118.178234 76.326043) (xy 117.984385 74.605076) (xy 118.015525 74.227721)
+					(xy 123.443213 74.227721) (xy 123.568902 75.264723) (xy 123.926814 76.118161) (xy 124.525892 76.860179)
+					(xy 125.480198 77.609263) (xy 126.656367 78.277666) (xy 128.35799 79.058234) (xy 129.643634 77.87691)
+					(xy 130.435275 76.664043) (xy 130.900415 75.361787) (xy 131.045272 74.185589) (xy 130.907434 73.161192)
+					(xy 130.519539 72.359263) (xy 129.918196 71.715459) (xy 129.154832 71.247348) (xy 128.278498 70.966058)
+					(xy 127.266224 70.868161) (xy 126.320944 70.963064) (xy 125.417916 71.247348) (xy 124.617874 71.721314)
+					(xy 123.989096 72.381245) (xy 123.585226 73.201694) (xy 123.443213 74.227721) (xy 118.015525 74.227721)
+					(xy 118.102086 73.178761) (xy 118.466154 71.686985) (xy 119.095001 70.260525) (xy 120.041521 68.915439)
+					(xy 121.283996 67.779472) (xy 122.939462 66.856472) (xy 124.167936 66.4413) (xy 125.62487 66.174932)
+					(xy 127.350488 66.07978)
+				)
+			)
+		)
+	)
+	(gr_text "18"
+		(at 92 101 0)
+		(layer "F.Mask")
+		(uuid "206e7156-3953-45fd-924d-b7f6a989633f")
+		(effects
+			(font
+				(face "Ubuntu Mono")
+				(size 30 30)
+				(thickness 5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(render_cache "18" 0
+			(polygon
+				(pts
+					(xy 95.905443 95.9) (xy 95.905443 91.111618) (xy 102.038381 91.111618) (xy 102.038381 74.815736)
+					(xy 100.664606 75.677405) (xy 99.034193 76.475366) (xy 96.158234 77.629413) (xy 94.267794 72.842864)
+					(xy 95.834757 72.181) (xy 97.605373 71.28948) (xy 101.051029 69.16823) (xy 102.614617 67.966622)
+					(xy 103.844556 66.79419) (xy 107.792131 66.79419) (xy 107.792131 91.111618) (xy 113.588014 91.111618)
+					(xy 113.588014 95.9)
+				)
+			)
+			(polygon
+				(pts
+					(xy 129.385994 66.222261) (xy 131.129535 66.625662) (xy 132.709828 67.299027) (xy 134.005495 68.180879)
+					(xy 135.069028 69.286353) (xy 135.853803 70.575069) (xy 136.338126 72.021634) (xy 136.505931 73.681838)
+					(xy 136.396925 75.018076) (xy 136.064462 76.370952) (xy 135.51288 77.664645) (xy 134.721737 78.889706)
+					(xy 133.705128 79.976602) (xy 132.389829 80.948674) (xy 134.102655 82.088657) (xy 135.340798 83.214122)
+					(xy 136.190858 84.330216) (xy 136.807716 85.587155) (xy 137.178557 86.929909) (xy 137.304605 88.382205)
+					(xy 137.17181 89.765245) (xy 136.758722 91.217864) (xy 136.063722 92.590675) (xy 135.03681 93.863014)
+					(xy 133.7095 94.917305) (xy 131.906228 95.795586) (xy 129.830847 96.331909) (xy 127.139829 96.530146)
+					(xy 125.014226 96.388644) (xy 123.150122 95.984263) (xy 121.445331 95.304991) (xy 120.041521 94.408897)
+					(xy 118.884118 93.267048) (xy 118.024685 91.910293) (xy 117.495666 90.370455) (xy 117.312107 88.592864)
+					(xy 117.366261 87.920586) (xy 122.688503 87.920586) (xy 122.851356 89.066818) (xy 123.318649 89.999703)
+					(xy 124.044118 90.747156) (xy 124.976448 91.280146) (xy 126.040523 91.5924) (xy 127.224092 91.699633)
+					(xy 128.555594 91.578644) (xy 129.660415 91.238014) (xy 130.607015 90.683849) (xy 131.276081 89.999703)
+					(xy 131.703499 89.180435) (xy 131.843946 88.297941) (xy 131.675111 87.113586) (xy 131.191817 86.156542)
+					(xy 130.401775 85.349969) (xy 129.134682 84.539043) (xy 125.417916 82.921545) (xy 124.250888 84.058722)
+					(xy 123.401081 85.315736) (xy 122.858302 86.670086) (xy 122.688503 87.920586) (xy 117.366261 87.920586)
+					(xy 117.428498 87.147968) (xy 117.773726 85.779187) (xy 118.349296 84.478911) (xy 119.180565 83.216468)
+					(xy 120.228225 82.068319) (xy 121.554605 80.990806) (xy 120.284416 79.960498) (xy 119.373603 78.95531)
+					(xy 118.761078 77.966468) (xy 118.178234 76.326043) (xy 117.984385 74.605076) (xy 118.015525 74.227721)
+					(xy 123.443213 74.227721) (xy 123.568902 75.264723) (xy 123.926814 76.118161) (xy 124.525892 76.860179)
+					(xy 125.480198 77.609263) (xy 126.656367 78.277666) (xy 128.35799 79.058234) (xy 129.643634 77.87691)
+					(xy 130.435275 76.664043) (xy 130.900415 75.361787) (xy 131.045272 74.185589) (xy 130.907434 73.161192)
+					(xy 130.519539 72.359263) (xy 129.918196 71.715459) (xy 129.154832 71.247348) (xy 128.278498 70.966058)
+					(xy 127.266224 70.868161) (xy 126.320944 70.963064) (xy 125.417916 71.247348) (xy 124.617874 71.721314)
+					(xy 123.989096 72.381245) (xy 123.585226 73.201694) (xy 123.443213 74.227721) (xy 118.015525 74.227721)
+					(xy 118.102086 73.178761) (xy 118.466154 71.686985) (xy 119.095001 70.260525) (xy 120.041521 68.915439)
+					(xy 121.283996 67.779472) (xy 122.939462 66.856472) (xy 124.167936 66.4413) (xy 125.62487 66.174932)
+					(xy 127.350488 66.07978)
+				)
+			)
+		)
+	)
+	(gr_text "Lieve Sander,\n"
+		(at 67 35.5 0)
+		(layer "F.SilkS")
+		(uuid "aeddf25f-bf42-4bcd-9ce5-43e7a867a480")
+		(effects
+			(font
+				(face "Bitstream Charter")
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+		(render_cache "Lieve Sander,\n" 0
+			(polygon
+				(pts
+					(xy 67.037796 35.33) (xy 67.708365 35.33) (xy 67.708365 35.07556) (xy 67.63558 35.07556) (xy 67.611767 35.243293)
+					(xy 67.592166 35.265642) (xy 67.27575 35.265642) (xy 67.27575 34.476065) (xy 67.299563 34.456526)
+					(xy 67.37937 34.448161) (xy 67.37937 34.392107) (xy 67.037796 34.392107) (xy 67.037796 34.448161)
+					(xy 67.125968 34.456526) (xy 67.149781 34.476065) (xy 67.149781 35.246041) (xy 67.125968 35.265642)
+					(xy 67.037796 35.272602)
+				)
+			)
+			(polygon
+				(pts
+					(xy 67.943387 34.340572) (xy 67.909186 34.347905) (xy 67.881334 34.368906) (xy 67.871449 34.383583)
+					(xy 67.864936 34.400486) (xy 67.862238 34.421782) (xy 67.869517 34.455127) (xy 67.890399 34.482401)
+					(xy 67.90517 34.492275) (xy 67.922045 34.498784) (xy 67.943387 34.501528) (xy 67.977627 34.494224)
+					(xy 68.005621 34.473301) (xy 68.015539 34.458723) (xy 68.022022 34.442019) (xy 68.024598 34.421782)
+					(xy 68.017318 34.388153) (xy 67.996325 34.360218) (xy 67.981565 34.350101) (xy 67.964709 34.343405)
+				)
+			)
+			(polygon
+				(pts
+					(xy 67.937831 34.650027) (xy 67.776814 34.700464) (xy 67.776814 34.743817) (xy 67.874816 34.743817)
+					(xy 67.874816 35.250254) (xy 67.851003 35.272663) (xy 67.776814 35.279624) (xy 67.776814 35.33)
+					(xy 68.091826 35.33) (xy 68.091826 35.279624) (xy 68.016233 35.272663) (xy 67.991015 35.250254)
+					(xy 67.991015 34.650027)
+				)
+			)
+			(polygon
+				(pts
+					(xy 68.527455 34.643873) (xy 68.589507 34.657717) (xy 68.642032 34.684539) (xy 68.664794 34.702668)
+					(xy 68.685026 34.72381) (xy 68.702879 34.748301) (xy 68.71787 34.775721) (xy 68.730147 34.806805)
+					(xy 68.739144 34.840774) (xy 68.744834 34.878621) (xy 68.746763 34.919305) (xy 68.745359 34.962658)
+					(xy 68.2918 34.962658) (xy 68.2918 34.977984) (xy 68.293201 35.014818) (xy 68.306227 35.089404)
+					(xy 68.331114 35.150133) (xy 68.36618 35.197661) (xy 68.410558 35.232458) (xy 68.436301 35.245098)
+					(xy 68.464097 35.254291) (xy 68.494576 35.26004) (xy 68.526945 35.261978) (xy 68.578273 35.257058)
+					(xy 68.615182 35.247672) (xy 68.65282 35.23349) (xy 68.698807 35.210581) (xy 68.746763 35.181195)
+					(xy 68.746763 35.257765) (xy 68.727021 35.27033) (xy 68.687165 35.29227) (xy 68.646636 35.310191)
+					(xy 68.564834 35.333906) (xy 68.483592 35.341723) (xy 68.469151 35.341438) (xy 68.432792 35.33808)
+					(xy 68.398222 35.33105) (xy 68.365571 35.320482) (xy 68.334978 35.306515) (xy 68.306429 35.289184)
+					(xy 68.280228 35.268695) (xy 68.256296 35.244945) (xy 68.235036 35.21826) (xy 68.216388 35.188421)
+					(xy 68.200765 35.155873) (xy 68.188187 35.120356) (xy 68.178999 35.082374) (xy 68.173317 35.041718)
+					(xy 68.171388 34.998867) (xy 68.172396 34.967586) (xy 68.177017 34.926185) (xy 68.181681 34.903918)
+					(xy 68.298761 34.903918) (xy 68.622199 34.903918) (xy 68.622199 34.881325) (xy 68.622159 34.875864)
+					(xy 68.614629 34.81308) (xy 68.596077 34.766813) (xy 68.567821 34.733917) (xy 68.549594 34.721806)
+					(xy 68.528882 34.712957) (xy 68.50408 34.70717) (xy 68.47657 34.705226) (xy 68.463259 34.705809)
+					(xy 68.438723 34.710006) (xy 68.415174 34.71809) (xy 68.392495 34.73014) (xy 68.371486 34.745835)
+					(xy 68.352385 34.765074) (xy 68.335627 34.787587) (xy 68.321655 34.812926) (xy 68.310627 34.841083)
+					(xy 68.302963 34.871327) (xy 68.298761 34.903918) (xy 68.181681 34.903918) (xy 68.185231 34.886969)
+					(xy 68.196802 34.850279) (xy 68.211603 34.816051) (xy 68.249936 34.755959) (xy 68.29871 34.707649)
+					(xy 68.356552 34.671984) (xy 68.388478 34.659168) (xy 68.42226 34.64984) (xy 68.457738 34.644142)
+					(xy 68.494766 34.642212)
+				)
+			)
+			(polygon
+				(pts
+					(xy 68.799398 34.657843) (xy 68.799398 34.709684) (xy 68.88476 34.718049) (xy 69.110197 35.33)
+					(xy 69.188599 35.33) (xy 69.433574 34.720858) (xy 69.516189 34.709684) (xy 69.516189 34.657843)
+					(xy 69.268405 34.657843) (xy 69.268405 34.709684) (xy 69.343998 34.71524) (xy 69.355172 34.737588)
+					(xy 69.175959 35.194445) (xy 69.012194 34.737588) (xy 69.028986 34.71524) (xy 69.103175 34.709684)
+					(xy 69.103175 34.657843)
+				)
+			)
+			(polygon
+				(pts
+					(xy 69.904985 34.643873) (xy 69.967036 34.657717) (xy 70.019562 34.684539) (xy 70.042323 34.702668)
+					(xy 70.062556 34.72381) (xy 70.080408 34.748301) (xy 70.0954 34.775721) (xy 70.107676 34.806805)
+					(xy 70.116673 34.840774) (xy 70.122364 34.878621) (xy 70.124293 34.919305) (xy 70.122889 34.962658)
+					(xy 69.66933 34.962658) (xy 69.66933 34.977984) (xy 69.670731 35.014818) (xy 69.683757 35.089404)
+					(xy 69.708643 35.150133) (xy 69.74371 35.197661) (xy 69.788088 35.232458) (xy 69.813831 35.245098)
+					(xy 69.841627 35.254291) (xy 69.872105 35.26004) (xy 69.904474 35.261978) (xy 69.955803 35.257058)
+					(xy 69.992712 35.247672) (xy 70.03035 35.23349) (xy 70.076337 35.210581) (xy 70.124293 35.181195)
+					(xy 70.124293 35.257765) (xy 70.104551 35.27033) (xy 70.064695 35.29227) (xy 70.024165 35.310191)
+					(xy 69.942363 35.333906) (xy 69.861121 35.341723) (xy 69.846681 35.341438) (xy 69.810321 35.33808)
+					(xy 69.775751 35.33105) (xy 69.743101 35.320482) (xy 69.712508 35.306515) (xy 69.683958 35.289184)
+					(xy 69.657758 35.268695) (xy 69.633825 35.244945) (xy 69.612565 35.21826) (xy 69.593918 35.188421)
+					(xy 69.578294 35.155873) (xy 69.565717 35.120356) (xy 69.556529 35.082374) (xy 69.550846 35.041718)
+					(xy 69.548918 34.998867) (xy 69.549926 34.967586) (xy 69.554546 34.926185) (xy 69.55921 34.903918)
+					(xy 69.67629 34.903918) (xy 69.999729 34.903918) (xy 69.999729 34.881325) (xy 69.999689 34.875864)
+					(xy 69.992158 34.81308) (xy 69.973607 34.766813) (xy 69.945351 34.733917) (xy 69.927123 34.721806)
+					(xy 69.906412 34.712957) (xy 69.88161 34.70717) (xy 69.854099 34.705226) (xy 69.840788 34.705809)
+					(xy 69.816253 34.710006) (xy 69.792703 34.71809) (xy 69.770025 34.73014) (xy 69.749015 34.745835)
+					(xy 69.729915 34.765074) (xy 69.713157 34.787587) (xy 69.699185 34.812926) (xy 69.688156 34.841083)
+					(xy 69.680493 34.871327) (xy 69.67629 34.903918) (xy 69.55921 34.903918) (xy 69.56276 34.886969)
+					(xy 69.574332 34.850279) (xy 69.589132 34.816051) (xy 69.627465 34.755959) (xy 69.67624 34.707649)
+					(xy 69.734081 34.671984) (xy 69.766008 34.659168) (xy 69.79979 34.64984) (xy 69.835267 34.644142)
+					(xy 69.872295 34.642212)
+				)
+			)
+			(polygon
+				(pts
+					(xy 70.656742 35.300874) (xy 70.73673 35.326976) (xy 70.837686 35.342723) (xy 70.90874 35.345631)
+					(xy 70.957598 35.343705) (xy 71.003448 35.338041) (xy 71.045466 35.328991) (xy 71.084319 35.316651)
+					(xy 71.119141 35.301552) (xy 71.150696 35.283609) (xy 71.178234 35.263494) (xy 71.202433 35.240952)
+					(xy 71.222786 35.216665) (xy 71.239728 35.190317) (xy 71.253006 35.162412) (xy 71.262758 35.132753)
+					(xy 71.271284 35.068779) (xy 71.271318 35.064263) (xy 71.269372 35.032594) (xy 71.263559 35.002802)
+					(xy 71.254317 34.975859) (xy 71.241548 34.950748) (xy 71.209769 34.910268) (xy 71.156296 34.867716)
+					(xy 71.09055 34.832828) (xy 71.033049 34.809291) (xy 70.998377 34.795474) (xy 70.939531 34.769589)
+					(xy 70.890959 34.744809) (xy 70.852809 34.719003) (xy 70.82523 34.690038) (xy 70.81421 34.671109)
+					(xy 70.806769 34.650023) (xy 70.802372 34.611987) (xy 70.804305 34.583682) (xy 70.810022 34.557465)
+					(xy 70.819064 34.534189) (xy 70.831435 34.513187) (xy 70.846766 34.494872) (xy 70.865109 34.479058)
+					(xy 70.910762 34.455397) (xy 70.96888 34.443548) (xy 70.992759 34.442604) (xy 71.029299 34.444559)
+					(xy 71.063047 34.450428) (xy 71.092078 34.459465) (xy 71.118657 34.471935) (xy 71.118728 34.471974)
+					(xy 71.139733 34.495788) (xy 71.160737 34.628778) (xy 71.233522 34.628778) (xy 71.233522 34.411769)
+					(xy 71.17642 34.395444) (xy 71.120464 34.383563) (xy 71.066867 34.376169) (xy 71.013966 34.372808)
+					(xy 70.995568 34.372568) (xy 70.951139 34.374493) (xy 70.909468 34.380155) (xy 70.871279 34.389211)
+					(xy 70.836024 34.401558) (xy 70.804416 34.416711) (xy 70.775878 34.43472) (xy 70.750981 34.455019)
+					(xy 70.729275 34.477774) (xy 70.711111 34.502475) (xy 70.696274 34.529283) (xy 70.684927 34.557903)
+					(xy 70.677091 34.588333) (xy 70.67213 34.641418) (xy 70.674079 34.675952) (xy 70.679905 34.706872)
+					(xy 70.688757 34.732712) (xy 70.700901 34.756149) (xy 70.735204 34.797411) (xy 70.787933 34.836473)
+					(xy 70.872639 34.880181) (xy 70.90874 34.896163) (xy 70.941917 34.910379) (xy 71.028597 34.949049)
+					(xy 71.063033 34.967733) (xy 71.091413 34.98761) (xy 71.113645 35.009901) (xy 71.129638 35.035827)
+					(xy 71.1393 35.066608) (xy 71.142541 35.103464) (xy 71.1406 35.129997) (xy 71.134824 35.154879)
+					(xy 71.125618 35.177269) (xy 71.112934 35.197728) (xy 71.097042 35.215879) (xy 71.077883 35.231785)
+					(xy 71.029462 35.256349) (xy 70.966778 35.269729) (xy 70.931149 35.271442) (xy 70.887266 35.269507)
+					(xy 70.847053 35.263778) (xy 70.812609 35.25497) (xy 70.781851 35.242967) (xy 70.774345 35.239263)
+					(xy 70.756149 35.21545) (xy 70.739357 35.054494) (xy 70.656742 35.054494)
+				)
+			)
+			(polygon
+				(pts
+					(xy 71.776228 34.645008) (xy 71.833679 34.658344) (xy 71.875319 34.681488) (xy 71.891964 34.697288)
+					(xy 71.905732 34.715926) (xy 71.917571 34.739602) (xy 71.926169 34.766832) (xy 71.932214 34.802968)
+					(xy 71.934193 34.844139) (xy 71.934193 35.250254) (xy 71.959412 35.272602) (xy 72.0336 35.279624)
+					(xy 72.0336 35.33) (xy 71.836191 35.33) (xy 71.817995 35.24885) (xy 71.809763 35.254412) (xy 71.723109 35.304785)
+					(xy 71.651289 35.332124) (xy 71.588407 35.341723) (xy 71.568342 35.340879) (xy 71.540446 35.336606)
+					(xy 71.514883 35.328899) (xy 71.491815 35.317972) (xy 71.471319 35.304005) (xy 71.453307 35.286956)
+					(xy 71.438189 35.267186) (xy 71.425849 35.244345) (xy 71.416812 35.219076) (xy 71.411123 35.190893)
+					(xy 71.409193 35.160617) (xy 71.40992 35.150664) (xy 71.532414 35.150664) (xy 71.532975 35.164214)
+					(xy 71.543605 35.206536) (xy 71.566079 35.238155) (xy 71.581521 35.249907) (xy 71.599582 35.258632)
+					(xy 71.620745 35.264216) (xy 71.644399 35.26613) (xy 71.653338 35.265859) (xy 71.684249 35.261299)
+					(xy 71.718106 35.251286) (xy 71.765533 35.231021) (xy 71.817995 35.202749) (xy 71.817995 34.954842)
+					(xy 71.772416 34.967837) (xy 71.662554 35.004605) (xy 71.599712 35.035739) (xy 71.562042 35.067036)
+					(xy 71.540336 35.102981) (xy 71.534381 35.125543) (xy 71.532414 35.150664) (xy 71.40992 35.150664)
+					(xy 71.411543 35.128464) (xy 71.42611 35.082085) (xy 71.439271 35.060833) (xy 71.456267 35.04151)
+					(xy 71.481105 35.020997) (xy 71.511332 35.002379) (xy 71.56819 34.976636) (xy 71.638086 34.952937)
+					(xy 71.817995 34.905872) (xy 71.817995 34.860992) (xy 71.814999 34.807189) (xy 71.803271 34.761251)
+					(xy 71.782868 34.731386) (xy 71.767719 34.720121) (xy 71.749237 34.711879) (xy 71.722074 34.705806)
+					(xy 71.689218 34.703822) (xy 71.652539 34.706495) (xy 71.618448 34.713884) (xy 71.58285 34.726292)
+					(xy 71.58285 34.844139) (xy 71.486191 34.844139) (xy 71.4706 34.84307) (xy 71.45176 34.834318)
+					(xy 71.44493 34.821065) (xy 71.442838 34.800664) (xy 71.4459 34.775793) (xy 71.453096 34.755748)
+					(xy 71.464384 34.736673) (xy 71.480679 34.717738) (xy 71.501285 34.700364) (xy 71.52734 34.684101)
+					(xy 71.557798 34.670095) (xy 71.59341 34.658375) (xy 71.633289 34.649621) (xy 71.677479 34.644115)
+					(xy 71.72561 34.642212)
+				)
+			)
+			(polygon
+				(pts
+					(xy 72.101683 35.33) (xy 72.40833 35.33) (xy 72.40833 35.279624) (xy 72.341102 35.272602) (xy 72.317288 35.250193)
+					(xy 72.317288 34.780881) (xy 72.361959 34.760209) (xy 72.403454 34.745623) (xy 72.437608 34.737794)
+					(xy 72.4695 34.734711) (xy 72.474092 34.734658) (xy 72.509791 34.736647) (xy 72.539692 34.742755)
+					(xy 72.560235 34.751051) (xy 72.577232 34.762417) (xy 72.599865 34.791784) (xy 72.612553 34.834807)
+					(xy 72.615509 34.878944) (xy 72.615509 35.250193) (xy 72.591695 35.272602) (xy 72.524528 35.279624)
+					(xy 72.524528 35.33) (xy 72.831114 35.33) (xy 72.831114 35.279624) (xy 72.755521 35.272602) (xy 72.731707 35.250193)
+					(xy 72.731707 34.85513) (xy 72.729766 34.815728) (xy 72.723989 34.780266) (xy 72.715279 34.75096)
+					(xy 72.703399 34.725089) (xy 72.689357 34.703879) (xy 72.672601 34.68576) (xy 72.632223 34.659369)
+					(xy 72.580892 34.644846) (xy 72.542725 34.642212) (xy 72.488402 34.649736) (xy 72.41686 34.675595)
+					(xy 72.317288 34.726231) (xy 72.317288 34.649234) (xy 72.264105 34.649234) (xy 72.101683 34.700464)
+					(xy 72.101683 34.743817) (xy 72.20109 34.743817) (xy 72.20109 35.250254) (xy 72.177276 35.272663)
+					(xy 72.101683 35.279624)
+				)
+			)
+			(polygon
+				(pts
+					(xy 73.506385 35.250193) (xy 73.530198 35.272602) (xy 73.597365 35.279624) (xy 73.597365 35.33)
+					(xy 73.390186 35.33) (xy 73.390186 35.25636) (xy 73.37289 35.269748) (xy 73.306763 35.310653) (xy 73.24275 35.333866)
+					(xy 73.209199 35.339764) (xy 73.174581 35.341723) (xy 73.122184 35.33635) (xy 73.092148 35.328021)
+					(xy 73.063669 35.316043) (xy 73.03656 35.300319) (xy 73.01143 35.28115) (xy 72.988178 35.258368)
+					(xy 72.967352 35.232368) (xy 72.948995 35.203033) (xy 72.933513 35.170752) (xy 72.921069 35.13556)
+					(xy 72.911931 35.097736) (xy 72.906307 35.057507) (xy 72.904387 35.014987) (xy 72.905742 34.991235)
+					(xy 73.027608 34.991235) (xy 73.027757 35.003065) (xy 73.036861 35.079105) (xy 73.058286 35.140953)
+					(xy 73.089949 35.189086) (xy 73.130582 35.224063) (xy 73.154188 35.236691) (xy 73.179773 35.245884)
+					(xy 73.207787 35.251616) (xy 73.237595 35.253551) (xy 73.25591 35.252817) (xy 73.287603 35.248116)
+					(xy 73.319423 35.239131) (xy 73.354626 35.224409) (xy 73.390186 35.204703) (xy 73.390186 34.72617)
+					(xy 73.330575 34.71116) (xy 73.266966 34.703822) (xy 73.240902 34.705141) (xy 73.211065 34.710139)
+					(xy 73.182961 34.718738) (xy 73.156559 34.730898) (xy 73.132198 34.746439) (xy 73.109673 34.765563)
+					(xy 73.089552 34.787899) (xy 73.071639 34.813884) (xy 73.05655 34.842921) (xy 73.04423 34.875545)
+					(xy 73.035187 34.911029) (xy 73.029532 34.949824) (xy 73.027608 34.991235) (xy 72.905742 34.991235)
+					(xy 72.907531 34.959884) (xy 72.914155 34.919592) (xy 72.924282 34.881495) (xy 72.937688 34.845903)
+					(xy 72.954279 34.812735) (xy 72.973852 34.782207) (xy 72.996314 34.75434) (xy 73.021526 34.729258)
+					(xy 73.049349 34.707087) (xy 73.079743 34.6879) (xy 73.112484 34.671894) (xy 73.147626 34.659138)
+					(xy 73.184858 34.649853) (xy 73.224296 34.644144) (xy 73.265561 34.642212) (xy 73.286017 34.642702)
+					(xy 73.33708 34.647715) (xy 73.390186 34.65766) (xy 73.390186 34.392534) (xy 73.282353 34.392534)
+					(xy 73.282353 34.34912) (xy 73.453201 34.298318) (xy 73.506385 34.298318)
+				)
+			)
+			(polygon
+				(pts
+					(xy 74.052229 34.643873) (xy 74.11428 34.657717) (xy 74.166806 34.684539) (xy 74.189567 34.702668)
+					(xy 74.209799 34.72381) (xy 74.227652 34.748301) (xy 74.242643 34.775721) (xy 74.25492 34.806805)
+					(xy 74.263917 34.840774) (xy 74.269607 34.878621) (xy 74.271536 34.919305) (xy 74.270132 34.962658)
+					(xy 73.816573 34.962658) (xy 73.816573 34.977984) (xy 73.817974 35.014818) (xy 73.831 35.089404)
+					(xy 73.855887 35.150133) (xy 73.890953 35.197661) (xy 73.935331 35.232458) (xy 73.961074 35.245098)
+					(xy 73.98887 35.254291) (xy 74.019349 35.26004) (xy 74.051718 35.261978) (xy 74.103046 35.257058)
+					(xy 74.139955 35.247672) (xy 74.177594 35.23349) (xy 74.22358 35.210581) (xy 74.271536 35.181195)
+					(xy 74.271536 35.257765) (xy 74.251795 35.27033) (xy 74.211938 35.29227) (xy 74.171409 35.310191)
+					(xy 74.089607 35.333906) (xy 74.008365 35.341723) (xy 73.993925 35.341438) (xy 73.957565 35.33808)
+					(xy 73.922995 35.33105) (xy 73.890345 35.320482) (xy 73.859752 35.306515) (xy 73.831202 35.289184)
+					(xy 73.805002 35.268695) (xy 73.781069 35.244945) (xy 73.759809 35.21826) (xy 73.741162 35.188421)
+					(xy 73.725538 35.155873) (xy 73.712961 35.120356) (xy 73.703773 35.082374) (xy 73.69809 35.041718)
+					(xy 73.696161 34.998867) (xy 73.69717 34.967586) (xy 73.70179 34.926185) (xy 73.706454 34.903918)
+					(xy 73.823534 34.903918) (xy 74.146973 34.903918) (xy 74.146973 34.881325) (xy 74.146933 34.875864)
+					(xy 74.139402 34.81308) (xy 74.12085 34.766813) (xy 74.092594 34.733917) (xy 74.074367 34.721806)
+					(xy 74.053656 34.712957) (xy 74.028854 34.70717) (xy 74.001343 34.705226) (xy 73.988032 34.705809)
+					(xy 73.963496 34.710006) (xy 73.939947 34.71809) (xy 73.917268 34.73014) (xy 73.896259 34.745835)
+					(xy 73.877158 34.765074) (xy 73.8604 34.787587) (xy 73.846428 34.812926) (xy 73.8354 34.841083)
+					(xy 73.827737 34.871327) (xy 73.823534 34.903918) (xy 73.706454 34.903918) (xy 73.710004 34.886969)
+					(xy 73.721575 34.850279) (xy 73.736376 34.816051) (xy 73.774709 34.755959) (xy 73.823483 34.707649)
+					(xy 73.881325 34.671984) (xy 73.913251 34.659168) (xy 73.947034 34.64984) (xy 73.982511 34.644142)
+					(xy 74.019539 34.642212)
+				)
+			)
+			(polygon
+				(pts
+					(xy 74.373142 35.33) (xy 74.710563 35.33) (xy 74.710563 35.279624) (xy 74.612561 35.272663) (xy 74.588747 35.250254)
+					(xy 74.588747 34.85049) (xy 74.624096 34.812254) (xy 74.657512 34.782812) (xy 74.683052 34.7657)
+					(xy 74.707715 34.75439) (xy 74.741338 34.748457) (xy 74.761672 34.750411) (xy 74.780042 34.756273)
+					(xy 74.809413 34.778045) (xy 74.812779 34.78198) (xy 74.857536 34.78198) (xy 74.857536 34.66169)
+					(xy 74.827661 34.650975) (xy 74.798749 34.64502) (xy 74.773578 34.643433) (xy 74.738529 34.64612)
+					(xy 74.671307 34.703029) (xy 74.604797 34.765671) (xy 74.588747 34.781919) (xy 74.588747 34.650333)
+					(xy 74.535563 34.650333) (xy 74.373142 34.70083) (xy 74.373142 34.744122) (xy 74.472548 34.744122)
+					(xy 74.472548 35.250254) (xy 74.447391 35.272663) (xy 74.373142 35.279624)
+				)
+			)
+			(polygon
+				(pts
+					(xy 74.920184 35.566549) (xy 74.985374 35.551895) (xy 75.043174 35.523669) (xy 75.091484 35.483374)
+					(xy 75.111342 35.459328) (xy 75.127853 35.433255) (xy 75.140807 35.405525) (xy 75.150049 35.37641)
+					(xy 75.156734 35.321512) (xy 75.154806 35.289872) (xy 75.149132 35.26201) (xy 75.140647 35.23963)
+					(xy 75.129197 35.220726) (xy 75.115841 35.206216) (xy 75.100084 35.19496) (xy 75.06249 35.182652)
+					(xy 75.044748 35.1815) (xy 75.024875 35.183406) (xy 75.007009 35.188936) (xy 74.99177 35.197651)
+					(xy 74.979275 35.209336) (xy 74.970135 35.223277) (xy 74.964322 35.239516) (xy 74.962194 35.258558)
+					(xy 74.96419 35.280163) (xy 74.970346 35.29912) (xy 74.984542 35.320108) (xy 75.07418 35.320108)
+					(xy 75.07418 35.335556) (xy 75.072228 35.368426) (xy 75.066381 35.398309) (xy 75.057489 35.423322)
+					(xy 75.045268 35.445706) (xy 75.0304 35.464711) (xy 75.012478 35.481236) (xy 74.967128 35.506901)
+					(xy 74.920184 35.520326)
+				)
+			)
+		)
 	)
 	(embedded_fonts no)
 )

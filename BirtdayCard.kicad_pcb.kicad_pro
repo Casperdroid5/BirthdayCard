@@ -754,7 +754,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "C:\\Users\\crtak\\Documents\\GitHub\\KiCad\\Volstora Drawing Sheet Template\\Volstora Drawing Sheet Template.kicad_wks",
-    "plot_directory": "./",
+    "plot_directory": "media/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
