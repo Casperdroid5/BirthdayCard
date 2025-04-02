@@ -8752,7 +8752,25 @@
 			"AHMAAABLAAAAZQAAAG4AAABwAAAATwAAAFQAAAAvAAAAawAAAGIAAAByAAAAdwAAAHAAAAAvAAAA"
 			"VQAAAEoAAABBAAAAdgAAAE0AAABTAAAARQAAAFYAAABaAAAAdgAAAG4AAABEAAAANwAAAFkAAAAy"
 			"AAAAVgAAAEYAAABOAAAAUgAAADEAAAB6AAAASQAAAGYAAABOAAAARwAAAFoAAABsAAAAMAAAAEsA"
-			"AAA0AAAAWg=="
+			"AAA0AAAAWgAAAHIAAABDAAAAUQAAAHkAAABIAAAAbgAAAE8AAABhAAAAcgAAADQAAABvAAAAQwAA"
+			"AEEAAABDAAAASgAAAGgAAABQAAAAbQAAAEgAAABYAAAARQAAAGIAAABxAAAAYwAAAFMAAABOAAAA"
+			"SwAAAGIAAABiAAAAMAAAADkAAABqAAAARgAAAFEAAAAvAAAAMgAAAHIAAAA0AAAAeQAAAFEAAABY"
+			"AAAAMwAAAFIAAABrAAAAaQAAAHUAAABtAAAAWAAAAGcAAAB3AAAATwAAADgAAAA5AAAAbgAAAFgA"
+			"AABNAAAASwAAADMAAABLAAAALwAAAEQAAABmAAAAMwAAAGwAAAB2AAAAMgAAAE0AAABIAAAAagAA"
+			"ADYAAABBAAAAawAAAEIAAABQAAAAQwAAADIAAAAvAAAAbAAAAHEAAAA1AAAAcQAAAFgAAABFAAAA"
+			"SgAAAFQAAABXAAAAWgAAAHoAAABoAAAAcQAAAHUAAAAwAAAAcwAAAFkAAABhAAAAbwAAADMAAABD"
+			"AAAARAAAADMAAABmAAAAbQAAAGMAAABQAAAAUAAAAEUAAAB0AAAAdQAAAGMAAABCAAAAdwAAAG8A"
+			"AABvAAAAVAAAAHQAAAAyAAAANQAAAFQAAAA1AAAAUgAAAFcAAABjAAAAbQAAAE0AAABrAAAARAAA"
+			"AFoAAABTAAAAeAAAAE8AAAB3AAAAVwAAAGIAAABiAAAASAAAADcAAABXAAAAcQAAAE8AAABHAAAA"
+			"aAAAAGgAAABZAAAASgAAAGwAAAB2AAAAaQAAAFAAAABEAAAAQgAAADUAAAB1AAAAYQAAAGwAAAB4"
+			"AAAAQwAAAG8AAAArAAAAbQAAAHMAAABFAAAAVwAAAHIAAABmAAAATQAAAGYAAAArAAAAaAAAAGEA"
+			"AABJAAAAYwAAAFcAAAB4AAAARAAAADQAAABsAAAAUgAAAE8AAABjAAAAbwAAAHUAAABFAAAAMgAA"
+			"ADMAAABhAAAAaAAAAHYAAABzAAAAUgAAAEUAAAB4AAAAMwAAAGgAAABJAAAAZgAAADIAAAAzAAAA"
+			"ZAAAAHUAAABKAAAAdQAAAFQAAAA3AAAAcQAAAE8AAABpAAAAeQAAAGIAAAB1AAAAUQAAAGYAAAA3"
+			"AAAAeQAAAHMAAABnAAAAMgAAADMAAABiAAAAawAAAHIAAABYAAAARwAAAEwAAAB6AAAAcQAAADcA"
+			"AAB2AAAAMwAAADYAAAArAAAAdwAAAFgAAAA5AAAAMgAAAHMAAABmAAAATAAAAEsAAABXAAAAbAAA"
+			"AE4AAABQAAAANwAAAHMAAAArAAAAZgAAAEQAAABIAAAAbQAAAGEAAABWAAAATgAAAFkAAABqAAAA"
+			"cgAAAHUAAA=="
 		)
 	)
 	(global_label "SDA"
@@ -8812,6 +8830,28 @@
 		(uuid "0386fa92-058b-47ac-8222-1f57a8d8c4f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 148.2053 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO2"
+		(shape input)
+		(at 316.23 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0920f15e-4a71-45d7-8ef9-99c35f7dacec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 307.56 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8923,28 +8963,6 @@
 		(uuid "3859d138-c40a-4994-9972-1ac1b5f206df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 145.6048 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO0"
-		(shape input)
-		(at 316.23 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "390ec08a-a0ed-4b62-a19d-6a29565c0536")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 307.56 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9263,28 +9281,6 @@
 			)
 		)
 	)
-	(global_label "GPIO2"
-		(shape input)
-		(at 316.23 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9b6fac5d-8aae-4936-8c10-fed10f03e71c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 307.56 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA"
 		(shape input)
 		(at 246.38 52.07 180)
@@ -9347,6 +9343,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO0"
+		(shape input)
+		(at 316.23 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c149716f-3494-4d4b-9316-91e71938b7f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 307.56 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
