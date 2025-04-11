@@ -5,6 +5,7 @@
 #define BUTTON1 5     // Button 1 pin (change color)
 #define BUTTON2 4     // Button 2 pin (play song)
 #define NUM_LEDS 18   // Total number of LEDs
+#define BRIGHTNESS 55 // Constant brightness level
 
 // LED MAPPING CONFIGURATION
 const uint8_t digit1Mapping[6] = {0, 1, 2, 3, 4, 5}; // Digit '1' mapping (6 LEDs)
@@ -23,10 +24,6 @@ bool button2State = HIGH;
 bool lastButton2State = HIGH;
 unsigned long lastDebounceTime = 0;
 unsigned long debounceDelay = 50;
-
-// Brightness control
-#define BRIGHTNESS 90
-uint8_t brightness = BRIGHTNESS;
 
 // Color switching variables
 int currentColorIndex = 0;
@@ -124,7 +121,7 @@ void setup() {
   pinMode(BUTTON2, INPUT_PULLUP);
   
   FastLED.addLeds<WS2812B, RGB_PIN, GRB>(leds, NUM_LEDS);
-  FastLED.setBrightness(brightness);
+  FastLED.setBrightness(BRIGHTNESS); // Set brightness once here
   
   updateLEDColor();
   turnOffAllLEDs();
@@ -255,35 +252,29 @@ void startConfettiMode() {
   tone(BUZZER, NOTE_C5, 100);
   tone(BUZZER, NOTE_G5, 500);
   
-  // Clear all LEDs to start fresh
+  Serial.println("Hey lief broetje, je hebt de geheime confetti modus gevonden!");
+  Serial.println("En je hebt deze microcontroller aangesloten op de computer, misschien om te zien wat er nog meer in dit ding zat?");
+  Serial.println("Of om te kijken wat je er nog meer op kon programmeren?");
+  Serial.println("In ieder geval. Ik heb dit met alle liefde voor jou gemaakt en ik hoop dat je er net zo blij mee ben als ik dat ben met jou");
+  Serial.println("Ik hou van jou broetje.");
+  Serial.println("- Casper");
   turnOffAllLEDs();
 }
 
 void updateConfettiMode() {
-  // Randomly add new confetti (less frequently)
-  if (random8() < CONFETTI_SPAWN_RATE) {  // Reduced chance
+  // Randomly add new confetti
+  if (random8() < CONFETTI_SPAWN_RATE) {
     int pos = random16(NUM_LEDS);
-    // Softer color variations
     leds[pos] = CHSV(confettiHue + random8(32), 200 + random8(55), 200 + random8(55));
-    confettiHue += random8(8, 16);  // Slower color progression
+    confettiHue += random8(8, 16);
   }
   
-  // Gentler fade effect
+  // Fade effect
   fadeToBlackBy(leds, NUM_LEDS, CONFETTI_FADE_RATE);
   
-  // Add subtle background pulsing
-  static uint8_t pulse = 0;
-  static uint8_t pulseDir = 1;
-  EVERY_N_MILLISECONDS(50) {
-    pulse += pulseDir;
-    if (pulse >= 30 || pulse <= 5) pulseDir *= -1;
-    FastLED.setBrightness(BRIGHTNESS + pulse);
-  }
-  
-  // Extended duration check
+  // Check duration
   if (millis() - confettiStartTime > CONFETTI_DURATION) {
     songState = IDLE;
-    FastLED.setBrightness(BRIGHTNESS);
     updateLEDColor();
   }
 }
@@ -348,7 +339,6 @@ void updateSong() {
             for (int j = 0; j < NUM_LEDS; j++) {
               leds[j] = CRGB::White;
             }
-            FastLED.setBrightness(BRIGHTNESS);
             FastLED.show();
           } else {
             tone(BUZZER, NOTE_C5, 500 / SONG_SPEED_FACTOR);
@@ -357,7 +347,6 @@ void updateSong() {
             for (int j = 0; j < NUM_LEDS; j++) {
               leds[j] = CHSV(j * 255 / NUM_LEDS, 255, 255);
             }
-            FastLED.setBrightness(BRIGHTNESS);
             FastLED.show();
           }
           
@@ -375,7 +364,6 @@ void updateSong() {
         
         if (currentHieperNote < hieperLength && hieperSequence[currentHieperNote-1] == 1) {
           previousNoteTime = currentTime + (100 / SONG_SPEED_FACTOR);
-          FastLED.setBrightness(50);
           FastLED.show();
         } else {
           previousNoteTime = currentTime + (200 / SONG_SPEED_FACTOR);
@@ -393,7 +381,6 @@ void updateSong() {
       
     case ENDING:
       songState = IDLE;
-      FastLED.setBrightness(brightness);
       updateLEDColor();
       break;
   }
