@@ -1,400 +1,202 @@
-#include <FastLED.h>
 
-#define RGB_PIN 3     // Data pin for LED strip
-#define BUZZER 10     // Buzzer pin
-#define BUTTON1 5     // Button 1 pin (change color)
-#define BUTTON2 4     // Button 2 pin (play song)
-#define NUM_LEDS 18   // Total number of LEDs
-#define BRIGHTNESS 55 // Constant brightness level
-
-// LED MAPPING CONFIGURATION
-const uint8_t digit1Mapping[6] = {0, 1, 2, 3, 4, 5}; // Digit '1' mapping (6 LEDs)
-const uint8_t digit2Mapping[12] = {8,9,11,10,6,7,12,13,14,15,16,17}; // Digit '8' mapping
-
-// Speed control for song playback
-#define SONG_SPEED_FACTOR 1.0
-
-// Array to store LED data
-CRGB leds[NUM_LEDS];
-
-// Variables for button handling
-bool button1State = HIGH;
-bool lastButton1State = HIGH;
-bool button2State = HIGH;
-bool lastButton2State = HIGH;
-unsigned long lastDebounceTime = 0;
-unsigned long debounceDelay = 50;
-
-// Color switching variables
-int currentColorIndex = 0;
-CRGB colorOptions[] = {
-  CRGB::Red,
-  CRGB::Green,
-  CRGB::Blue,
-  CRGB::Purple,
-  CRGB::Yellow,
-  CRGB::Cyan,
-  CRGB::White,
-  CRGB::Black
-};
-#define NUM_COLORS (sizeof(colorOptions) / sizeof(colorOptions[0]))
-
-// Musical notes definitions
-const int NOTE_C4 = 262;
-const int NOTE_D4 = 294;
-const int NOTE_E4 = 330;
-const int NOTE_F4 = 349;
-const int NOTE_G4 = 392;
-const int NOTE_A4 = 440;
-const int NOTE_B4 = 494;
-const int NOTE_C5 = 523;
-const int NOTE_D5 = 587;
-const int NOTE_E5 = 659;
-const int NOTE_F5 = 698;
-const int NOTE_G5 = 784;
-
-// Happy Birthday melody
-const int melody[] = {
-  NOTE_G4, NOTE_G4, NOTE_A4, NOTE_G4, NOTE_C5, NOTE_B4,
-  NOTE_G4, NOTE_G4, NOTE_A4, NOTE_G4, NOTE_D5, NOTE_C5,
-  NOTE_G4, NOTE_G4, NOTE_G5, NOTE_E5, NOTE_C5, NOTE_B4, NOTE_A4,
-  NOTE_F5, NOTE_F5, NOTE_E5, NOTE_C5, NOTE_D5, NOTE_C5
-};
-
-const int noteDurationFractions[] = {
-  8, 8, 4, 4, 4, 2,
-  8, 8, 4, 4, 4, 2,
-  8, 8, 4, 4, 4, 4, 4,
-  8, 8, 4, 4, 4, 2
-};
-
-const int tempo = 250;
-const int melodyLength = sizeof(melody) / sizeof(melody[0]);
-int currentNote = 0;
-
-// LED animation variables
-int ledsLit = 0;
-
-// Hieper de piep pattern
-const int hieperSequence[] = {1, 1, 1, 2}; // 1=short, 2=long
-const int hieperLength = 4;
-int currentHieperNote = 0;
-
-// Song state machine
-enum SongState {
-  IDLE,
-  PLAYING_BIRTHDAY,
-  PLAYING_HIEPER,
-  COLOR_FADING,
-  CONFETTI_MODE,
-  ENDING
-};
-SongState songState = IDLE;
-
-// Timing variables
-unsigned long previousNoteTime = 0;
-unsigned long noteEndTime = 0;
-unsigned long noteDuration = 0;
-unsigned long pauseDuration = 0;
-bool noteIsPlaying = false;
-
-// Color fading variables
-uint8_t colorFadeHue = 0;
-unsigned long lastColorFadeUpdate = 0;
-const unsigned long colorFadeUpdateInterval = 20;
-
-// Confetti mode variables
-#define CONFETTI_DURATION 600000   // Time on
-#define CONFETTI_SPAWN_RATE 15     // new particles
-#define CONFETTI_FADE_RATE 3       // fade out
-unsigned long confettiStartTime = 0;
-uint8_t confettiHue = 0;
-
-// Both buttons press detection
-bool bothButtonsPressed = false;
-unsigned long bothButtonsStartTime = 0;
-#define BOTH_BUTTONS_HOLD_TIME 1000  // 1 second
-
-void setup() {
-  pinMode(BUZZER, OUTPUT);
-  pinMode(BUTTON1, INPUT_PULLUP);
-  pinMode(BUTTON2, INPUT_PULLUP);
-  
-  FastLED.addLeds<WS2812B, RGB_PIN, GRB>(leds, NUM_LEDS);
-  FastLED.setBrightness(BRIGHTNESS); // Set brightness once here
-  
-  updateLEDColor();
-  turnOffAllLEDs();
-  
-  Serial.begin(115200);
-  Serial.println("18th BirthdayCard Setup Complete");
-}
-
-void loop() {
-  checkButtons();
-  checkBothButtons();
-  updateSong();
-  
-  if (songState == COLOR_FADING) {
-    updateColorFade();
-  } else if (songState == CONFETTI_MODE) {
-    updateConfettiMode();
-  }
-  
-  FastLED.show();
-}
-
-void checkButtons() {
-  bool reading1 = digitalRead(BUTTON1);
-  bool reading2 = digitalRead(BUTTON2);
-  
-  if (reading1 != lastButton1State || reading2 != lastButton2State) {
-    lastDebounceTime = millis();
-  }
-  
-  if ((millis() - lastDebounceTime) > debounceDelay) {
-    // Button 1 - Change color
-    if (reading1 != button1State) {
-      button1State = reading1;
-      if (button1State == LOW) {
-        currentColorIndex = (currentColorIndex + 1) % NUM_COLORS;
-        updateLEDColor();
-        Serial.print("Color changed to index: ");
-        Serial.println(currentColorIndex);
+void handleRoot() {
+  String html = R"=====(
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Happy Birthday Secret Message</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: 'Courier New', monospace;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #0a1a2a;
+      background-image: 
+        linear-gradient(rgba(0, 150, 255, 0.1) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 150, 255, 0.1) 1px, transparent 1px),
+        linear-gradient(rgba(0, 150, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 150, 255, 0.05) 1px, transparent 1px);
+      background-size: 
+        50px 50px,
+        50px 50px,
+        10px 10px,
+        10px 10px;
+      color: #00ffaa;
+      text-align: center;
+      position: relative;
+      overflow-x: hidden;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+    h1 {
+      color: #00ffaa;
+      font-size: clamp(1.5em, 5vw, 2em);
+      text-shadow: 0 0 5px #00ffaa;
+      border-bottom: 1px solid #00ffaa;
+      padding-bottom: 10px;
+      margin-top: 20px;
+    }
+    .message-container {
+      max-height: 70vh;
+      overflow-y: auto;
+      padding: 10px;
+    }
+    .message {
+      background-color: rgba(10, 26, 42, 0.8);
+      padding: 15px;
+      border-radius: 5px;
+      border: 1px solid #00ffaa;
+      box-shadow: 0 0 15px rgba(0, 255, 170, 0.3);
+      text-align: left;
+      margin: 20px auto;
+      position: relative;
+      z-index: 10;
+      max-width: 95%;
+      font-size: clamp(14px, 3vw, 16px);
+      line-height: 1.5;
+    }
+    .signature {
+      font-style: italic;
+      text-align: right;
+      margin-top: 20px;
+      color: #00aaff;
+    }
+    .confetti {
+      position: fixed;
+      width: 8px;
+      height: 8px;
+      opacity: 0;
+      z-index: 1;
+      background-color: #00ffaa;
+      border-radius: 50%;
+    }
+    .chip {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      background-color: rgba(0, 50, 80, 0.3);
+      border: 1px solid #00ffaa;
+      border-radius: 5px;
+      z-index: 0;
+    }
+    .pin {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      background-color: #ff5555;
+      border-radius: 50%;
+      z-index: 1;
+    }
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+      .message {
+        padding: 10px;
       }
     }
-    
-    // Button 2 - Play birthday song
-    if (reading2 != button2State) {
-      button2State = reading2;
-      if (button2State == LOW) {
-        if (songState == IDLE) {
-          Serial.println("Starting birthday song");
-          startBirthdaySong();
-        } else {
-          songState = IDLE;
-          noTone(BUZZER);
-          updateLEDColor();
-        }
-      }
-    }
-  }
-  
-  lastButton1State = reading1;
-  lastButton2State = reading2;
-}
+  </style>
+</head>
+<body>
+  <div class="message-container">
+    <h1>Happy Birthday Broertje!</h1>
+    <div class="message">
+      <p>Hey lief broertje, je hebt de geheime confetti modus gevonden!</p>
+      <p>En heb je al eens de PCB aangesloten op je computer? Misschien om te zien wat er nog meer kan met deze PCB?</p>
+      <p>Of om te kijken wat je nog meer kon programmeren met de krachtige ESP32(C3) microcontroller? Speciaal gekozen zodat ik deze gekke stunt kon uitvoeren voor je haha ;)</p>
+      <p>Natuurlijk mag je doen wat je wil met de printplaat, wat je maar wil, meer informatie over deze kaart/pcb vind je hier: https://github.com/Casperdroid5/BirthdayCard<p>
+      <p>Ik heb hem met alle liefde voor jou gemaakt en ik hoop dat je er net zo blij mee ben als ik dat ben met jou</p>
+      <p>Van harte gefeliciteerd met je 18e verjaardag en ik kijk uit naar alle jaren die we verder samen gaan hebben.</p>
+      <p>Ik hou van jou, lieve broertje.</p>
+      <p class="signature">- Casper</p>
+    </div>
+  </div>
 
-void checkBothButtons() {
-  bool btn1 = digitalRead(BUTTON1) == LOW;
-  bool btn2 = digitalRead(BUTTON2) == LOW;
-  
-  if (btn1 && btn2) {
-    if (!bothButtonsPressed) {
-      bothButtonsPressed = true;
-      bothButtonsStartTime = millis();
-    } else if (millis() - bothButtonsStartTime >= BOTH_BUTTONS_HOLD_TIME) {
-      if (songState != CONFETTI_MODE) {
-        startConfettiMode();
-      }
-    }
-  } else {
-    bothButtonsPressed = false;
-  }
-}
-
-void turnOffAllLEDs() {
-  for (int i = 0; i < NUM_LEDS; i++) {
-    leds[i] = CRGB::Black;
-  }
-  FastLED.show();
-}
-
-void updateLEDColor() {
-  if (songState == COLOR_FADING || songState == CONFETTI_MODE) {
-    songState = IDLE;
-    turnOffAllLEDs();
-  }
-  
-  turnOnDigit1(colorOptions[currentColorIndex]);
-  turnOnDigit2(colorOptions[currentColorIndex]);
-  FastLED.show();
-}
-
-void turnOnDigit1(CRGB color) {
-  for (int i = 0; i < 6; i++) {
-    leds[digit1Mapping[i]] = color;
-  }
-}
-
-void turnOnDigit2(CRGB color) {
-  for (int i = 0; i < 12; i++) {
-    leds[digit2Mapping[i]] = color;
-  }
-}
-
-void startBirthdaySong() {
-  currentNote = 0;
-  ledsLit = 0;
-  songState = PLAYING_BIRTHDAY;
-  previousNoteTime = millis();
-  noteIsPlaying = false;
-  turnOffAllLEDs();
-}
-
-void startConfettiMode() {
-  Serial.println("CONFETTI MODE ACTIVATED!");
-  songState = CONFETTI_MODE;
-  confettiStartTime = millis();
-  confettiHue = 0;
-  
-  // Play a quick celebratory sound
-  tone(BUZZER, NOTE_E5, 200);
-  tone(BUZZER, NOTE_C5, 100);
-  tone(BUZZER, NOTE_G5, 500);
-  
-  Serial.println("Hey lief broetje, je hebt de geheime confetti modus gevonden!");
-  Serial.println("En je hebt deze microcontroller aangesloten op de computer, misschien om te zien wat er nog meer in dit ding zat?");
-  Serial.println("Of om te kijken wat je er nog meer op kon programmeren?");
-  Serial.println("In ieder geval. Ik heb dit met alle liefde voor jou gemaakt en ik hoop dat je er net zo blij mee ben als ik dat ben met jou");
-  Serial.println("Ik hou van jou broetje.");
-  Serial.println("- Casper");
-  turnOffAllLEDs();
-}
-
-void updateConfettiMode() {
-  // Randomly add new confetti
-  if (random8() < CONFETTI_SPAWN_RATE) {
-    int pos = random16(NUM_LEDS);
-    leds[pos] = CHSV(confettiHue + random8(32), 200 + random8(55), 200 + random8(55));
-    confettiHue += random8(8, 16);
-  }
-  
-  // Fade effect
-  fadeToBlackBy(leds, NUM_LEDS, CONFETTI_FADE_RATE);
-  
-  // Check duration
-  if (millis() - confettiStartTime > CONFETTI_DURATION) {
-    songState = IDLE;
-    updateLEDColor();
-  }
-}
-
-void updateSong() {
-  unsigned long currentTime = millis();
-  
-  switch (songState) {
-    case IDLE:
-      break;
-      
-    case PLAYING_BIRTHDAY:
-      if (!noteIsPlaying && currentTime >= previousNoteTime) {
-        if (currentNote < melodyLength) {
-          noteDuration = (tempo * 4 / noteDurationFractions[currentNote]) / SONG_SPEED_FACTOR;
-          pauseDuration = noteDuration * 0.3;
-          
-          tone(BUZZER, melody[currentNote], noteDuration);
-          
-          float ledsPerNote = (float)(NUM_LEDS) / melodyLength;
-          int targetLEDs = round((currentNote + 1) * ledsPerNote);
-          
-          while (ledsLit < targetLEDs && ledsLit < NUM_LEDS) {
-            if (ledsLit < 6) {
-              leds[digit1Mapping[ledsLit]] = colorOptions[currentColorIndex];
-            } else if (ledsLit < 18) {
-              leds[digit2Mapping[ledsLit - 6]] = colorOptions[currentColorIndex];
-            }
-            ledsLit++;
-          }
-          FastLED.show();
-          
-          noteEndTime = currentTime + noteDuration;
-          noteIsPlaying = true;
-        } else {
-          for (int i = 0; i < NUM_LEDS; i++) {
-            leds[i] = colorOptions[currentColorIndex];
-          }
-          FastLED.show();
-          
-          songState = PLAYING_HIEPER;
-          currentHieperNote = 0;
-          noteIsPlaying = false;
-          previousNoteTime = currentTime + 500 / SONG_SPEED_FACTOR;
-        }
-      } else if (noteIsPlaying && currentTime >= noteEndTime) {
-        noteIsPlaying = false;
-        currentNote++;
-        previousNoteTime = currentTime + pauseDuration;
-      }
-      break;
-      
-    case PLAYING_HIEPER:
-      if (!noteIsPlaying && currentTime >= previousNoteTime) {
-        if (currentHieperNote < hieperLength) {
-          int hieperType = hieperSequence[currentHieperNote];
-          
-          if (hieperType == 1) {
-            tone(BUZZER, NOTE_C5, 150 / SONG_SPEED_FACTOR);
-            noteDuration = 150 / SONG_SPEED_FACTOR;
-            
-            for (int j = 0; j < NUM_LEDS; j++) {
-              leds[j] = CRGB::White;
-            }
-            FastLED.show();
-          } else {
-            tone(BUZZER, NOTE_C5, 500 / SONG_SPEED_FACTOR);
-            noteDuration = 500 / SONG_SPEED_FACTOR;
-            
-            for (int j = 0; j < NUM_LEDS; j++) {
-              leds[j] = CHSV(j * 255 / NUM_LEDS, 255, 255);
-            }
-            FastLED.show();
-          }
-          
-          noteEndTime = currentTime + noteDuration;
-          noteIsPlaying = true;
-        } else {
-          songState = COLOR_FADING;
-          colorFadeHue = 0;
-          lastColorFadeUpdate = currentTime;
-          Serial.println("Song finished, starting color fade");
-        }
-      } else if (noteIsPlaying && currentTime >= noteEndTime) {
-        noteIsPlaying = false;
-        currentHieperNote++;
+  <script>
+    // Create circuit board elements
+    function createCircuitElements() {
+      // Add microchips
+      for (let i = 0; i < 5; i++) {
+        const chip = document.createElement('div');
+        chip.className = 'chip';
+        chip.style.left = Math.random() * 90 + 'vw';
+        chip.style.top = Math.random() * 90 + 'vh';
+        chip.style.transform = 'rotate(' + (Math.random() * 90 - 45) + 'deg)';
+        document.body.appendChild(chip);
         
-        if (currentHieperNote < hieperLength && hieperSequence[currentHieperNote-1] == 1) {
-          previousNoteTime = currentTime + (100 / SONG_SPEED_FACTOR);
-          FastLED.show();
-        } else {
-          previousNoteTime = currentTime + (200 / SONG_SPEED_FACTOR);
+        // Add pins to chips
+        const pinCount = Math.floor(Math.random() * 8) + 4;
+        for (let p = 0; p < pinCount; p++) {
+          const pin = document.createElement('div');
+          pin.className = 'pin';
+          pin.style.left = (Math.random() * 30 + 5) + 'px';
+          pin.style.top = (Math.random() * 30 + 5) + 'px';
+          chip.appendChild(pin);
         }
       }
-      break;
-      
-    case COLOR_FADING:
-      updateColorFade();
-      break;
-      
-    case CONFETTI_MODE:
-      // Handled in main loop
-      break;
-      
-    case ENDING:
-      songState = IDLE;
-      updateLEDColor();
-      break;
-  }
-}
-
-void updateColorFade() {
-  unsigned long currentTime = millis();
-  
-  if (currentTime - lastColorFadeUpdate >= colorFadeUpdateInterval) {
-    lastColorFadeUpdate = currentTime;
-    colorFadeHue++;
-    
-    for (int i = 0; i < NUM_LEDS; i++) {
-      leds[i] = CHSV(colorFadeHue + (i * 255 / NUM_LEDS), 255, 255);
     }
-  }
-}
+    
+    // Create confetti from sides
+    function createConfetti() {
+      const colors = ['#00ffaa', '#00aaff', '#ff55aa', '#ffff00', '#ff5555'];
+      const confettiCount = 50;
+      const sides = ['left', 'right']; // Confetti comes from left and right
+      
+      for (let i = 0; i < confettiCount; i++) {
+        const confetti = document.createElement('div');
+        confetti.className = 'confetti';
+        confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+        
+        // Randomly choose left or right side
+        const side = sides[Math.floor(Math.random() * sides.length)];
+        if (side === 'left') {
+          confetti.style.left = '-10px';
+          confetti.style.top = Math.random() * 100 + 'vh';
+        } else {
+          confetti.style.left = '100vw';
+          confetti.style.top = Math.random() * 100 + 'vh';
+        }
+        
+        const size = Math.random() * 8 + 4;
+        confetti.style.width = size + 'px';
+        confetti.style.height = size + 'px';
+        
+        document.body.appendChild(confetti);
+        
+        const animationDuration = Math.random() * 3 + 2;
+        const angle = (Math.random() * 60 - 30); // Random angle between -30 and 30 degrees
+        
+        // Animate diagonally across screen
+        confetti.animate([
+          { 
+            left: confetti.style.left,
+            top: confetti.style.top,
+            opacity: 1 
+          },
+          { 
+            left: (side === 'left' ? '100vw' : '-10px'),
+            top: (Math.random() * 100) + 'vh',
+            opacity: 0 
+          }
+        ], {
+          duration: animationDuration * 1000,
+          easing: 'cubic-bezier(0.1, 0.8, 0.9, 1)'
+        });
+        
+        setTimeout(() => {
+          confetti.remove();
+        }, animationDuration * 1000);
+      }
+    }
+    
+    // Initialize page
+    createCircuitElements();
+    createConfetti();
+    setInterval(createConfetti, 10000);
+  </script>
+</body>
+</html>
+)=====";
+  
