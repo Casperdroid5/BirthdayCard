@@ -37,7 +37,8 @@ CRGB colorOptions[] = {
   CRGB::Purple,
   CRGB::Yellow,
   CRGB::Cyan,
-  CRGB::White
+  CRGB::White,
+  CRGB::Black
 };
 #define NUM_COLORS (sizeof(colorOptions) / sizeof(colorOptions[0]))
 
@@ -88,6 +89,7 @@ enum SongState {
   PLAYING_BIRTHDAY,
   PLAYING_HIEPER,
   COLOR_FADING,
+  CONFETTI_MODE,
   ENDING
 };
 SongState songState = IDLE;
@@ -103,6 +105,18 @@ bool noteIsPlaying = false;
 uint8_t colorFadeHue = 0;
 unsigned long lastColorFadeUpdate = 0;
 const unsigned long colorFadeUpdateInterval = 20;
+
+// Confetti mode variables
+#define CONFETTI_DURATION 600000   // Time on
+#define CONFETTI_SPAWN_RATE 15     // new particles
+#define CONFETTI_FADE_RATE 3       // fade out
+unsigned long confettiStartTime = 0;
+uint8_t confettiHue = 0;
+
+// Both buttons press detection
+bool bothButtonsPressed = false;
+unsigned long bothButtonsStartTime = 0;
+#define BOTH_BUTTONS_HOLD_TIME 1000  // 1 second
 
 void setup() {
   pinMode(BUZZER, OUTPUT);
@@ -121,10 +135,13 @@ void setup() {
 
 void loop() {
   checkButtons();
+  checkBothButtons();
   updateSong();
   
   if (songState == COLOR_FADING) {
     updateColorFade();
+  } else if (songState == CONFETTI_MODE) {
+    updateConfettiMode();
   }
   
   FastLED.show();
@@ -170,6 +187,24 @@ void checkButtons() {
   lastButton2State = reading2;
 }
 
+void checkBothButtons() {
+  bool btn1 = digitalRead(BUTTON1) == LOW;
+  bool btn2 = digitalRead(BUTTON2) == LOW;
+  
+  if (btn1 && btn2) {
+    if (!bothButtonsPressed) {
+      bothButtonsPressed = true;
+      bothButtonsStartTime = millis();
+    } else if (millis() - bothButtonsStartTime >= BOTH_BUTTONS_HOLD_TIME) {
+      if (songState != CONFETTI_MODE) {
+        startConfettiMode();
+      }
+    }
+  } else {
+    bothButtonsPressed = false;
+  }
+}
+
 void turnOffAllLEDs() {
   for (int i = 0; i < NUM_LEDS; i++) {
     leds[i] = CRGB::Black;
@@ -178,7 +213,7 @@ void turnOffAllLEDs() {
 }
 
 void updateLEDColor() {
-  if (songState == COLOR_FADING) {
+  if (songState == COLOR_FADING || songState == CONFETTI_MODE) {
     songState = IDLE;
     turnOffAllLEDs();
   }
@@ -207,6 +242,50 @@ void startBirthdaySong() {
   previousNoteTime = millis();
   noteIsPlaying = false;
   turnOffAllLEDs();
+}
+
+void startConfettiMode() {
+  Serial.println("CONFETTI MODE ACTIVATED!");
+  songState = CONFETTI_MODE;
+  confettiStartTime = millis();
+  confettiHue = 0;
+  
+  // Play a quick celebratory sound
+  tone(BUZZER, NOTE_E5, 200);
+  tone(BUZZER, NOTE_C5, 100);
+  tone(BUZZER, NOTE_G5, 500);
+  
+  // Clear all LEDs to start fresh
+  turnOffAllLEDs();
+}
+
+void updateConfettiMode() {
+  // Randomly add new confetti (less frequently)
+  if (random8() < CONFETTI_SPAWN_RATE) {  // Reduced chance
+    int pos = random16(NUM_LEDS);
+    // Softer color variations
+    leds[pos] = CHSV(confettiHue + random8(32), 200 + random8(55), 200 + random8(55));
+    confettiHue += random8(8, 16);  // Slower color progression
+  }
+  
+  // Gentler fade effect
+  fadeToBlackBy(leds, NUM_LEDS, CONFETTI_FADE_RATE);
+  
+  // Add subtle background pulsing
+  static uint8_t pulse = 0;
+  static uint8_t pulseDir = 1;
+  EVERY_N_MILLISECONDS(50) {
+    pulse += pulseDir;
+    if (pulse >= 30 || pulse <= 5) pulseDir *= -1;
+    FastLED.setBrightness(BRIGHTNESS + pulse);
+  }
+  
+  // Extended duration check
+  if (millis() - confettiStartTime > CONFETTI_DURATION) {
+    songState = IDLE;
+    FastLED.setBrightness(BRIGHTNESS);
+    updateLEDColor();
+  }
 }
 
 void updateSong() {
@@ -305,6 +384,11 @@ void updateSong() {
       break;
       
     case COLOR_FADING:
+      updateColorFade();
+      break;
+      
+    case CONFETTI_MODE:
+      // Handled in main loop
       break;
       
     case ENDING:
@@ -321,10 +405,9 @@ void updateColorFade() {
   if (currentTime - lastColorFadeUpdate >= colorFadeUpdateInterval) {
     lastColorFadeUpdate = currentTime;
     colorFadeHue++;
-    FastLED.setBrightness(BRIGHTNESS);
+    
     for (int i = 0; i < NUM_LEDS; i++) {
       leds[i] = CHSV(colorFadeHue + (i * 255 / NUM_LEDS), 255, 255);
     }
-    
   }
 }
