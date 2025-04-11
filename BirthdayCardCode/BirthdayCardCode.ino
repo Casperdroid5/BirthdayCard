@@ -7,37 +7,26 @@
 #define NUM_LEDS 18   // Total number of LEDs
 
 // LED MAPPING CONFIGURATION
-// =========================
-// Define the order of LEDs for each digit
-// Change these numbers to rearrange your LEDs
+const uint8_t digit1Mapping[6] = {0, 1, 2, 3, 4, 5}; // Digit '1' mapping (6 LEDs)
+const uint8_t digit2Mapping[12] = {8,9,11,10,6,7,12,13,14,15,16,17}; // Digit '8' mapping
 
-// Digit '1' mapping (6 LEDs)
-const uint8_t digit1Mapping[6] = {0, 1, 2, 3, 4, 5}; // Default order
-
-// Digit '8' mapping (12 LEDs) - your custom order starting at LED 8
-const uint8_t digit2Mapping[12] = {8,9,11,10,6,7,12,13,14,15,16,17};
-
-// Example alternative mappings (comment out the above and uncomment these to try):
-// const uint8_t digit1Mapping[6] = {5,4,3,2,1,0}; // Reverse order for digit 1
-// const uint8_t digit2Mapping[12] = {17,16,15,14,13,12,11,10,9,8,7,6}; // Reverse order for digit 8
-
-// Speed control for song playback (0.5 = half speed, 1.0 = normal, 2.0 = double speed)
+// Speed control for song playback
 #define SONG_SPEED_FACTOR 1.0
 
 // Array to store LED data
 CRGB leds[NUM_LEDS];
 
 // Variables for button handling
-bool button1State = HIGH;     // Current state of button 1
-bool lastButton1State = HIGH; // Previous state of button 1
-bool button2State = HIGH;     // Current state of button 2
-bool lastButton2State = HIGH; // Previous state of button 2
+bool button1State = HIGH;
+bool lastButton1State = HIGH;
+bool button2State = HIGH;
+bool lastButton2State = HIGH;
 unsigned long lastDebounceTime = 0;
 unsigned long debounceDelay = 50;
 
 // Brightness control
-#define DEFAULT_BRIGHTNESS 128  // Default brightness (medium)
-uint8_t brightness = DEFAULT_BRIGHTNESS;
+#define BRIGHTNESS 90
+uint8_t brightness = BRIGHTNESS;
 
 // Color switching variables
 int currentColorIndex = 0;
@@ -52,7 +41,7 @@ CRGB colorOptions[] = {
 };
 #define NUM_COLORS (sizeof(colorOptions) / sizeof(colorOptions[0]))
 
-// Define the notes and their corresponding frequencies (in Hz)
+// Musical notes definitions
 const int NOTE_C4 = 262;
 const int NOTE_D4 = 294;
 const int NOTE_E4 = 330;
@@ -66,7 +55,7 @@ const int NOTE_E5 = 659;
 const int NOTE_F5 = 698;
 const int NOTE_G5 = 784;
 
-// Define the melody for "Happy Birthday"
+// Happy Birthday melody
 const int melody[] = {
   NOTE_G4, NOTE_G4, NOTE_A4, NOTE_G4, NOTE_C5, NOTE_B4,
   NOTE_G4, NOTE_G4, NOTE_A4, NOTE_G4, NOTE_D5, NOTE_C5,
@@ -74,7 +63,6 @@ const int melody[] = {
   NOTE_F5, NOTE_F5, NOTE_E5, NOTE_C5, NOTE_D5, NOTE_C5
 };
 
-// Define the duration of each note (in fraction format)
 const int noteDurationFractions[] = {
   8, 8, 4, 4, 4, 2,
   8, 8, 4, 4, 4, 2,
@@ -82,7 +70,6 @@ const int noteDurationFractions[] = {
   8, 8, 4, 4, 4, 2
 };
 
-// Base duration in milliseconds for a quarter note
 const int tempo = 250;
 const int melodyLength = sizeof(melody) / sizeof(melody[0]);
 int currentNote = 0;
@@ -105,7 +92,7 @@ enum SongState {
 };
 SongState songState = IDLE;
 
-// Timing variables for non-blocking operation
+// Timing variables
 unsigned long previousNoteTime = 0;
 unsigned long noteEndTime = 0;
 unsigned long noteDuration = 0;
@@ -118,37 +105,28 @@ unsigned long lastColorFadeUpdate = 0;
 const unsigned long colorFadeUpdateInterval = 20;
 
 void setup() {
-  // Configure pins
   pinMode(BUZZER, OUTPUT);
   pinMode(BUTTON1, INPUT_PULLUP);
   pinMode(BUTTON2, INPUT_PULLUP);
   
-  // Initialize LED strip
   FastLED.addLeds<WS2812B, RGB_PIN, GRB>(leds, NUM_LEDS);
   FastLED.setBrightness(brightness);
   
-  // Set initial color but turn LEDs off
   updateLEDColor();
   turnOffAllLEDs();
   
-  // Start serial for debugging
   Serial.begin(115200);
   Serial.println("18th BirthdayCard Setup Complete");
 }
 
 void loop() {
-  // Read button states with debounce
   checkButtons();
-  
-  // Handle song playing
   updateSong();
   
-  // Handle color fading if active
   if (songState == COLOR_FADING) {
     updateColorFade();
   }
   
-  // Update LEDs if needed
   FastLED.show();
 }
 
@@ -166,9 +144,6 @@ void checkButtons() {
       button1State = reading1;
       if (button1State == LOW) {
         currentColorIndex = (currentColorIndex + 1) % NUM_COLORS;
-        if (songState == COLOR_FADING) {
-          songState = IDLE;
-        }
         updateLEDColor();
         Serial.print("Color changed to index: ");
         Serial.println(currentColorIndex);
@@ -179,12 +154,13 @@ void checkButtons() {
     if (reading2 != button2State) {
       button2State = reading2;
       if (button2State == LOW) {
-        if (songState == COLOR_FADING) {
-          songState = IDLE;
-          updateLEDColor();
-        } else if (songState == IDLE) {
+        if (songState == IDLE) {
           Serial.println("Starting birthday song");
           startBirthdaySong();
+        } else {
+          songState = IDLE;
+          noTone(BUZZER);
+          updateLEDColor();
         }
       }
     }
@@ -202,26 +178,13 @@ void turnOffAllLEDs() {
 }
 
 void updateLEDColor() {
-  // Check which digits are currently lit and update their colors
-  for (int i = 0; i < NUM_LEDS; i++) {
-    if (leds[i] != CRGB::Black) {
-      // Determine which digit this LED belongs to
-      bool isDigit1 = false;
-      for (int j = 0; j < 6; j++) {
-        if (i == digit1Mapping[j]) {
-          isDigit1 = true;
-          break;
-        }
-      }
-      
-      if (isDigit1) {
-        turnOnDigit1(colorOptions[currentColorIndex]);
-      } else {
-        turnOnDigit2(colorOptions[currentColorIndex]);
-      }
-      break;
-    }
+  if (songState == COLOR_FADING) {
+    songState = IDLE;
+    turnOffAllLEDs();
   }
+  
+  turnOnDigit1(colorOptions[currentColorIndex]);
+  turnOnDigit2(colorOptions[currentColorIndex]);
   FastLED.show();
 }
 
@@ -306,7 +269,7 @@ void updateSong() {
             for (int j = 0; j < NUM_LEDS; j++) {
               leds[j] = CRGB::White;
             }
-            FastLED.setBrightness(255);
+            FastLED.setBrightness(BRIGHTNESS);
             FastLED.show();
           } else {
             tone(BUZZER, NOTE_C5, 500 / SONG_SPEED_FACTOR);
@@ -315,7 +278,7 @@ void updateSong() {
             for (int j = 0; j < NUM_LEDS; j++) {
               leds[j] = CHSV(j * 255 / NUM_LEDS, 255, 255);
             }
-            FastLED.setBrightness(255);
+            FastLED.setBrightness(BRIGHTNESS);
             FastLED.show();
           }
           
@@ -358,12 +321,10 @@ void updateColorFade() {
   if (currentTime - lastColorFadeUpdate >= colorFadeUpdateInterval) {
     lastColorFadeUpdate = currentTime;
     colorFadeHue++;
-    
+    FastLED.setBrightness(BRIGHTNESS);
     for (int i = 0; i < NUM_LEDS; i++) {
       leds[i] = CHSV(colorFadeHue + (i * 255 / NUM_LEDS), 255, 255);
     }
     
-    int pulsingBrightness = 128 + (127 * sin(millis() / 500.0));
-    FastLED.setBrightness(pulsingBrightness);
   }
 }
