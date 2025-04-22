@@ -3,20 +3,21 @@
 #include <WebServer.h>
 
 // Hardware Configuration
-#define RGB_PIN 3     // Data pin for LED strip
-#define BUZZER 10     // Buzzer pin
-#define BUTTON1 5     // Button 1 pin (change color)
-#define BUTTON2 4     // Button 2 pin (play song)
-#define NUM_LEDS 18   // Total number of LEDs
-#define BRIGHTNESS 55 // Constant brightness level
+#define RGB_PIN 3      // Data pin for LED strip
+#define BUZZER 10      // Buzzer pin
+#define BUTTON1 5      // Button 1 pin (change color)
+#define BUTTON2 4      // Button 2 pin (play song)
+#define NUM_LEDS 18    // Total number of LEDs
+#define BRIGHTNESS 50  // Constant brightness level
 
 // WiFi Configuration
 const char* ssid = "HappyBirthdayBroertje!";
 WebServer server(80);
+// Go to http://192.168.4.1/ for the website(server)
 
 // LED Mapping
-const uint8_t digit1Mapping[6] = {0, 1, 2, 3, 4, 5}; // Digit '1' mapping
-const uint8_t digit2Mapping[12] = {8,9,11,10,6,7,12,13,14,15,16,17}; // Digit '8' mapping
+const uint8_t digit1Mapping[6] = { 0, 1, 2, 3, 4, 5 };                             // Digit '1' mapping
+const uint8_t digit2Mapping[12] = { 8, 9, 11, 10, 6, 7, 12, 13, 14, 15, 16, 17 };  // Digit '8' mapping
 
 // LED Array
 CRGB leds[NUM_LEDS];
@@ -96,8 +97,8 @@ bool noteIsPlaying = false;
 
 // Animation Variables
 int ledsLit = 0;
-const int hieperSequence[] = {1, 1, 1, 2}; // 1=short, 2=long
-const int hieperLength = 4;
+const int hieperSequence[] = { 1, 1, 1, 1, 3, 1, 2 };  // 0=very short, 1=short, 2=long, 3=pause
+const int hieperLength = 7;
 int currentHieperNote = 0;
 
 // Color Fading
@@ -106,11 +107,11 @@ unsigned long lastColorFadeUpdate = 0;
 const unsigned long colorFadeUpdateInterval = 20;
 
 // Confetti Mode
-#define CONFETTI_DURATION 6000000   // 100 minutes
-#define CONFETTI_SPAWN_RATE 15
-#define CONFETTI_FADE_RATE 3
+#define CONFETTI_DURATION 86400000 // 24 hours  
+#define CONFETTI_SPAWN_RATE 13
+#define CONFETTI_FADE_RATE 1
 unsigned long confettiStartTime = 0;
-uint8_t confettiHue = 0;
+uint8_t confettiHue = 1;
 
 // Button Combination Detection
 bool bothButtonsPressed = false;
@@ -122,15 +123,15 @@ void setup() {
   pinMode(BUZZER, OUTPUT);
   pinMode(BUTTON1, INPUT_PULLUP);
   pinMode(BUTTON2, INPUT_PULLUP);
-  
+
   // Initialize LEDs
   FastLED.addLeds<WS2812B, RGB_PIN, GRB>(leds, NUM_LEDS);
   FastLED.setBrightness(BRIGHTNESS);
-  
+
   // Initial state
   updateLEDColor();
   turnOffAllLEDs();
-  
+
   // Start serial
   Serial.begin(115200);
   Serial.println("18th BirthdayCard Ready!");
@@ -140,26 +141,26 @@ void loop() {
   checkButtons();
   checkBothButtons();
   updateSong();
-  
+
   if (songState == COLOR_FADING) {
     updateColorFade();
   } else if (songState == CONFETTI_MODE) {
     updateConfettiMode();
-    server.handleClient(); // Handle web requests
+    server.handleClient();  // Handle web requests
   }
-  
+
   FastLED.show();
 }
 
 void checkButtons() {
   bool reading1 = digitalRead(BUTTON1);
   bool reading2 = digitalRead(BUTTON2);
-  
+
   // Debounce logic
   if (reading1 != lastButton1State || reading2 != lastButton2State) {
     lastDebounceTime = millis();
   }
-  
+
   if ((millis() - lastDebounceTime) > debounceDelay) {
     // Button 1 - Change color
     if (reading1 != button1State) {
@@ -171,7 +172,7 @@ void checkButtons() {
         Serial.println(currentColorIndex);
       }
     }
-    
+
     // Button 2 - Play song
     if (reading2 != button2State) {
       button2State = reading2;
@@ -184,7 +185,7 @@ void checkButtons() {
       }
     }
   }
-  
+
   lastButton1State = reading1;
   lastButton2State = reading2;
 }
@@ -192,7 +193,7 @@ void checkButtons() {
 void checkBothButtons() {
   bool btn1 = digitalRead(BUTTON1) == LOW;
   bool btn2 = digitalRead(BUTTON2) == LOW;
-  
+
   if (btn1 && btn2) {
     if (!bothButtonsPressed) {
       bothButtonsPressed = true;
@@ -215,7 +216,7 @@ void startWebServer() {
 
   server.on("/", handleRoot);
   server.onNotFound(handleNotFound);
-  
+
   server.begin();
   Serial.println("Web server started");
 }
@@ -420,7 +421,7 @@ void handleRoot() {
 </body>
 </html>
 )=====";
-  
+
   server.send(200, "text/html", html);
 }
 
@@ -437,7 +438,7 @@ void updateLEDColor() {
     songState = IDLE;
     turnOffAllLEDs();
   }
-  
+
   turnOnDigit1(colorOptions[currentColorIndex]);
   turnOnDigit2(colorOptions[currentColorIndex]);
 }
@@ -476,17 +477,17 @@ void startConfettiMode() {
   songState = CONFETTI_MODE;
   confettiStartTime = millis();
   confettiHue = 0;
-  
+
   // Celebration sound
   tone(BUZZER, NOTE_E5, 200);
   delay(200);
   tone(BUZZER, NOTE_C5, 100);
   delay(100);
   tone(BUZZER, NOTE_G5, 500);
-  
+
   // Start web server
   startWebServer();
-  
+
   // Print secret message
   Serial.println("Secret message activated!");
   turnOffAllLEDs();
@@ -494,11 +495,11 @@ void startConfettiMode() {
 
 void updateColorFade() {
   unsigned long currentTime = millis();
-  
+
   if (currentTime - lastColorFadeUpdate >= colorFadeUpdateInterval) {
     lastColorFadeUpdate = currentTime;
     colorFadeHue++;
-    
+
     for (int i = 0; i < NUM_LEDS; i++) {
       leds[i] = CHSV(colorFadeHue + (i * 255 / NUM_LEDS), 255, 255);
     }
@@ -512,10 +513,10 @@ void updateConfettiMode() {
     leds[pos] = CHSV(confettiHue + random8(32), 200 + random8(55), 200 + random8(55));
     confettiHue += random8(8, 16);
   }
-  
+
   // Fade out
   fadeToBlackBy(leds, NUM_LEDS, CONFETTI_FADE_RATE);
-  
+
   // Check duration
   if (millis() - confettiStartTime > CONFETTI_DURATION) {
     songState = IDLE;
@@ -527,11 +528,11 @@ void updateConfettiMode() {
 
 void updateSong() {
   unsigned long currentTime = millis();
-  
+
   switch (songState) {
     case IDLE:
       break;
-      
+
     case PLAYING_BIRTHDAY:
       if (!noteIsPlaying && currentTime >= previousNoteTime) {
         if (currentNote < melodyLength) {
@@ -539,11 +540,11 @@ void updateSong() {
           noteDuration = (tempo * 4 / noteDurationFractions[currentNote]);
           pauseDuration = noteDuration * 0.3;
           tone(BUZZER, melody[currentNote], noteDuration);
-          
+
           // Light LEDs progressively
           float ledsPerNote = (float)(NUM_LEDS) / melodyLength;
           int targetLEDs = round((currentNote + 1) * ledsPerNote);
-          
+
           while (ledsLit < targetLEDs && ledsLit < NUM_LEDS) {
             if (ledsLit < 6) {
               leds[digit1Mapping[ledsLit]] = colorOptions[currentColorIndex];
@@ -552,7 +553,7 @@ void updateSong() {
             }
             ledsLit++;
           }
-          
+
           noteEndTime = currentTime + noteDuration;
           noteIsPlaying = true;
         } else {
@@ -569,24 +570,30 @@ void updateSong() {
         previousNoteTime = currentTime + pauseDuration;
       }
       break;
-      
+
     case PLAYING_HIEPER:
       if (!noteIsPlaying && currentTime >= previousNoteTime) {
         if (currentHieperNote < hieperLength) {
           int hieperType = hieperSequence[currentHieperNote];
-          
-          if (hieperType == 1) { // Short beep
+          if (hieperType == 0) {  // Very short beep
+            tone(BUZZER, NOTE_C5, 80);
+            noteDuration = 80;
+            fill_solid(leds, NUM_LEDS, CRGB::White);
+          } else if (hieperType == 1) {  // Short beep
             tone(BUZZER, NOTE_C5, 150);
             noteDuration = 150;
             fill_solid(leds, NUM_LEDS, CRGB::White);
-          } else { // Long beep
-            tone(BUZZER, NOTE_C5, 500);
-            noteDuration = 500;
+          } else if (hieperType == 3) {  // Pause
+            noTone(BUZZER);
+            noteDuration = 300;  // 0.3-second pause
+            turnOffAllLEDs();
+          } else {                       // Long beep (type 2)
+            tone(BUZZER, NOTE_C5, 800);  // Extended length for the final "piieeeeep"
+            noteDuration = 800;
             for (int j = 0; j < NUM_LEDS; j++) {
               leds[j] = CHSV(j * 255 / NUM_LEDS, 255, 255);
             }
           }
-          
           noteEndTime = currentTime + noteDuration;
           noteIsPlaying = true;
         } else {
@@ -598,23 +605,27 @@ void updateSong() {
       } else if (noteIsPlaying && currentTime >= noteEndTime) {
         noteIsPlaying = false;
         currentHieperNote++;
-        
-        if (currentHieperNote < hieperLength && hieperSequence[currentHieperNote-1] == 1) {
-          previousNoteTime = currentTime + 100;
-        } else {
-          previousNoteTime = currentTime + 200;
+        // Adjust timing based on the previous note type
+        if (currentHieperNote < hieperLength) {
+          if (hieperSequence[currentHieperNote - 1] == 0) {         // After very short beep
+            previousNoteTime = currentTime + 50;                    // Shorter pause
+          } else if (hieperSequence[currentHieperNote - 1] == 1) {  // After short beep
+            previousNoteTime = currentTime + 100;                   // Short pause
+          } else {                                                  // After long beep
+            previousNoteTime = currentTime + 200;                   // Longer pause
+          }
         }
       }
       break;
-      
+
     case COLOR_FADING:
       // Handled in main loop
       break;
-      
+
     case CONFETTI_MODE:
       // Handled in main loop
       break;
-      
+
     case ENDING:
       songState = IDLE;
       updateLEDColor();
