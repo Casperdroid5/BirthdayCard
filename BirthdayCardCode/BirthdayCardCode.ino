@@ -30,7 +30,22 @@ bool lastButton2State = HIGH;
 unsigned long lastDebounceTime = 0;
 unsigned long debounceDelay = 50;
 
-// Color Options
+// Display Mode Enum - Adding new patterns
+enum DisplayMode {
+  STATIC_COLOR,
+  RAINBOW_MODE,
+  SNAKE_MODE,
+  RANDOM_BLINK,
+  CHASE_MODE,
+  BREATHE_MODE,
+  WAVE_MODE,
+  OFF_MODE
+};
+
+// Current mode
+DisplayMode currentMode = STATIC_COLOR;
+
+// Color Options (Used for STATIC_COLOR mode)
 int currentColorIndex = 0;
 CRGB colorOptions[] = {
   CRGB::Red,
@@ -42,7 +57,40 @@ CRGB colorOptions[] = {
   CRGB::White,
   CRGB::Black
 };
-#define NUM_COLORS (sizeof(colorOptions) / sizeof(colorOptions[0]))  // Added missing parenthesis
+#define NUM_COLORS (sizeof(colorOptions) / sizeof(colorOptions[0]))
+
+// Pattern Variables
+unsigned long lastPatternUpdate = 0;
+unsigned long patternUpdateInterval = 50;  // Default update interval for patterns
+
+// Pattern-specific speed controls
+const unsigned long RAINBOW_SPEED = 100;  // Slower rainbow cycle
+const unsigned long SNAKE_SPEED = 150;    // Slower snake movement
+const unsigned long CHASE_SPEED = 120;    // Slightly slower chase pattern
+const unsigned long WAVE_SPEED = 80;      // Medium speed for wave
+const unsigned long BREATHE_SPEED = 30;   // Keep breathe relatively smooth
+
+// Snake Pattern Variables
+uint8_t snakeHeadPos = 0;
+const uint8_t snakeLength = 6;
+uint8_t snakeHue = 0;
+
+// Random Blink Variables
+uint8_t randomLEDs[5] = {0};  // Tracks which LEDs are currently active
+uint8_t randomHues[5] = {0};  // Hues for random LEDs
+unsigned long randomBlinkInterval = 500;  // Slower random blink (was 200)
+unsigned long lastRandomUpdate = 0;
+
+// Chase Pattern Variables
+uint8_t chasePos = 0;
+uint8_t chaseHue = 0;
+
+// Breathe Pattern Variables
+uint8_t breatheBrightness = 0;
+bool breatheIncreasing = true;
+
+// Wave Pattern Variables
+uint8_t waveOffset = 0;
 
 // Music Notes
 const int NOTE_C4 = 262;
@@ -129,8 +177,7 @@ void setup() {
   FastLED.setBrightness(BRIGHTNESS);
 
   // Initial state
-  updateLEDColor();
-  turnOffAllLEDs();
+  updateDisplay();
 
   // Start serial
   Serial.begin(115200);
@@ -141,6 +188,9 @@ void loop() {
   checkButtons();
   checkBothButtons();
   updateSong();
+  
+  // Update pattern animations
+  updatePatterns();
 
   if (songState == COLOR_FADING) {
     updateColorFade();
@@ -162,14 +212,34 @@ void checkButtons() {
   }
 
   if ((millis() - lastDebounceTime) > debounceDelay) {
-    // Button 1 - Change color
+    // Button 1 - Change mode
     if (reading1 != button1State) {
       button1State = reading1;
       if (button1State == LOW) {
-        currentColorIndex = ((currentColorIndex + 1) % NUM_COLORS);
-        updateLEDColor();
-        Serial.print("Color changed to index: ");
-        Serial.println(currentColorIndex);
+        // If we're in a static color mode, increment the color
+        if (currentMode == STATIC_COLOR) {
+          currentColorIndex = (currentColorIndex + 1) % NUM_COLORS;
+          if (currentColorIndex == NUM_COLORS - 1) {  // After going through all colors
+            // Switch to first pattern mode
+            currentMode = RAINBOW_MODE;
+            Serial.println("Mode changed to RAINBOW");
+          } else {
+            Serial.print("Color changed to index: ");
+            Serial.println(currentColorIndex);
+          }
+        } else {
+          // If we're in a pattern mode, switch to the next pattern
+          currentMode = (DisplayMode)((int)currentMode + 1);
+          if (currentMode > WAVE_MODE) {  // After the last pattern
+            currentMode = STATIC_COLOR;   // Reset to static color mode
+            currentColorIndex = 0;        // Reset to first color
+            Serial.println("Mode reset to STATIC_COLOR");
+          } else {
+            Serial.print("Mode changed to: ");
+            Serial.println(currentMode);
+          }
+        }
+        updateDisplay();  // Update display based on new mode
       }
     }
 
@@ -206,6 +276,180 @@ void checkBothButtons() {
   } else {
     bothButtonsPressed = false;
   }
+}
+
+void updatePatterns() {
+  unsigned long currentTime = millis();
+  
+  // Only update patterns if we're in IDLE state (not playing music)
+  if (songState != IDLE) return;
+  
+  // Set the appropriate update interval based on current mode
+  switch (currentMode) {
+    case RAINBOW_MODE:
+      patternUpdateInterval = RAINBOW_SPEED;
+      break;
+    case SNAKE_MODE:
+      patternUpdateInterval = SNAKE_SPEED;
+      break;
+    case CHASE_MODE:
+      patternUpdateInterval = CHASE_SPEED;
+      break;
+    case WAVE_MODE:
+      patternUpdateInterval = WAVE_SPEED;
+      break;
+    case BREATHE_MODE:
+      patternUpdateInterval = BREATHE_SPEED;
+      break;
+    case RANDOM_BLINK:
+      // Random blink uses its own timing mechanism
+      break;
+    default:
+      patternUpdateInterval = 50; // Default for other modes
+      break;
+  }
+  
+  // Update based on current pattern mode
+  if (currentTime - lastPatternUpdate >= patternUpdateInterval) {
+    lastPatternUpdate = currentTime;
+    
+    switch (currentMode) {
+      case STATIC_COLOR:
+        // Static color is set by updateDisplay(), no animation updates needed
+        break;
+        
+      case RAINBOW_MODE:
+        updateRainbowPattern();
+        break;
+        
+      case SNAKE_MODE:
+        updateSnakePattern();
+        break;
+        
+      case RANDOM_BLINK:
+        updateRandomBlinkPattern(currentTime);
+        break;
+        
+      case CHASE_MODE:
+        updateChasePattern();
+        break;
+        
+      case BREATHE_MODE:
+        updateBreathePattern();
+        break;
+        
+      case WAVE_MODE:
+        updateWavePattern();
+        break;
+        
+      case OFF_MODE:
+        turnOffAllLEDs();
+        break;
+    }
+  }
+}
+
+void updateRainbowPattern() {
+  // Simple rainbow pattern that cycles through the color wheel
+  // Slowed down color transition
+  colorFadeHue++;  // Increment by 1 for a slower color change
+  
+  for (int i = 0; i < NUM_LEDS; i++) {
+    leds[i] = CHSV(colorFadeHue + (i * 255 / NUM_LEDS), 255, 255);
+  }
+}
+
+void updateSnakePattern() {
+  // Snake pattern - a moving segment of LEDs
+  turnOffAllLEDs();  // Clear all LEDs
+  
+  // Update snake head position
+  snakeHeadPos = (snakeHeadPos + 1) % NUM_LEDS;
+  snakeHue += 1;  // Slower color change for snake (was 2)
+  
+  // Draw the snake body
+  for (int i = 0; i < snakeLength; i++) {
+    int pos = (snakeHeadPos - i + NUM_LEDS) % NUM_LEDS;  // Ensure positive wrap-around
+    // Fade the brightness based on distance from head
+    int brightness = 255 - (i * 255 / snakeLength);
+    leds[pos] = CHSV(snakeHue, 255, brightness);
+  }
+}
+
+void updateRandomBlinkPattern(unsigned long currentTime) {
+  // Random LEDs turn on and off
+  if (currentTime - lastRandomUpdate >= randomBlinkInterval) {
+    lastRandomUpdate = currentTime;
+    
+    // Turn off old random LEDs
+    for (int i = 0; i < 5; i++) {
+      if (randomLEDs[i] < NUM_LEDS) {
+        leds[randomLEDs[i]] = CRGB::Black;
+      }
+    }
+    
+    // Generate new random LEDs
+    for (int i = 0; i < 5; i++) {
+      randomLEDs[i] = random8(NUM_LEDS);
+      randomHues[i] = random8();
+      leds[randomLEDs[i]] = CHSV(randomHues[i], 255, 255);
+    }
+  }
+}
+
+void updateChasePattern() {
+  // A chase pattern that runs around the digits
+  turnOffAllLEDs();
+  
+  // First handle digit 1 (the "1")
+  if (chasePos < 6) {
+    leds[digit1Mapping[chasePos]] = CHSV(chaseHue, 255, 255);
+  } 
+  // Then handle digit 2 (the "8")
+  else if (chasePos < 18) {
+    leds[digit2Mapping[chasePos - 6]] = CHSV(chaseHue, 255, 255);
+  }
+  
+  // Update position and hue
+  chasePos = (chasePos + 1) % 18;
+  chaseHue += 5;
+}
+
+void updateBreathePattern() {
+  // Breathing effect - all LEDs fade in and out together
+  if (breatheIncreasing) {
+    breatheBrightness += 3;  // Slower increase (was 5)
+    if (breatheBrightness >= 250) {
+      breatheIncreasing = false;
+    }
+  } else {
+    breatheBrightness -= 3;  // Slower decrease (was 5)
+    if (breatheBrightness <= 5) {
+      breatheIncreasing = true;
+      colorFadeHue += 5;  // Change color slightly with each breath
+    }
+  }
+  
+  fill_solid(leds, NUM_LEDS, CHSV(colorFadeHue, 255, breatheBrightness));
+}
+
+void updateWavePattern() {
+  // Wave pattern - a sine wave of color moving through the digits
+  waveOffset += 5;
+  
+  for (int i = 0; i < 6; i++) {
+    // Creating a wave effect through the first digit
+    uint8_t sinBrightness = sin8(waveOffset + (i * 255 / 6));
+    leds[digit1Mapping[i]] = CHSV(colorFadeHue, 255, sinBrightness);
+  }
+  
+  for (int i = 0; i < 12; i++) {
+    // Creating a wave effect through the second digit
+    uint8_t sinBrightness = sin8(waveOffset + ((i + 6) * 255 / 12));
+    leds[digit2Mapping[i]] = CHSV(colorFadeHue + 30, 255, sinBrightness); // Offset hue for contrast
+  }
+  
+  colorFadeHue++;  // Slowly change the base color
 }
 
 void startWebServer() {
@@ -433,14 +677,63 @@ void turnOffAllLEDs() {
   fill_solid(leds, NUM_LEDS, CRGB::Black);
 }
 
-void updateLEDColor() {
+void updateDisplay() {
+  // Reset any ongoing animations when changing modes
   if (songState == COLOR_FADING || songState == CONFETTI_MODE) {
     songState = IDLE;
-    turnOffAllLEDs();
   }
 
-  turnOnDigit1(colorOptions[currentColorIndex]);
-  turnOnDigit2(colorOptions[currentColorIndex]);
+  // Clear all LEDs first
+  turnOffAllLEDs();
+  
+  // Then set the display according to current mode
+  switch (currentMode) {
+    case STATIC_COLOR:
+      turnOnDigit1(colorOptions[currentColorIndex]);
+      turnOnDigit2(colorOptions[currentColorIndex]);
+      break;
+      
+    case RAINBOW_MODE:
+      // Will be handled by updatePatterns
+      break;
+      
+    case SNAKE_MODE:
+      // Initialize snake pattern
+      snakeHeadPos = 0;
+      snakeHue = random8();
+      break;
+      
+    case RANDOM_BLINK:
+      // Initialize random blink
+      for (int i = 0; i < 5; i++) {
+        randomLEDs[i] = random8(NUM_LEDS);
+        randomHues[i] = random8();
+      }
+      break;
+      
+    case CHASE_MODE:
+      // Initialize chase pattern
+      chasePos = 0;
+      chaseHue = random8();
+      break;
+      
+    case BREATHE_MODE:
+      // Initialize breathe pattern
+      breatheBrightness = 0;
+      breatheIncreasing = true;
+      colorFadeHue = random8();
+      break;
+      
+    case WAVE_MODE:
+      // Initialize wave pattern
+      waveOffset = 0;
+      colorFadeHue = random8();
+      break;
+      
+    case OFF_MODE:
+      // All LEDs off, already handled by turnOffAllLEDs()
+      break;
+  }
 }
 
 void turnOnDigit1(CRGB color) {
@@ -462,13 +755,21 @@ void startBirthdaySong() {
   previousNoteTime = millis();
   noteIsPlaying = false;
   turnOffAllLEDs();
+  
+  // If not in static color mode, select a random color for the song
+  if (currentMode != STATIC_COLOR) {
+    currentColorIndex = random8(NUM_COLORS - 1); // Avoid the last color (black)
+    Serial.print("Selected random color for song: ");
+    Serial.println(currentColorIndex);
+  }
+  
   Serial.println("Starting birthday song");
 }
 
 void stopSong() {
   songState = IDLE;
   noTone(BUZZER);
-  updateLEDColor();
+  updateDisplay();
   Serial.println("Song stopped");
 }
 
@@ -520,7 +821,7 @@ void updateConfettiMode() {
   // Check duration
   if (millis() - confettiStartTime > CONFETTI_DURATION) {
     songState = IDLE;
-    updateLEDColor();
+    updateDisplay();
     WiFi.softAPdisconnect(true);
     Serial.println("Confetti mode ended");
   }
@@ -628,7 +929,7 @@ void updateSong() {
 
     case ENDING:
       songState = IDLE;
-      updateLEDColor();
+      updateDisplay();
       break;
   }
 }
