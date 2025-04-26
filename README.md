@@ -1,1 +1,1 @@
-Standard web adress esp32: 192.168.4.1
+A specialized birthdaycard containing personal text and jokes for my little brother. Containing word/component jokes on the silkscreen, 2 buttons to control the card and a few modes you can cycle trough. The code tells you everything you need. Feel free to redesign the card to your likings.
